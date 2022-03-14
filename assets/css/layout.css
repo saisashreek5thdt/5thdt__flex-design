@@ -9,16 +9,12 @@
   height: 5rem;
 }
 .banner1_img img {
-  height: 50rem;
+  height: 46rem;
 }
 video {
-  height: 50rem;
+  height: 46rem;
   object-fit: cover;
   width: 100%;
-}
-h3 img {
-  height: 4rem;
-  margin-top: 1rem;
 }
 
 .section-title {
@@ -38,6 +34,29 @@ h3 img {
   padding-left: 2rem;
   color: var(--color-black);
   text-align: justify;
+}
+
+.card {
+  height: 10rem;
+  width: 100%;
+  filter: drop-shadow(0px 1px 2px grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card h5,
+.big-card h5 {
+  font-size: medium;
+  text-transform: uppercase;
+  color: var(--color-neon-dark);
+}
+.big-card {
+  height: 21rem;
+  background-color: white;
+  filter: drop-shadow(0px 1px 2px grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .domains,
