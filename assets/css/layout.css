@@ -1,0 +1,23 @@
+
+.slider_bg{
+    background-image: url(../images/bg/slider-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50rem;
+    position: relative;
+}
+.navbar img{
+    height: 5rem;
+}
+.banner1_img img{
+    height: 35rem;
+}
+video{
+    height: 35rem;
+    object-fit: cover;
+    width: 100%;
+}
+h3 img{
+    height: 4rem;
+    margin-top: 1rem;
+}
