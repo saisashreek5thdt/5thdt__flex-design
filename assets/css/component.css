@@ -1,4 +1,9 @@
-.header{
-    color: white;
-    font-size: medium;
+.header {
+  color: var(--color-black);
+  font-size: medium;
+}
+
+.social__icons img {
+  width: 5rem;
+  height: 5rem;
 }
