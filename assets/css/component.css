@@ -34,8 +34,15 @@ a {
   margin-left: 1rem;
 }
 footer {
+  background-image: url(../images/bg/footer_bg-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   text-align: center;
   margin-top: 8rem;
+}
+footer:hover{
+  background-image: url(../images/bg/footer_bg-2.png);
 }
 footer h5 {
   font-size: 40px;
