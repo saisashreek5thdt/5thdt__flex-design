@@ -1,20 +1,59 @@
 a {
   text-decoration: none;
 }
-.header-links a{
+.header-links a {
   color: var(--color-white);
   font-size: medium;
   text-decoration: none;
   margin: 0 5rem 0 5rem;
 }
 
-.header-links a :hover{
+.header-links a :hover {
   color: var(--color-black);
-  background-color:var(--color-black);
+  background-color: var(--color-black);
 }
 
 .social__icons img {
   width: 5rem;
   height: 5rem;
   margin-top: 2rem;
+}
+.card img {
+  height: 9rem;
+}
+.card_icon {
+  width: 40%;
+  text-align: end;
+}
+.card_text {
+  width: 60%;
+  text-align: center;
+}
+.card_icon .virtual_img {
+  width: 38rem;
+  margin-left: 1rem;
+}
+footer {
+  text-align: center;
+  margin-top: 8rem;
+}
+footer h5 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--color-neon-dark);
+}
+footer h6 {
+  font-size: x-large;
+  font-weight: 500;
+  color: var(--color-neon-dark);
+}
+footer p {
+  font-size: medium;
+  margin-top: 5rem;
+  margin-bottom: 0;
+}
+footer .social__icons img{
+  margin-top: 0;
+  height: 3rem;
+  width: 3rem;
 }

@@ -8,8 +8,18 @@
 .navbar img {
   height: 5rem;
 }
+.banner {
+  width: 100%;
+}
+.banner1_img {
+  width: 35%;
+}
+.banner1_video {
+  width: 65%;
+}
 .banner1_img img {
   height: 46rem;
+  width: 100%;
 }
 video {
   height: 46rem;
@@ -41,13 +51,16 @@ video {
   width: 100%;
   filter: drop-shadow(0px 1px 2px grey);
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+
 .card h5,
 .big-card h5 {
   font-size: medium;
   text-transform: uppercase;
+  text-align: center;
   color: var(--color-neon-dark);
 }
 .big-card {
@@ -55,11 +68,121 @@ video {
   background-color: white;
   filter: drop-shadow(0px 1px 2px grey);
   display: flex;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
+}
+.big-card .card_text {
+  width: 100%;
 }
 
 .domains,
 .testimonial {
   margin-top: 8rem;
+}
+.testimonial .testimonial_video {
+  text-align: center;
+}
+.testimonial video {
+  height: 25rem;
+  width: 40%;
+}
+@media screen and (max-width: 992px) {
+  .slider_bg {
+    height: 44rem;
+  }
+  .navbar img {
+    height: 4rem;
+  }
+  .banner1_img img {
+    height: 30rem;
+  }
+  .banner1_video video {
+    height: 30rem;
+  }
+  .header-links a {
+    margin: 0 2rem 0 2rem;
+  }
+  .social_icons img {
+    height: 3rem;
+    width: 3rem;
+  }
+  .section-title {
+    font-size: 8rem;
+  }
+  .section-title-info {
+    font-size: large;
+  }
+  .card {
+    height: 8rem;
+  }
+  .card .card_icon img {
+    height: 6rem;
+  }
+  .card h5 {
+    font-size: 11px;
+  }
+  .card .card_icon .virtual_img {
+    width: 28rem;
+  }
+  .big-card {
+    height: 17rem;
+  }
+  .big-card h5 {
+    font-size: 11px;
+  }
+  .big-card img {
+    height: 6rem;
+  }
+  .footer h5 {
+    font-size: 30px;
+  }
+  .footer h6 {
+    font-size: large;
+  }
+  .footer p {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slider_bg {
+    height: 41rem;
+  }
+  .banner1_img img {
+    height: 28rem;
+  }
+  .banner1_video video {
+    height: 28rem;
+  }
+  .header-links a {
+    margin: 0;
+  }
+  .social__icons img {
+    height: 3rem !important;
+    width: 3rem !important;
+  }
+  .section-title {
+    font-size: 6rem;
+  }
+  .section-title-info {
+    font-size: small;
+  }
+  .card .card_text h5{
+    font-size: 10px;
+  }
+  .card .card_icon .virtual_img{
+    width: 20rem;
+  }
+  .testimonial video {
+    width: 65%;
+}
+  .footer h5 {
+    font-size: 24px;
+  }
+  .footer h6 {
+    font-size: medium;
+  }
+  .footer p {
+    font-size: 12px;
+  }
 }
