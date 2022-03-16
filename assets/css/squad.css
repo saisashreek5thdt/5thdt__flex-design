@@ -1,0 +1,20 @@
+.team_banner img{
+    width: 100%;
+}
+.team_info h2{
+    font-size: 8rem;
+    margin-top: 8rem;
+    margin-left: 4rem;
+}
+.team_info p{
+    font-size: 5.5rem;
+    margin-left: 4rem;
+    color: var(--color-neon-dark);
+}
+.card1{
+    height: 28rem;
+    margin-top: 3rem;
+    border: none;
+    background-color: var(--color-cream-light);
+    filter: none;
+}

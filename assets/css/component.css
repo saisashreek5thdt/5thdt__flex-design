@@ -3,7 +3,7 @@ a {
 }
 .header-links a {
   color: var(--color-white);
-  font-size: medium;
+  font-size: 3.5rem;
   text-decoration: none;
   margin: 0 5rem 0 5rem;
 }
