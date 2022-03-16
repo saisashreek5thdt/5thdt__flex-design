@@ -1,4 +1,3 @@
-
 .slider_bg {
   background-image: url(../images/bg/slider-bg.jpg);
   background-repeat: no-repeat;
@@ -90,33 +89,48 @@ video {
   height: 35rem;
   width: 50%;
 }
-.offcanvas{
-  width: 500px;
+.offcanvas {
+  width: 500px !important;
 }
-.offcanvas-body{
-  background: linear-gradient(to right, black 0%, black 50%, white 50%, white 100%);
+.offcanvas-body {
+  background: linear-gradient(
+    to right,
+    black 0%,
+    black 50%,
+    white 50%,
+    white 100%
+  );
 }
-.offcanvas-body .nav-link{
-  font-size: 2rem;
-    color: black;
-    font-weight: 500;
+.offcanvas-body .nav-link {
+  font-size: 2rem !important;
+  color: black;
+  font-weight: 500;
 }
-.offcanvas-body .domainology,.nav{
+.offcanvas-body .domainology,
+.nav {
   margin-top: 10rem;
 }
-.offcanvas-body .domainology a{
+.offcanvas-body .domainology a {
   color: white;
-  font-size: 2rem;
+  font-size: 2rem !important;
   text-align: center;
 }
-
-
 @media screen and (max-width: 992px) {
   .slider_bg {
-    height: 44rem;
+    height: 45rem;
   }
   .navbar img {
     height: 4rem;
+  }
+  .offcanvas {
+    width: 430px !important;
+  }
+  .offcanvas-body .nav-link {
+    font-size: 1.7rem !important;
+    font-weight: 600;
+  }
+  .offcanvas-body .domainology a {
+    font-size: 1.7rem !important;
   }
   .banner1_img img {
     height: 30rem;
@@ -126,10 +140,11 @@ video {
   }
   .header-links a {
     margin: 0 2rem 0 2rem;
+    font-size: 2rem !important;
   }
   .social_icons img {
-    height: 3rem;
-    width: 3rem;
+    height: 4rem !important;
+    width: 4rem !important;
   }
   .section-title {
     font-size: 8rem;
@@ -170,7 +185,17 @@ video {
 }
 @media screen and (max-width: 768px) {
   .slider_bg {
-    height: 41rem;
+    height: 42rem;
+  }
+  .offcanvas {
+    width: 380px !important;
+  }
+  .offcanvas-body .nav-link {
+    font-size: 1.4rem !important;
+    font-weight: 600;
+  }
+  .offcanvas-body .domainology a {
+    font-size: 1.4rem !important;
   }
   .banner1_img img {
     height: 28rem;
@@ -180,6 +205,7 @@ video {
   }
   .header-links a {
     margin: 0;
+    font-size: 2rem !important;
   }
   .social__icons img {
     height: 3rem !important;
@@ -191,15 +217,15 @@ video {
   .section-title-info {
     font-size: small;
   }
-  .card .card_text h5{
+  .card .card_text h5 {
     font-size: 10px;
   }
-  .card .card_icon .virtual_img{
+  .card .card_icon .virtual_img {
     width: 20rem;
   }
   .testimonial video {
     width: 65%;
-}
+  }
   .footer h5 {
     font-size: 24px;
   }

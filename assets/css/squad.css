@@ -18,3 +18,19 @@
     background-color: var(--color-cream-light);
     filter: none;
 }
+@media screen and (max-width: 992px){
+    .team_info h2{
+        font-size: 7rem;
+    }
+    .team_info p{
+        font-size: 5rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .team_info h2{
+        font-size: 6rem;
+    }
+    .team_info p{
+        font-size: 4rem;
+    }
+}

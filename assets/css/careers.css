@@ -1,0 +1,46 @@
+.header_text{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 4rem;
+}
+.header_text h2 ,.work-life h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.header_text p,.work-life p{
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+.work-life p{
+    margin-right: 7rem;
+}
+.header_text p{
+    width: 47rem;
+}
+.header_text a{
+    color: #fc832e;
+    font-size: 2rem;
+}
+.header_text .btn_view{
+    width: 19rem;
+    height: 7rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    background-color: #fc832e;
+    margin-top: 5rem;
+}
+
+.work-life{
+    margin-top: 10rem;
+    margin-left: 7rem;
+}
+
+@media screen and (max-width: 768px){
+    .popular_services{
+        flex-direction: column;
+    }
+}
