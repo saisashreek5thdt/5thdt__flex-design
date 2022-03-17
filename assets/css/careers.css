@@ -3,7 +3,7 @@
     margin-right: 7rem;
     margin-top: 4rem;
 }
-.header_text h2 ,.work-life h2{
+.header_text h2 ,.work-life h2 ,.joining_list h2{
     font-size: 4rem;
     font-weight: 700;
 }
@@ -38,7 +38,13 @@
     margin-top: 10rem;
     margin-left: 7rem;
 }
-
+.joining_list h4,.joining_list h2{
+text-align: center;
+}
+.joining_list h4{
+    font-size: 3rem;
+    font-weight: 700;
+}
 @media screen and (max-width: 768px){
     .popular_services{
         flex-direction: column;
