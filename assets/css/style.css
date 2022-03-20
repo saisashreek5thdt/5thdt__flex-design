@@ -1,17 +1,27 @@
 /*BASE CSS*/
+
 @import "base.css";
 
 /*LAYOUT CSS*/
+
 @import "layout.css";
 
 /*COMPONENT CSS*/
+
 @import "component.css";
 
 /*ANIMATION CSS*/
+
 @import "animation.css";
 
 /*SQUAD CSS*/
+
 @import "squad.css";
 
 /*CAREERS CSS*/
+
 @import "careers.css";
+
+/*TEAM CSS*/
+
+@import "team.css";

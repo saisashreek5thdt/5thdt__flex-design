@@ -1,66 +1,75 @@
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 .header-links a {
-  color: var(--color-white);
-  font-size: 3.5rem;
-  text-decoration: none;
-  margin: 0 5rem 0 5rem;
+    color: var(--color-white);
+    font-size: 3.5rem;
+    text-decoration: none;
+    margin: 0 5rem 0 5rem;
 }
 
 .header-links a :hover {
-  color: var(--color-black);
-  background-color: var(--color-black);
+    color: var(--color-black);
+    background-color: var(--color-black);
 }
 
 .social__icons img {
-  width: 5rem;
-  height: 5rem;
-  margin-top: 2rem;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 2rem;
 }
+
 .card img {
-  height: 9rem;
+    height: 9rem;
 }
+
 .card_icon {
-  width: 40%;
-  text-align: end;
+    width: 40%;
+    text-align: end;
 }
+
 .card_text {
-  width: 60%;
-  text-align: center;
+    width: 60%;
+    text-align: center;
 }
+
 .card_icon .virtual_img {
-  width: 38rem;
-  margin-left: 1rem;
+    width: 38rem;
+    margin-left: 1rem;
 }
+
 footer {
-  background-image: url(../images/bg/footer_bg-1.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  margin-top: 8rem;
+    background-image: url(../images/bg/footer_bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 8rem;
 }
-footer:hover{
-  background-image: url(../images/bg/footer_bg-2.png);
+
+footer:hover {
+    background-image: url(../images/bg/footer_bg-2.png);
 }
+
 footer h5 {
-  font-size: 40px;
-  font-weight: 700;
-  color: var(--color-neon-dark);
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color-neon-dark);
 }
+
 footer h6 {
-  font-size: x-large;
-  font-weight: 500;
-  color: var(--color-neon-dark);
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--color-neon-dark);
 }
+
 footer p {
-  font-size: medium;
-  margin-top: 5rem;
-  margin-bottom: 0;
+    font-size: 1.6rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
 }
-footer .social__icons img{
-  margin-top: 0;
-  height: 3rem;
-  width: 3rem;
+
+footer .social__icons img {
+    margin-top: 0;
 }

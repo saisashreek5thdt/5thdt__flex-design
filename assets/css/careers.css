@@ -1,52 +1,170 @@
-.header_text{
-    margin-left: 7rem;
-    margin-right: 7rem;
+.header_text {
     margin-top: 4rem;
+    margin-left: 6rem;
 }
-.header_text h2 ,.work-life h2 ,.joining_list h2{
-    font-size: 4rem;
+
+.header_img {
+    text-align: center;
+}
+
+.header_img img {
+    height: 40rem;
+    margin: 6rem;
+    margin-left: 2rem;
+}
+
+.work-life {
+    text-align: center;
+}
+
+.header_text h2,
+.work-life h2,
+.joining_list h2 {
+    font-size: 4.5rem;
     font-weight: 700;
 }
 
-.header_text p,.work-life p{
-    font-size: 2.2rem;
+.header_text p {
+    font-size: 2rem !important;
+}
+
+.header_text p,
+.work-life p {
+    font-size: 2.4rem;
     font-weight: 600;
     margin-top: 5rem;
+    text-align: start;
 }
-.work-life p{
-    margin-right: 7rem;
-}
-.header_text p{
-    width: 47rem;
-}
-.header_text a{
-    color: #fc832e;
+
+.header_text a {
+    color: var(--color-orange-dark);
     font-size: 2rem;
 }
-.header_text .btn_view{
+
+.header_text .btn_view {
     width: 19rem;
     height: 7rem;
     border: none;
     border-radius: 4px;
     font-size: 1.8rem;
     font-weight: 700;
-    background-color: #fc832e;
+    background-color: var(--color-orange-dark);
     margin-top: 5rem;
 }
 
-.work-life{
-    margin-top: 10rem;
-    margin-left: 7rem;
+.work-life p {
+    margin: 5rem;
 }
-.joining_list h4,.joining_list h2{
-text-align: center;
+
+.work-life {
+    margin-top: 9rem;
+    text-align: center;
 }
-.joining_list h4{
+
+.joining_list {
+    margin-top: 9rem;
+}
+
+.joining_list h4,
+.joining_list h2 {
+    text-align: center;
+}
+
+.joining_list h4 {
     font-size: 3rem;
     font-weight: 700;
+    color: var(--color-orange-dark);
 }
-@media screen and (max-width: 768px){
-    .popular_services{
+
+.joining-list {
+    margin-top: 5rem;
+}
+
+.card2 {
+    background-color: var(--color-grey-light);
+    height: 25rem;
+    width: 26rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card2 .service_img img {
+    width: 14rem;
+    height: 9rem;
+    margin-top: 1rem;
+}
+
+.card2 .service_name h4 {
+    font-size: 2rem;
+    color: var(--color-black);
+    margin-top: 3rem;
+}
+
+.card2 .btn-apply {
+    height: 4rem;
+    width: 12rem;
+    margin-top: 3rem;
+    border: none;
+    background-color: var(--color-orange-dark);
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--color-white);
+}
+
+.modal-dialog {
+    max-width: 850px;
+}
+
+.modal-dialog .service_list-img img {
+    margin-top: 4rem;
+    width: 36rem;
+    height: 42rem;
+}
+
+.modal-dialog .description h4 {
+    text-align: start;
+}
+
+.modal-dialog .description h6 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+
+.modal-dialog input[type="file"] {
+    display: none;
+}
+
+.modal-dialog label {
+    height: 4rem;
+    width: 20rem;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+    background-color: var(--color-orange-dark);
+    text-align: center;
+    padding-top: 8px;
+}
+
+.modal-dialog .btn-save {
+    height: 4rem;
+    width: 12rem;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: var(--color-orange-dark);
+    margin-left: 1rem;
+}
+
+.modal-dialog .description p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--color-orange-dark);
+}
+
+@media screen and (max-width: 768px) {
+    .popular_services {
         flex-direction: column;
     }
 }

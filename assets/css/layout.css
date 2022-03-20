@@ -1,238 +1,257 @@
 .slider_bg {
-  background-image: url(../images/bg/slider-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  /* background-size: cover; */
-  width: 100%;
-  height: 66rem;
-  position: relative;
+    background-image: url(../images/bg/slider-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    width: 100%;
+    height: 62rem;
+    position: relative;
 }
+
 .navbar img {
-  height: 5rem;
+    height: 5rem;
 }
+
 .banner {
-  width: 100%;
+    width: 100%;
 }
+
 .banner1_img {
-  width: 35%;
+    width: 35%;
 }
+
 .banner1_video {
-  width: 65%;
+    width: 65%;
 }
+
 .banner1_img img {
-  height: 50rem;
-  width: 100%;
+    height: 45rem;
+    width: 100%;
 }
+
 video {
-  height: 50rem;
-  object-fit: cover;
-  width: 100%;
+    height: 45rem;
+    object-fit: cover;
+    width: 100%;
 }
 
 .section-title {
-  font-size: 12rem;
-  font-family: inherit;
-  font-weight: 500;
-  text-transform: uppercase;
-  padding-left: 2rem;
-  color: var(--color-neon-dark);
+    font-size: 12rem;
+    font-family: inherit;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 2rem;
+    color: var(--color-neon-dark);
+    display: flex;
+    text-align: center;
 }
 
 .section-title-info {
-  font-size: 3rem;
-  font-family: inherit;
-  font-weight: 300;
-  text-transform: capitalize;
-  padding-left: 2rem;
-  color: var(--color-black);
-  text-align: justify;
+    font-size: 3rem;
+    font-family: inherit;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-left: 2rem;
+    color: var(--color-black);
+    text-align: justify;
+}
+
+.section-title span {
+    color: white;
 }
 
 .card {
-  height: 10rem;
-  width: 100%;
-  filter: drop-shadow(0px 1px 2px grey);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+    height: 10rem;
+    width: 100%;
+    filter: drop-shadow(0px 1px 2px grey);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .card h5,
 .big-card h5 {
-  font-size: medium;
-  text-transform: uppercase;
-  text-align: center;
-  color: var(--color-neon-dark);
+    font-size: medium;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-neon-dark);
 }
+
 .big-card {
-  height: 21rem;
-  background-color: white;
-  filter: drop-shadow(0px 1px 2px grey);
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  justify-content: center;
+    height: 21rem;
+    background-color: white;
+    filter: drop-shadow(0px 1px 2px grey);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
 }
+
 .big-card .card_text {
-  width: 100%;
+    width: 100%;
 }
 
 .domains,
 .testimonial {
-  margin-top: 8rem;
+    margin-top: 6rem;
 }
-.testimonial .testimonial_video {
+
+
+/* .testimonial .testimonial_video {
   text-align: center;
-}
+} */
+
 .testimonial video {
-  height: 35rem;
-  width: 50%;
+    height: 25rem;
+    width: 30%;
+    margin-left: 5rem;
 }
+
 .offcanvas {
-  width: 500px !important;
+    width: 500px !important;
 }
+
 .offcanvas-body {
-  background: linear-gradient(
-    to right,
-    black 0%,
-    black 50%,
-    white 50%,
-    white 100%
-  );
+    background: linear-gradient( to right, black 0%, black 50%, white 50%, white 100%);
 }
+
 .offcanvas-body .nav-link {
-  font-size: 2rem !important;
-  color: black;
-  font-weight: 500;
+    font-size: 2rem !important;
+    color: black;
+    font-weight: 500;
 }
+
 .offcanvas-body .domainology,
 .nav {
-  margin-top: 10rem;
+    margin-top: 10rem;
 }
+
 .offcanvas-body .domainology a {
-  color: white;
-  font-size: 2rem !important;
-  text-align: center;
+    color: white;
+    font-size: 2rem !important;
+    text-align: center;
 }
+
 @media screen and (max-width: 992px) {
-  .slider_bg {
-    height: 45rem;
-  }
-  .navbar img {
-    height: 4rem;
-  }
-  .offcanvas {
-    width: 430px !important;
-  }
-  .offcanvas-body .nav-link {
-    font-size: 1.7rem !important;
-    font-weight: 600;
-  }
-  .offcanvas-body .domainology a {
-    font-size: 1.7rem !important;
-  }
-  .banner1_img img {
-    height: 30rem;
-  }
-  .banner1_video video {
-    height: 30rem;
-  }
-  .header-links a {
-    margin: 0 2rem 0 2rem;
-    font-size: 2rem !important;
-  }
-  .social_icons img {
-    height: 4rem !important;
-    width: 4rem !important;
-  }
-  .section-title {
-    font-size: 8rem;
-  }
-  .section-title-info {
-    font-size: large;
-  }
-  .card {
-    height: 8rem;
-  }
-  .card .card_icon img {
-    height: 6rem;
-  }
-  .card h5 {
-    font-size: 11px;
-  }
-  .card .card_icon .virtual_img {
-    width: 28rem;
-  }
-  .big-card {
-    height: 17rem;
-  }
-  .big-card h5 {
-    font-size: 11px;
-  }
-  .big-card img {
-    height: 6rem;
-  }
-  .footer h5 {
-    font-size: 30px;
-  }
-  .footer h6 {
-    font-size: large;
-  }
-  .footer p {
-    font-size: small;
-  }
+    .slider_bg {
+        height: 45rem;
+    }
+    .navbar img {
+        height: 4rem;
+    }
+    .offcanvas {
+        width: 430px !important;
+    }
+    .offcanvas-body .nav-link {
+        font-size: 1.7rem !important;
+        font-weight: 600;
+    }
+    .offcanvas-body .domainology a {
+        font-size: 1.7rem !important;
+    }
+    .banner1_img img {
+        height: 30rem;
+    }
+    .banner1_video video {
+        height: 30rem;
+    }
+    .header-links a {
+        margin: 0 2rem 0 2rem;
+        font-size: 2rem !important;
+    }
+    .social_icons img {
+        height: 4rem !important;
+        width: 4rem !important;
+    }
+    .section-title {
+        font-size: 8rem;
+    }
+    .section-title-info {
+        font-size: large;
+    }
+    .card {
+        height: 8rem;
+    }
+    .card .card_icon img {
+        height: 6rem;
+    }
+    .card h5 {
+        font-size: 11px;
+    }
+    .card .card_icon .virtual_img {
+        width: 28rem;
+    }
+    .big-card {
+        height: 17rem;
+    }
+    .big-card h5 {
+        font-size: 11px;
+    }
+    .big-card img {
+        height: 6rem;
+    }
+    .footer h5 {
+        font-size: 30px;
+    }
+    .footer h6 {
+        font-size: large;
+    }
+    .footer p {
+        font-size: small;
+    }
 }
+
 @media screen and (max-width: 768px) {
-  .slider_bg {
-    height: 42rem;
-  }
-  .offcanvas {
-    width: 380px !important;
-  }
-  .offcanvas-body .nav-link {
-    font-size: 1.4rem !important;
-    font-weight: 600;
-  }
-  .offcanvas-body .domainology a {
-    font-size: 1.4rem !important;
-  }
-  .banner1_img img {
-    height: 28rem;
-  }
-  .banner1_video video {
-    height: 28rem;
-  }
-  .header-links a {
-    margin: 0;
-    font-size: 2rem !important;
-  }
-  .social__icons img {
-    height: 3rem !important;
-    width: 3rem !important;
-  }
-  .section-title {
-    font-size: 6rem;
-  }
-  .section-title-info {
-    font-size: small;
-  }
-  .card .card_text h5 {
-    font-size: 10px;
-  }
-  .card .card_icon .virtual_img {
-    width: 20rem;
-  }
-  .testimonial video {
-    width: 65%;
-  }
-  .footer h5 {
-    font-size: 24px;
-  }
-  .footer h6 {
-    font-size: medium;
-  }
-  .footer p {
-    font-size: 12px;
-  }
+    .slider_bg {
+        height: 42rem;
+    }
+    .offcanvas {
+        width: 380px !important;
+    }
+    .offcanvas-body .nav-link {
+        font-size: 1.4rem !important;
+        font-weight: 600;
+    }
+    .offcanvas-body .domainology a {
+        font-size: 1.4rem !important;
+    }
+    .banner1_img img {
+        height: 28rem;
+    }
+    .banner1_video video {
+        height: 28rem;
+    }
+    .header-links a {
+        margin: 0;
+        font-size: 2rem !important;
+    }
+    .social__icons img {
+        height: 3rem !important;
+        width: 3rem !important;
+    }
+    .section-title {
+        font-size: 6rem;
+    }
+    .section-title-info {
+        font-size: small;
+    }
+    .card .card_text h5 {
+        font-size: 10px;
+    }
+    .card .card_icon .virtual_img {
+        width: 20rem;
+    }
+    .testimonial video {
+        width: 65%;
+    }
+    .footer h5 {
+        font-size: 24px;
+    }
+    .footer h6 {
+        font-size: medium;
+    }
+    .footer p {
+        font-size: 12px;
+    }
 }
