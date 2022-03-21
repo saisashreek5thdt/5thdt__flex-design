@@ -81,7 +81,7 @@
 }
 
 .card2 {
-    background-color: var(--color-grey-light);
+    background-color: var(--color-cream-light);
     height: 25rem;
     width: 26rem;
     text-align: center;
@@ -123,6 +123,7 @@
 
 .modal-dialog .description h4 {
     text-align: start;
+    margin-top: 2rem;
 }
 
 .modal-dialog .description h6 {

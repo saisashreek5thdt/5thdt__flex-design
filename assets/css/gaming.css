@@ -1,0 +1,157 @@
+.logo img {
+    height: 5rem;
+    margin: 1rem;
+}
+
+.menu_bar img {
+    height: 4rem;
+    margin: 1rem;
+    background-color: var(--color-white);
+    ;
+}
+
+.banner2 {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.banner2_text {
+    width: 50%;
+    height: 30rem;
+    /* background-color: aliceblue; */
+}
+
+.primary_heading {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--color-yellow-dark);
+}
+
+.secondary_heading {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--color-white);
+    line-height: revert;
+    margin-top: 1rem;
+}
+
+.heading_info {
+    color: var(--color-white);
+    font-size: 1rem;
+    font-weight: 300;
+    width: 26rem;
+    margin-top: 1rem;
+}
+
+.banner2_text .btn-learn {
+    width: 6rem;
+    background-color: var(--color-yellow-dark);
+    height: 3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.banner2_text .btn-get {
+    background-color: var(--color-yellow-dark);
+    width: 10rem;
+    height: 3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+
+/* .banner2_text {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+} */
+
+.banner2_img {
+    width: 50%;
+    height: 30rem;
+    background-color: beige;
+}
+
+.working_section {
+    background-color: var(--color-grey-light);
+    width: 93%;
+    margin-top: 5rem;
+}
+
+.working-section-img img {
+    height: 18rem;
+    width: 100%;
+    background-color: beige;
+}
+
+.working {
+    width: 100%;
+}
+
+.working_img {
+    width: 50%;
+    height: 30rem;
+}
+
+.working_features {
+    width: 50%;
+    height: 30rem;
+}
+
+.teritiary_heading {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.teritiary_heading_info {
+    color: var(--color-white);
+    font-size: 0.8rem;
+}
+
+.tokens_section {
+    width: 100%;
+    height: 20rem;
+    margin-top: 5rem;
+}
+
+.btn-stake,
+.btn-battle,
+.btn-play {
+    background-color: var(--color-yellow-dark);
+    height: 6rem;
+    width: 18rem;
+    margin: 0.5rem;
+    text-align: start;
+}
+
+.btn-stake h6,
+.btn-battle h6,
+.btn-play h6 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.btn-stake p,
+.btn-battle p,
+.btn-play p {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.joining_section {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.joining_section p {
+    width: 100%;
+}
+
+.btn-join {
+    background-color: var(--color-yellow-dark);
+    width: 17rem;
+    height: 4rem;
+    font-weight: 600;
+}
