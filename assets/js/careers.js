@@ -1,42 +1,59 @@
-var data = [{
+const info = [{
         id: 1,
-        imgpath: "./assets/images/career/ui-ux1.svg"
+        title: "UI/UX",
+        imagesrc: "./assets/images/career/ui-ux1.svg"
     },
     {
         id: 2,
-        imgpath: "./assets/images/career/full-stack1.svg"
+        title: "Full Stack Development",
+        imagesrc: "./assets/images/career/full-stack1.svg"
     },
     {
         id: 3,
-        imgpath: "./assets/images/career/react-angular1.svg"
+        title: "React JS",
+        imagesrc: "./assets/images/career/react-angular1.svg"
     },
     {
         id: 4,
-        imgpath: "./assets/images/career/react-angular1.svg"
+        title: "Angular JS",
+        imagesrc: "./assets/images/career/react-angular1.svg"
     },
     {
         id: 5,
-        imgpath: "./assets/images/career/animator-editor1.svg"
+        title: "2D Animator",
+        imagesrc: "./assets/images/career/animator-editor1.svg"
     },
     {
         id: 6,
-        imgpath: "./assets/images/career/illustrator1.svg"
+        title: "Illustrators",
+        imagesrc: "./assets/images/career/illustrator1.svg"
     },
     {
         id: 7,
-        imgpath: "./assets/images/career/animator-editor1.svg"
+        title: "Video Editor",
+        imagesrc: "./assets/images/career/animator-editor1.svg"
     },
     {
         id: 8,
-        imgpath: "./assets/images/career/mobile-dev1.svg"
+        title: "Mobile App Developer",
+        imagesrc: "./assets/images/career/mobile-dev1.svg"
     }
 ];
-let i = 0;
-showUploadform(id); {
-    let i = id;
-    let Id = data.id[i];
-    let imagePath = data.id[i].imgpath
-    if (i == Id) {
-        document.getElementById("")
+
+function showUploadform(id) {
+    console.log("working img");
+    for (let i = 0; i < info.length; i++) {
+        if (id == info[i].id) {
+            document.getElementById("card-title").innerText = info[i].title;
+            document.getElementById("card-image").src = info[i].imagesrc;
+        }
     }
-};
+}
+// showUploadform(id); {
+//     let i = id;
+//     let Id = data.id[i];
+//     let imagePath = data.id[i].imgpath
+//     if (i == Id) {
+//         document.getElementById("")
+//     }
+// };

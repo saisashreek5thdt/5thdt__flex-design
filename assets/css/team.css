@@ -19,7 +19,7 @@ html {
     margin-left: 3rem;
 }
 
-.nocturnal p {
+.nocturnal .info-paragraph {
     font-family: inherit !important;
     font-size: 3.5rem !important;
     color: #48928c !important;

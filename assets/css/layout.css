@@ -35,7 +35,7 @@ video {
     width: 100%;
 }
 
-.section-title {
+.section-primary-title {
     font-size: 12rem;
     font-family: inherit;
     font-weight: 500;
@@ -44,6 +44,24 @@ video {
     color: var(--color-neon-dark);
     display: flex;
     text-align: center;
+}
+
+.section-secondary-title {
+    font-size: 15rem;
+    font-family: inherit;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 2rem;
+    color: var(--color-neon-dark);
+    display: flex;
+    text-align: center;
+}
+
+.info-secondary-title {
+    color: black !important;
+    font-size: 5rem !important;
+    font-weight: 500;
+    margin-left: 3rem;
 }
 
 .section-title-info {
@@ -68,6 +86,7 @@ video {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: none;
 }
 
 .card h5,
@@ -164,11 +183,17 @@ video {
         height: 4rem !important;
         width: 4rem !important;
     }
-    .section-title {
-        font-size: 8rem;
+    .section-primary-title {
+        font-size: 10rem;
+    }
+    .section-secondary-title {
+        font-size: 12rem;
+    }
+    .info-secondary-title {
+        font-size: 4rem !important;
     }
     .section-title-info {
-        font-size: large;
+        font-size: 2.2rem;
     }
     .card {
         height: 8rem;
@@ -230,6 +255,15 @@ video {
         height: 3rem !important;
         width: 3rem !important;
     }
+    .section-primary-title {
+        font-size: 8rem !important;
+    }
+    .section-secondary-title {
+        font-size: 9rem !important;
+    }
+    .info-secondary-title {
+        font-size: 4.5rem !important;
+    }
     .section-title {
         font-size: 6rem;
     }
@@ -246,12 +280,62 @@ video {
         width: 65%;
     }
     .footer h5 {
-        font-size: 24px;
+        font-size: 3rem;
     }
     .footer h6 {
-        font-size: medium;
+        font-size: 2rem;
     }
     .footer p {
-        font-size: 12px;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .banner {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .slider_bg {
+        height: auto;
+    }
+    .banner1_img {
+        width: 100%;
+    }
+    .banner1_video {
+        width: 100%;
+    }
+    .header-links a {
+        margin: 0 !important;
+        font-size: 1.8rem !important;
+        margin: 0 5px 0 5px !important;
+    }
+    .section-primary-title {
+        font-size: 3rem;
+    }
+    .section-secondary-title {
+        font-size: 3.6rem;
+    }
+    .info-secondary-title {
+        font-size: 4rem !important;
+    }
+    .section-title {
+        font-size: 3.6rem;
+    }
+    .nocturnal .info-primary-title {
+        font-size: 2rem !important;
+    }
+    .nocturnal .info-paragraph {
+        font-size: 2rem !important;
+    }
+    .nocturnal .info-secondary-title {
+        font-size: 1.4rem !important;
+    }
+    /* .big-card {
+        height: 8rem;
+        display: flex;
+        flex-direction: row;
+    } */
+    .card_icon {
+        text-align: center;
     }
 }
