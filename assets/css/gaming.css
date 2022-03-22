@@ -1,34 +1,47 @@
+.gaming-bg {
+    background-color: var( --color-grey-dark);
+}
+
+.logo {
+    margin-left: 8rem;
+}
+
 .logo img {
-    height: 5rem;
+    height: 7rem;
     margin: 1rem;
 }
 
+.menu_bar {
+    margin: 0 8rem;
+}
+
 .menu_bar img {
-    height: 4rem;
+    height: 6rem;
     margin: 1rem;
     background-color: var(--color-white);
     ;
 }
 
 .banner2 {
-    width: 100%;
+    width: 85%;
     margin-top: 2rem;
 }
 
 .banner2_text {
     width: 50%;
     height: 30rem;
+    /* margin-left: 8rem; */
     /* background-color: aliceblue; */
 }
 
 .primary_heading {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--color-yellow-dark);
 }
 
 .secondary_heading {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 800;
     color: var(--color-white);
     line-height: revert;
@@ -37,27 +50,28 @@
 
 .heading_info {
     color: var(--color-white);
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 300;
-    width: 26rem;
+    width: 35rem;
     margin-top: 1rem;
 }
 
-.banner2_text .btn-learn {
-    width: 6rem;
-    background-color: var(--color-yellow-dark);
-    height: 3rem;
+.btn-get,
+.btn-learn {
+    width: 12rem;
+    height: 4rem;
+    border: 1px solid var(--color-neon-dark);
+    color: var(--color-white);
+    font-size: 1.4rem;
     font-weight: 600;
     margin-top: 1rem;
-    margin-left: 0.5rem;
+    border-radius: 2px;
 }
 
-.banner2_text .btn-get {
-    background-color: var(--color-yellow-dark);
-    width: 10rem;
-    height: 3rem;
-    font-weight: 600;
-    margin-top: 1rem;
+.btn-get:hover,
+.btn-learn:hover {
+    background-color: var(--color-neon-dark);
+    color: var(--color-white);
 }
 
 
@@ -69,29 +83,31 @@
 
 .banner2_img {
     width: 50%;
-    height: 30rem;
+    height: 38rem;
     background-color: beige;
 }
 
 .working_section {
     background-color: var(--color-grey-light);
-    width: 93%;
+    width: 92.5%;
     margin-top: 5rem;
 }
 
 .working-section-img img {
-    height: 18rem;
-    width: 100%;
+    height: 22rem;
+    width: 26rem;
+    margin-top: 5rem;
     background-color: beige;
 }
 
 .working {
-    width: 100%;
+    width: 85%;
 }
 
 .working_img {
     width: 50%;
-    height: 30rem;
+    /* height: 30rem; */
+    /* margin-left: 8rem; */
 }
 
 .working_features {
@@ -99,45 +115,102 @@
     height: 30rem;
 }
 
+.features {
+    height: 8rem;
+}
+
+.features-icon img {
+    background-color: white;
+    width: 100%;
+    height: 6.5rem;
+}
+
 .teritiary_heading {
     color: var(--color-white);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 .teritiary_heading_info {
     color: var(--color-white);
-    font-size: 0.8rem;
+    font-size: 1.1rem;
 }
 
 .tokens_section {
     width: 100%;
-    height: 20rem;
+    /* height: 20rem; */
     margin-top: 5rem;
+}
+
+.tokens-content {
+    /* margin-left: 8rem; */
+    width: 85%;
+}
+
+.buttons {
+    width: 100%;
 }
 
 .btn-stake,
 .btn-battle,
 .btn-play {
-    background-color: var(--color-yellow-dark);
-    height: 6rem;
-    width: 18rem;
+    background-color: var(--color-neon-dark);
+    color: var(--color-white);
+    border-radius: 2px;
+    height: 8rem;
+    width: 32%;
     margin: 0.5rem;
+    padding-left: 2rem;
     text-align: start;
+    margin: 0 12px 0 0;
 }
 
 .btn-stake h6,
 .btn-battle h6,
 .btn-play h6 {
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 .btn-stake p,
 .btn-battle p,
 .btn-play p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 600;
+    margin: 0;
+}
+
+.primary-text {
+    color: "";
+    margin: 0 1rem;
+    font-size: 5rem;
+    font-weight: 700;
+    text-shadow: -0.5px 0.5px 0 var(--color-white), 0.5px 0.5px 0 var(--color-white), 0.5px -0.5px 0 var(--color-white), -0.5px -0.5px 0 var(--color-white);
+}
+
+.secondary-text {
+    color: var(--color-white);
+    margin: 0 1rem;
+    font-size: 1.6rem;
+}
+
+.tokens-earned {
+    margin-top: 4rem;
+    width: 85%;
+    /* margin-left: 8rem; */
+}
+
+.tokens-earned img {
+    height: 10rem;
+    width: 8rem;
+}
+
+.earned,
+.created,
+.active {
+    width: 33.33%;
+    margin: 0 12px 0 0;
+    /* margin-left: 1rem; */
 }
 
 .joining_section {
@@ -150,8 +223,27 @@
 }
 
 .btn-join {
-    background-color: var(--color-yellow-dark);
-    width: 17rem;
+    background-color: var(--color-neon-dark);
+    color: var(--color-white);
+    border-radius: 2px;
+    width: 25rem;
     height: 4rem;
+    font-size: 1.5rem;
     font-weight: 600;
+}
+
+.characters {
+    margin-top: 3rem;
+}
+
+.char1-img {
+    background-color: aliceblue;
+    width: 23rem;
+    height: 28rem;
+    margin: 0 1rem;
+}
+
+.footer-bg {
+    background-color: var(--color-grey-light);
+    height: 5rem;
 }
