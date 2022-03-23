@@ -2,26 +2,6 @@
     background-color: var( --color-grey-dark);
 }
 
-.logo {
-    margin-left: 8rem;
-}
-
-.logo img {
-    height: 7rem;
-    margin: 1rem;
-}
-
-.menu_bar {
-    margin: 0 8rem;
-}
-
-.menu_bar img {
-    height: 6rem;
-    margin: 1rem;
-    background-color: var(--color-white);
-    ;
-}
-
 .banner2 {
     width: 85%;
     margin-top: 2rem;
