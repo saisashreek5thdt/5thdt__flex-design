@@ -224,3 +224,73 @@
 .assignments {
     margin: 10rem 5rem;
 }
+
+@media screen and (max-width:592px) {
+    .banner3 {
+        flex-direction: column !important;
+    }
+    .header-text {
+        text-align: center;
+        width: 100%;
+    }
+    .header-img {
+        width: 100%;
+    }
+    .primary-heading {
+        font-size: 3.5rem;
+        text-align: start;
+    }
+    .primary-info {
+        text-align: start;
+    }
+    .punitive_worksheet {
+        flex-direction: column !important;
+    }
+    .secondary-heading {
+        font-size: 2.5rem;
+    }
+    .primary_text_column {
+        width: 100%;
+        padding: 3rem 3rem 0 3rem;
+        margin-top: 0;
+    }
+    .secondary_text_column {
+        width: 100%;
+        padding: 0;
+    }
+    .primary_img_column {
+        width: 100%;
+        margin: 4rem 0;
+    }
+    .secondary_img_column {
+        width: 100%;
+        margin: 0;
+        margin-top: 3rem
+    }
+    .teritiary-heading {
+        font-size: 2.5rem;
+        margin-top: 3rem;
+    }
+    .mastery,
+    .low_stakes,
+    .mastery_quizz,
+    .lessons {
+        flex-direction: column !important;
+    }
+    .mastery_reviews_bg,
+    .low_stakes_practice_bg,
+    .mastery_quizz_bg,
+    .lessons_bg {
+        height: auto;
+        padding: 2rem;
+    }
+    .assignments,
+    .metrics {
+        padding: 0;
+        margin: 0;
+    }
+    .metrics1,
+    .assignment {
+        flex-direction: column !important;
+    }
+}

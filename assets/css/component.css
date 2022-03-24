@@ -17,6 +17,24 @@
     /* background-color: var(--color-white); */
 }
 
+@media screen and (max-width: 552px) {
+    .logo {
+        margin-left: 0;
+    }
+    .logo img {
+        margin: 0;
+        height: 5rem;
+    }
+    .menu_bar {
+        margin: 0;
+    }
+    .menu_bar img {
+        margin: 0;
+        height: 4rem;
+        /* background-color: var(--color-white); */
+    }
+}
+
 a {
     text-decoration: none;
 }
