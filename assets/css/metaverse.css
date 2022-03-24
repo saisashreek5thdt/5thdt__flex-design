@@ -1,0 +1,103 @@
+.metaverse_header_bg .logo,
+.metaverse_header_bg .menu_bar {
+    margin: 0;
+}
+
+.metaverse_header {
+    width: 52%;
+}
+
+.metaverse_header_bg .menu_bar img {
+    background-color: var(--color-white);
+}
+
+.metaverse_header_bg {
+    padding: 0 8rem;
+    background-color: var(--color-black);
+}
+
+.meta_primary_heading {
+    font-size: 6rem;
+    font-weight: 800;
+    width: 54rem;
+    color: var(--color-white);
+}
+
+.meta_secondary_heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.meta_teritiary_heading {
+    font-size: 1.5rem;
+    color: var(--color-white);
+}
+
+.meta_primary_info {
+    font-size: 1.5rem;
+    color: var(--color-white);
+    width: 42rem;
+}
+
+.meta_secondary_info {
+    color: var(--color-white);
+    width: 65%;
+}
+
+.meta_banner,
+.digital_twins {
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.banner_img,
+.digital_twins_img {
+    width: 50%;
+    height: 30rem;
+    background-color: aliceblue;
+}
+
+.banner_text,
+.digital_twins_text {
+    width: 50%;
+    padding-left: 8rem;
+}
+
+.metaverse_header,
+.services,
+.technologies {
+    margin-top: 8rem;
+}
+
+.technologies {
+    height: 25rem;
+}
+
+.meta_heading1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+.btn-getin {
+    background-color: var(--color-neon-dark);
+    color: var(--color-white);
+    width: 14rem;
+    height: 4rem;
+    border-radius: 2px;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.earth,
+.moon,
+.mars {
+    width: 33.33%;
+}
+
+ul {
+    color: var(--color-white);
+    font-size: 2rem;
+}
