@@ -323,9 +323,12 @@ video {
     }
     .nocturnal .info-primary-title {
         font-size: 2rem !important;
+        margin: 2rem;
     }
     .nocturnal .info-paragraph {
         font-size: 2rem !important;
+        padding: 2rem;
+        margin-left: 0 !important;
     }
     .nocturnal .info-secondary-title {
         font-size: 1.4rem !important;
@@ -337,5 +340,28 @@ video {
     } */
     .card_icon {
         text-align: center;
+    }
+    .big-card {
+        display: flex;
+        flex-direction: row;
+        height: 8rem;
+    }
+    .big-card .card_text {
+        width: 60% !important;
+    }
+    .card .card_icon .virtual_img {
+        width: 18rem;
+    }
+    .our-team {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .testimonial .section-primary-title {
+        font-size: 3rem !important;
+    }
+    .testimonial video {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 2rem;
     }
 }

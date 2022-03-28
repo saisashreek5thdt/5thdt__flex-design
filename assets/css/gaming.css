@@ -227,3 +227,37 @@
     background-color: var(--color-grey-light);
     height: 5rem;
 }
+
+@media screen and (max-width:592px) {
+    .banner2 {
+        flex-direction: column !important;
+    }
+    .banner2_text,
+    .heading_info {
+        width: 100%;
+    }
+    .secondary_heading {
+        font-size: 2.5rem;
+    }
+    .banner2_img {
+        width: 100%;
+        margin-top: 5rem;
+    }
+    .working_section,
+    .working-section-img,
+    .working-section-img img,
+    .working_features {
+        width: 100%;
+    }
+    .working_section {
+        height: auto;
+    }
+    .working {
+        flex-direction: column !important;
+    }
+    .working_img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+}

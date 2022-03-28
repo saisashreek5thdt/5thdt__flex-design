@@ -21,7 +21,7 @@ html {
 
 .nocturnal .info-paragraph {
     font-family: inherit !important;
-    font-size: 3.5rem !important;
+    font-size: 3.5rem;
     color: #48928c !important;
     text-align: justify;
     margin-left: 3rem;
