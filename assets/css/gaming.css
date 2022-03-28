@@ -1,3 +1,12 @@
+.gaming-bg .logo,
+.gaming-bg .menu_bar {
+    padding: 0 2rem;
+}
+
+.gaming-bg .menu_bar img {
+    background-color: var(--color-white);
+}
+
 .gaming-bg {
     background-color: var( --color-grey-dark);
 }
@@ -190,6 +199,7 @@
 .active {
     width: 33.33%;
     margin: 0 12px 0 0;
+    justify-content: center;
     /* margin-left: 1rem; */
 }
 
@@ -237,7 +247,7 @@
         width: 100%;
     }
     .secondary_heading {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
     .banner2_img {
         width: 100%;
@@ -259,5 +269,46 @@
         width: 100%;
         height: auto;
         margin-left: 0;
+    }
+    .working_features {
+        height: auto;
+    }
+    .buttons {
+        text-align: center;
+    }
+    .btn-stake,
+    .btn-battle,
+    .btn-play {
+        height: 6rem;
+        width: 60%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .btn-stake h6,
+    .btn-battle h6,
+    .btn-play h6 {
+        font-size: 1.2rem;
+    }
+    .btn-stake p,
+    .btn-battle p,
+    .btn-play p {
+        font-size: 0.8rem;
+    }
+    .tokens-earned img {
+        height: 6rem;
+        width: 4rem;
+    }
+    .primary-text {
+        font-size: 1.6rem;
+    }
+    .secondary-text {
+        font-size: 1.2rem;
+    }
+    .joining_section p {
+        font-size: 1rem;
+    }
+    .char1-img {
+        width: 14rem;
+        height: 18rem;
     }
 }

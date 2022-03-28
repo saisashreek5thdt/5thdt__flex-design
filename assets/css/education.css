@@ -236,6 +236,9 @@
     .header-img {
         width: 100%;
     }
+    .header-img img {
+        height: 25rem;
+    }
     .primary-heading {
         font-size: 3.5rem;
         text-align: start;
@@ -292,5 +295,14 @@
     .metrics1,
     .assignment {
         flex-direction: column !important;
+    }
+    .worksheet-section {
+        margin-top: 4rem;
+    }
+    .secondary_heading1 {
+        font-size: 2.6rem;
+    }
+    .beloved_educators .card {
+        width: 80%;
     }
 }

@@ -1,3 +1,7 @@
+.metaverse_header_bg .menu_bar img {
+    background-color: var(--color-white);
+}
+
 .virtual_primary_heading {
     font-size: 5rem;
     font-weight: 600;
@@ -138,12 +142,18 @@
         font-size: 1.8rem;
         padding: 0;
     }
+    .virtual_teritiary_heading {
+        font-weight: 600;
+    }
     .meta_secondary_heading {
         text-align: start;
-        font-size: 1.8rem;
+        font-size: 2.8rem;
     }
     .meta_secondary_info {
-        font-size: 2.8rem;
+        font-size: 1.8rem;
+    }
+    .building_section .virtual_primary_info {
+        text-align: justify;
     }
     .building_features {
         flex-direction: column !important;
@@ -158,8 +168,9 @@
         padding: 0;
     }
     .total_builds_info,
-    .digital_twins_info,
-    .technologies_info {
+    .digital_twins_info
+    /* .technologies_info { */
+    {
         flex-direction: column !important;
     }
     .total_builds,
@@ -177,5 +188,34 @@
     .meta_heading1 {
         font-size: 2.8rem
     }
-    ;
+    .building_virtual {
+        width: 100%;
+    }
+    .building-features {
+        flex-direction: column !important;
+    }
+    .buy,
+    .staking,
+    .created {
+        width: 100%;
+    }
+    .total_builds_info {
+        width: 100%;
+    }
+    .digital_lands {
+        display: flex;
+    }
+    .lands,
+    .avatars,
+    .parcels,
+    .arts {
+        text-align: center;
+        width: 25%;
+    }
+    .bidding_numbers {
+        text-align: center;
+    }
+    .digital_img {
+        margin-top: 2rem;
+    }
 }

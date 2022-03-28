@@ -120,7 +120,7 @@ html {
     margin: 0;
     background-color: #48928c;
     position: absolute;
-    bottom: -100px;
+    bottom: -110px;
     left: 0;
     transition: all 0.5s ease 0s;
 }

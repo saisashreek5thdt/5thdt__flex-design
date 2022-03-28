@@ -49,6 +49,7 @@
     font-size: 1.8rem;
     font-weight: 700;
     background-color: var(--color-orange-dark);
+    color: var( --color-neon-dark);
     margin-top: 5rem;
 }
 
@@ -81,17 +82,22 @@
 }
 
 .card2 {
-    background-color: var(--color-cream-light);
-    height: 25rem;
+    background-color: var(--color-grey-light1);
+    height: 26rem;
     width: 26rem;
     text-align: center;
     border-radius: 5px;
+    padding: 1rem;
 }
 
 .card2 .service_img img {
     width: 14rem;
     height: 9rem;
     margin-top: 1rem;
+}
+
+.service_name {
+    height: 3rem;
 }
 
 .card2 .service_name h4 {
@@ -155,6 +161,7 @@
     font-size: 1.6rem;
     font-weight: 700;
     background-color: var(--color-orange-dark);
+    color: var( --color-neon-dark);
     margin-left: 1rem;
 }
 

@@ -101,3 +101,54 @@ ul {
     color: var(--color-white);
     font-size: 2rem;
 }
+
+@media screen and (max-width:592px) {
+    .metaverse_header_bg {
+        padding: 0 2rem;
+    }
+    .metaverse_header {
+        width: 100%;
+    }
+    .meta_primary_heading {
+        font-size: 3.6rem;
+        width: 100%;
+    }
+    .meta_primary_info {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .services {
+        flex-wrap: wrap;
+    }
+    .earth,
+    .moon,
+    .mars {
+        width: 100%;
+    }
+    .meta_secondary_info {
+        width: 100%;
+        font-size: 1.2rem !important;
+    }
+    .meta_banner,
+    .digital_twins {
+        flex-direction: column !important;
+    }
+    .banner_img,
+    .digital_twins_img,
+    .banner_text,
+    .digital_twins_text {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 3rem;
+    }
+    .meta_primary_info {
+        text-align: justify;
+        margin-top: 2rem;
+    }
+    .tech_icons img {
+        width: 10rem !important;
+    }
+    .meta_teritiary_heading {
+        /* text-align: center; */
+    }
+}

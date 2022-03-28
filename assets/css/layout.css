@@ -9,7 +9,8 @@
 }
 
 .navbar img {
-    height: 5rem;
+    height: 6rem;
+    margin: 1rem;
 }
 
 .banner {
@@ -25,12 +26,12 @@
 }
 
 .banner1_img img {
-    height: 45rem;
+    height: 42rem;
     width: 100%;
 }
 
 video {
-    height: 45rem;
+    height: 42rem;
     object-fit: cover;
     width: 100%;
 }
@@ -69,7 +70,7 @@ video {
     font-family: inherit;
     font-weight: 300;
     text-transform: capitalize;
-    padding-left: 2rem;
+    padding-left: 3rem;
     color: var(--color-black);
     text-align: justify;
 }
@@ -150,6 +151,16 @@ video {
     color: white;
     font-size: 2rem !important;
     text-align: center;
+}
+
+.offcanvas-img {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.offcanvas-img img {
+    width: 16rem;
+    height: 30rem;
 }
 
 @media screen and (max-width: 992px) {
