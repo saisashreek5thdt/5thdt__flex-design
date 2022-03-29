@@ -32,7 +32,7 @@
 .secondary_heading {
     font-size: 4rem;
     font-weight: 800;
-    color: var(--color-white);
+    color: var(--color-neon-dark);
     line-height: revert;
     margin-top: 1rem;
 }
@@ -72,7 +72,11 @@
 
 .banner2_img {
     width: 50%;
+}
+
+.banner2_img img {
     height: 38rem;
+    width: 100%;
     background-color: beige;
 }
 
@@ -115,7 +119,7 @@
 }
 
 .teritiary_heading {
-    color: var(--color-white);
+    color: var(--color-neon-dark);
     font-size: 2rem;
     font-weight: 700;
 }
@@ -227,10 +231,14 @@
 }
 
 .char1-img {
-    background-color: aliceblue;
     width: 23rem;
-    height: 28rem;
     margin: 0 1rem;
+}
+
+.char1-img img {
+    height: 28rem;
+    width: 100%;
+    background-color: aliceblue;
 }
 
 .footer-bg {

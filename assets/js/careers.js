@@ -10,22 +10,22 @@ const info = [{
     },
     {
         id: 3,
-        title: "React JS",
+        title: "Metaverse",
         imagesrc: "./assets/images/career/react-angular1.svg"
     },
     {
         id: 4,
-        title: "Angular JS",
+        title: "Production(2D & 3D)",
         imagesrc: "./assets/images/career/react-angular1.svg"
     },
     {
         id: 5,
-        title: "2D Animator",
+        title: "Animator(2D/3D)",
         imagesrc: "./assets/images/career/animator-editor1.svg"
     },
     {
         id: 6,
-        title: "Illustrators",
+        title: "Illustrator(2D/3D)",
         imagesrc: "./assets/images/career/illustrator1.svg"
     },
     {

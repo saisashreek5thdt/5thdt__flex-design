@@ -66,9 +66,9 @@ video {
 }
 
 .section-title-info {
-    font-size: 3rem;
+    font-size: 5rem;
     font-family: inherit;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: capitalize;
     padding-left: 3rem;
     color: var(--color-black);
@@ -77,6 +77,13 @@ video {
 
 .section-title span {
     color: white;
+}
+
+.our-story h4 {
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: justify;
+    padding: 1rem 3rem;
 }
 
 .card {
@@ -113,6 +120,7 @@ video {
 }
 
 .domains,
+.our-story,
 .testimonial {
     margin-top: 6rem;
 }
