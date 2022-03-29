@@ -62,6 +62,12 @@
     text-align: center;
 }
 
+.total_bidding {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
 .digital_assets_img {
     width: 60%;
 }
@@ -75,6 +81,10 @@
 .virtual_destination {
     text-align: center;
     margin-top: 8rem;
+}
+
+.total_builds_info {
+    width: 100%;
 }
 
 .digital_text,

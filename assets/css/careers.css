@@ -48,7 +48,7 @@
     border-radius: 4px;
     font-size: 1.8rem;
     font-weight: 700;
-    background-color: var(--color-orange-dark);
+    background-color: var(--color-grey-light1);
     color: var( --color-neon-dark);
     margin-top: 5rem;
 }
@@ -74,7 +74,7 @@
 .joining_list h4 {
     font-size: 3rem;
     font-weight: 700;
-    color: var(--color-orange-dark);
+    color: var(--color-neon-dark);
 }
 
 .joining-list {
@@ -101,7 +101,7 @@
 }
 
 .card2 .service_name h4 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--color-black);
     margin-top: 3rem;
 }
@@ -111,7 +111,7 @@
     width: 12rem;
     margin-top: 3rem;
     border: none;
-    background-color: var(--color-orange-dark);
+    background-color: var(--color-black);
     font-size: 1.6rem;
     font-weight: 500;
     color: var(--color-white);
@@ -130,12 +130,13 @@
 .modal-dialog .description h4 {
     text-align: start;
     margin-top: 2rem;
+    color: var(--color-neon-dark);
 }
 
 .modal-dialog .description h6 {
     font-size: 1.5rem;
     font-weight: 700;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 }
 
 .modal-dialog input[type="file"] {
@@ -149,7 +150,7 @@
     font-size: 1.6rem;
     font-weight: 700;
     color: white;
-    background-color: var(--color-orange-dark);
+    background-color: var(--color-black);
     text-align: center;
     padding-top: 8px;
 }
@@ -160,15 +161,33 @@
     border: none;
     font-size: 1.6rem;
     font-weight: 700;
-    background-color: var(--color-orange-dark);
+    background-color: var(--color-grey-light1);
     color: var( --color-neon-dark);
     margin-left: 1rem;
 }
 
 .modal-dialog .description p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 400;
-    color: var(--color-orange-dark);
+    line-height: 2.4rem;
+    color: var( --color-grey-dark);
+}
+
+.modal-dialog .all-skills {
+    flex-wrap: wrap;
+}
+
+.modal-dialog .key-skills {
+    background-color: var(--color-neon-dark);
+    color: var(--color-white) !important;
+    margin: 1rem;
+    height: 3rem;
+    /* width: 14rem; */
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    margin: 6px;
 }
 
 @media screen and (max-width: 768px) {
