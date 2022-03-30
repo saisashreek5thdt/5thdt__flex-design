@@ -48,14 +48,19 @@
 .header_text .btn_view {
     width: 19rem;
     height: 6rem;
-    border: none;
     border-radius: 4px;
     font-size: 1.8rem;
     font-weight: 700;
-    background-color: var(--color-neon-dark);
-    color: var( --color-white);
+    color: var(--color-neon-dark);
+    background-color: var(--color-white);
+    border: 2px solid var( --color-neon-dark);
     margin-top: 5rem;
     border-radius: 4rem;
+}
+
+.header_text .btn_view:hover {
+    background-color: var(--color-neon-dark);
+    color: var(--color-white);
 }
 
 .work-life p {

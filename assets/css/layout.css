@@ -26,13 +26,13 @@
 }
 
 .banner1_img img {
-    height: 40rem;
+    height: 37rem;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 video {
-    height: 40rem;
+    height: 37rem;
     object-fit: cover;
     width: 100%;
 }
@@ -84,7 +84,9 @@ video {
     font-size: 3rem;
     font-weight: 500;
     text-align: justify;
-    padding: 1rem 3rem;
+    line-height: 4.5rem;
+    padding-top: 3rem;
+    /* padding: 1rem 3rem; */
 }
 
 .card {
@@ -134,7 +136,7 @@ video {
 .testimonial video {
     height: 25rem;
     width: 30%;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
 }
 
 .offcanvas {
@@ -169,12 +171,25 @@ video {
 
 .offcanvas-img img {
     width: 16rem;
-    height: 30rem;
+    height: 22rem;
+}
+
+@media screen and (min-width: 1400px) {
+    .banner1_img img {
+        height: 43rem;
+        width: 100%;
+        object-fit: contain;
+    }
+    video {
+        height: 43rem;
+        object-fit: cover;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 992px) {
     .slider_bg {
-        height: 45rem;
+        /* height: 45rem; */
     }
     .navbar img {
         height: 4rem;
@@ -249,7 +264,7 @@ video {
 
 @media screen and (max-width: 768px) {
     .slider_bg {
-        height: 42rem;
+        /* height: 42rem; */
     }
     .offcanvas {
         width: 380px !important;
@@ -262,10 +277,10 @@ video {
         font-size: 1.4rem !important;
     }
     .banner1_img img {
-        height: 27rem;
+        height: 22rem;
     }
     .banner1_video video {
-        height: 27rem;
+        height: 22rem;
     }
     .header-links a {
         margin: 0;
@@ -325,10 +340,14 @@ video {
     .banner1_video {
         width: 100%;
     }
+    .banner1_img img,
+    .banner1_video video {
+        height: 23rem;
+    }
     .header-links a {
         margin: 0 !important;
         font-size: 1.8rem !important;
-        margin: 0 5px 0 5px !important;
+        /* margin: 0 5px 0 5px !important; */
     }
     .section-primary-title {
         font-size: 3.5rem !important;
@@ -384,5 +403,12 @@ video {
         width: 100%;
         margin-left: 0;
         margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .our-story h4 {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
     }
 }

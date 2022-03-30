@@ -14,27 +14,45 @@
 
 .animation_videos .card {
     height: 26rem;
-    width: 30rem;
-    margin: 1rem;
+    /* width: 30rem; */
+    /* margin: 1rem; */
 }
 
 .animation_videos .ui-secondary-heading {
-    margin-left: 12rem;
+    /* margin-left: 12rem; */
 }
 
 .animated_img .card {
     height: 25rem;
-    width: 20rem;
+    /* width: 20rem; */
+    /* margin: 1rem; */
+}
+
+.animation-cards {
+    width: 85%;
+}
+
+.animated_img_cards {
+    width: 100%;
+}
+
+.anim-card {
+    width: 33.33%;
+}
+
+.anim-img-card {
+    width: 20%;
     margin: 1rem;
 }
 
 .resources {
     background-color: var(--color-grey-light1);
     padding: 3rem;
+    width: 85%;
 }
 
 .resources-img {
-    width: 43rem;
+    width: 50%;
     margin: 1rem;
 }
 
@@ -52,9 +70,15 @@
 }
 
 .button-links {
-    margin-left: 14rem;
+    /* margin-left: 14rem; */
 }
 
-.button-links .btn-getin {
-    margin: 2rem;
+.button-links .btn-get {
+    margin: 1rem;
+    /* width: auto; */
+    color: var(--color-neon-dark);
+}
+
+.button-links .btn-get:hover {
+    color: var(--color-white);
 }
