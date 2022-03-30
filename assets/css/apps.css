@@ -1,0 +1,118 @@
+.companies img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.companies {
+    color: var(--color-white);
+}
+
+.tracking {
+    width: 75%;
+    margin-top: 10rem;
+}
+
+.tracking .header-img {
+    text-align: center;
+    background-color: transparent;
+}
+
+.tracking .header-img img {
+    height: 12rem;
+    width: 50%;
+    background-color: transparent;
+}
+
+.card7 {
+    height: 28rem;
+    width: 27rem;
+    margin: 2rem;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.card7 img {
+    height: 10rem;
+    width: 10rem;
+}
+
+.small-card {
+    height: 13rem;
+    width: 25rem;
+    margin: 2rem;
+    background-color: aliceblue;
+}
+
+.testimonials .card8 {
+    width: 50rem;
+    height: 20rem;
+    background-color: aliceblue;
+}
+
+.cards {
+    width: 80%;
+}
+
+.bigcard {
+    /* height: 15rem; */
+    margin: 0 1rem;
+    background-color: aliceblue;
+}
+
+.bigcard img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.bigcard .card-body {
+    width: 100%;
+}
+
+.cards .card8 {
+    width: 33.33%;
+    /* height: 15rem; */
+    margin: 1rem;
+    background-color: aliceblue;
+}
+
+.cards .card8 img {
+    width: 100%;
+    height: 18rem;
+}
+
+.testimonials .card8 .card-body {
+    width: 150%;
+}
+
+.testimonials .cards .card8 img {
+    width: 100%;
+    height: 85%;
+    margin: 2rem;
+}
+
+.companies,
+.statistics {
+    background-color: var(--color-black);
+    height: 15rem;
+}
+
+.manage-bg {
+    color: var(--color-white);
+    background-color: var(--color-black);
+    margin-top: 10rem;
+    padding: 4rem 0;
+}
+
+.projects .secondary-heading {
+    margin-top: 10rem;
+    margin-left: 13rem;
+}
+
+.features-section,
+.save-money-section,
+.track-crypto-section,
+.testimonials,
+.statistics,
+.companies {
+    margin-top: 10rem;
+}

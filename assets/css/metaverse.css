@@ -7,9 +7,10 @@
     width: 52%;
 }
 
-.metaverse_header_bg .menu_bar img {
+
+/* .metaverse_header_bg .menu_bar img {
     background-color: var(--color-white);
-}
+} */
 
 .metaverse_header_bg {
     padding: 0 8rem;
@@ -107,6 +108,26 @@
 ul {
     color: var(--color-white);
     font-size: 2rem;
+}
+
+@media screen and (max-width:768px) {
+    .metaverse_header_bg {
+        padding: 0 3rem;
+    }
+    .meta_primary_heading {
+        font-size: 4.5rem;
+    }
+    .banner_text,
+    .digital_twins_text {
+        padding: 2rem;
+    }
+    .meta_secondary_heading {
+        font-size: 3.5rem;
+    }
+    .meta_primary_info {
+        font-size: 1.4rem;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:592px) {

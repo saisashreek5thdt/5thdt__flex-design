@@ -53,3 +53,7 @@
 /*UI/UX CSS*/
 
 @import "ui-ux.css";
+
+/*APPS CSS*/
+
+@import "apps.css";
