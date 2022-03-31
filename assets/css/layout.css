@@ -26,13 +26,13 @@
 }
 
 .banner1_img img {
-    height: 37rem;
+    /* height: 37rem; */
     width: 100%;
     object-fit: contain;
 }
 
 video {
-    height: 37rem;
+    /* height: 37rem; */
     object-fit: cover;
     width: 100%;
 }
@@ -81,10 +81,10 @@ video {
 }
 
 .our-story h4 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     text-align: justify;
-    line-height: 4.5rem;
+    line-height: 4rem;
     padding-top: 3rem;
     /* padding: 1rem 3rem; */
 }
@@ -174,20 +174,54 @@ video {
     height: 22rem;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1920px) {
     .banner1_img img {
-        height: 43rem;
+        height: 58rem;
         width: 100%;
         object-fit: contain;
     }
     video {
-        height: 43rem;
+        height: 58rem;
         object-fit: cover;
         width: 100%;
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1440px) {
+    .banner1_img img {
+        height: 37rem;
+        width: 100%;
+        object-fit: contain;
+    }
+    video {
+        height: 37rem;
+        object-fit: cover;
+        width: 100%;
+    }
+    .our-story h4 {
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .banner1_img img {
+        height: 37rem;
+        width: 100%;
+        object-fit: contain;
+    }
+    video {
+        height: 37rem;
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .our-story h4 {
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
     .slider_bg {
         /* height: 45rem; */
     }

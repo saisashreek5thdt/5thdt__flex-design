@@ -72,11 +72,73 @@
                         <div class="col d-flex justify-content-center">
                             <div class="menu_bar">
                                 <div class="p-2 mr-auto p-2 bd-highlight">
-                                    <a href="index.html"><img src="./assets/images/nav-icon/2_.png" alt="" /></a>
+                                    <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><img src="./assets/images/nav-icon/2_.png" alt="" /></a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Side navbar -->
+                    <div class="sidenav">
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header" style="font-size:1.5rem;">
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+</button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 d-flex justify-content-center flex-column">
+                                        <div class="domainology">
+                                            <a class="nav-link" href="#domains">Domainology</a>
+                                            <!-- <a class="nav-link" href="#domains">Up to the Minute</a> -->
+                                            <a class="nav-link" href="#our_story">Our Story</a>
+                                        </div>
+                                        <div class="offcanvas-img">
+                                            <img src="./assets/images/comming_soon/girl2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex justify-content-center">
+                                        <div class="nav_links">
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" aria-current="page" href="index.html">Home
+</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#gamingEconomy">Gaming Economy
+</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="#digitalAssets">Digital Assets
+</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="#NFTmuseum">NFT Museum
+</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="#technologies">Technologies
+</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="#footer">Connect
+</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="careers.html">Careers
+</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                     <div class="d-flex p-2 flex-row bd-highlight">
                         <div class="metaverse_header">
                             <div class="p-2 bd-highlight">
@@ -94,7 +156,7 @@
                     </div>
 
                     <main>
-                        <section class="building_section">
+                        <section class="building_section" id="gamingEconomy">
                             <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
                                 <div class="building_virtual">
                                     <div class="p-2 bd-highlight">
@@ -149,7 +211,7 @@
                         </section>
 
                         <section>
-                            <div class="virtual_destination">
+                            <div class="virtual_destination" id="digitalAssets">
                                 <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
                                     <div class="p-2 bd-highlight">
                                         <h4 class="meta_secondary_heading">
@@ -224,7 +286,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section class="digital_twins">
+                        <section class="digital_twins" id="NFTmuseum">
                             <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
                                 <div class="digital_twins_info d-flex flex-row">
                                     <div class="digital_text">
@@ -248,7 +310,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section class="technologies">
+                        <section class="technologies" id="technologies">
                             <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
                                 <h4 class="meta_heading1">
                                     Technologies we use

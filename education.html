@@ -73,7 +73,66 @@
                         <div class="col d-flex justify-content-center">
                             <div class="menu_bar">
                                 <div class="p-2 mr-auto p-2 bd-highlight">
-                                    <a href="index.html"><img src="./assets/images/nav-icon/menu.png" alt=""></a>
+                                    <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><img src="./assets/images/nav-icon/menu.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Side Navbar -->
+                    <div class="sidenav">
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header" style="font-size:1.5rem;">
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                  </button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 d-flex justify-content-center flex-column">
+                                        <div class="domainology">
+                                            <a class="nav-link" href="#domains">Domainology</a>
+                                            <!-- <a class="nav-link" href="#domains">Up to the Minute</a> -->
+                                            <a class="nav-link" href="#our_story">Our Story</a>
+                                        </div>
+                                        <div class="offcanvas-img">
+                                            <img src="./assets/images/comming_soon/girl2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex justify-content-center">
+                                        <div class="nav_links">
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" aria-current="page" href="index.html">Home
+                              </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#worksheet">Worksheet
+                              </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="#assignments">Assignments
+                              </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="#beloved">Beloved
+                              </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="#metric">Metric
+                              </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="#footer">Connect
+                              </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="careers.html">Careers
+                              </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +190,7 @@
             </div>
         </div>
         <main>
-            <section class="worksheet-section">
+            <section class="worksheet-section" id="worksheet">
                 <div class="row">
                     <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
                         <div class="punitive_worksheet d-flex flex-row">
@@ -154,7 +213,7 @@
                     </div>
                 </div>
             </section>
-            <section class="assignments-section">
+            <section class="assignments-section" id="assignments">
                 <div class="row">
                     <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
                         <div class="assignments-bg">
@@ -265,7 +324,7 @@
                         </div>
                     </div>
             </section>
-            <section class="beloved-section">
+            <section class="beloved-section" id="beloved">
                 <div class="row">
                     <div class="beloved_educators">
                         <h2 class="secondary_heading1">
@@ -309,7 +368,7 @@
                     </div>
                 </div>
             </section>
-            <section class="metrics-section">
+            <section class="metrics-section" id="metric">
                 <div class="row">
                     <div class="metrics_assignments_bg">
                         <div class="metrics">
@@ -367,7 +426,7 @@
                 </div>
             </section>
         </main>
-        <footer>
+        <footer id="footer">
             <div class="row">
                 <div class="col d-flex justify-content-center">
                     <div class="d-flex flex-column bd-highlight">

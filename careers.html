@@ -61,7 +61,7 @@
             <div class="d-flex align-items-center flex-column bd-highlight">
                 <div class="p-2 bd-highlight">
                     <nav class="navbar">
-                        <a href="index.html">
+                        <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                             <img src="./assets/images/nav-icon/menu.png" alt="nav_logo" />
                         </a>
                     </nav>
@@ -69,24 +69,79 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="d-flex justify-content-around p-2 bd-highlight">
-                <div class="col-5">
-                    <div class="p-2 flex-fill bd-highlight">
-                        <div class="header_text">
-                            <h2>Join Our Team</h2>
-                            <p>Work with the most dynamic and successful team</p>
-                            <button class="btn_view">View Openings</button>
-                            <!-- <p>Get your dream job.
-                                <a href="#">Sign Up for free now</a>
-                            </p> -->
+        <!-- Side navbar -->
+        <div class="sidenav">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header" style="font-size:1.5rem;">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+</button>
+                </div>
+                <div class="offcanvas-body">
+                    <div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-center flex-column">
+                            <div class="domainology">
+                                <a class="nav-link" href="#domains">Domainology</a>
+                                <!-- <a class="nav-link" href="#domains">Up to the Minute</a> -->
+                                <a class="nav-link" href="#our_story">Our Story</a>
+                            </div>
+                            <div class="offcanvas-img">
+                                <img src="./assets/images/comming_soon/girl2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <div class="nav_links">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home
+  </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#domains">Skill
+  </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#team_section">Squad
+  </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#footer">Connect
+  </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="careers.html">Careers
+  </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-7">
-                    <div class="p-2 flex-fill bd-highlight">
-                        <div class="header_img">
-                            <img src="./assets/images/career/service2.svg" alt="">
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="d-flex justify-content-around p-2 bd-highlight">
+                <div class="careers-header d-flex">
+                    <div class="banner-text">
+                        <div class="p-2 flex-fill bd-highlight">
+                            <div class="header_text">
+                                <h2>Join Our Team</h2>
+                                <p>Work with the most dynamic and successful team</p>
+                                <button class="btn_view">View Openings</button>
+                                <!-- <p>Get your dream job.
+                                <a href="#">Sign Up for free now</a>
+                            </p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-img">
+                        <div class="p-2 flex-fill bd-highlight">
+                            <div class="header_img">
+                                <img src="./assets/images/career/service2.svg" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>

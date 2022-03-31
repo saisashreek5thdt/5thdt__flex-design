@@ -8,7 +8,7 @@
 }
 
 .tracking {
-    width: 75%;
+    width: 85%;
     margin-top: 10rem;
 }
 
@@ -18,14 +18,15 @@
 }
 
 .tracking .header-img img {
-    height: 12rem;
-    width: 50%;
+    height: 14rem;
+    width: 100%;
     background-color: transparent;
 }
 
-.card7 {
-    height: 28rem;
-    width: 27rem;
+.card7,
+.small_card {
+    /* height: 28rem; */
+    width: 33.33%;
     margin: 2rem;
     text-align: center;
     background-color: aliceblue;
@@ -36,21 +37,34 @@
     width: 10rem;
 }
 
+.small_card {
+    background: none !important;
+}
+
 .small-card {
-    height: 13rem;
-    width: 25rem;
-    margin: 2rem;
+    height: 45%;
+    width: 100%;
+    margin: 10px;
     background-color: aliceblue;
 }
 
 .testimonials .card8 {
-    width: 50rem;
+    width: 50%;
     height: 20rem;
+    margin: 1rem;
     background-color: aliceblue;
 }
 
-.cards {
-    width: 80%;
+.testimonials .secondary-heading {
+    width: 90%;
+}
+
+.cards,
+.features-card,
+.features-heading,
+.testimonial-header,
+.testimonial-card {
+    width: 85%;
 }
 
 .bigcard {
@@ -90,6 +104,12 @@
     margin: 2rem;
 }
 
+.testimonial-card img {
+    width: 100%;
+    height: 90%;
+    margin: 2rem;
+}
+
 .companies,
 .statistics {
     background-color: var(--color-black);
@@ -115,4 +135,9 @@
 .statistics,
 .companies {
     margin-top: 10rem;
+}
+
+.save-money,
+.tracking-crypto {
+    width: 85%;
 }

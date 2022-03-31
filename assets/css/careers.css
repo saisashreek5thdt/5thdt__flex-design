@@ -205,3 +205,30 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .careers-header {
+        flex-direction: column;
+        width: 100%;
+    }
+    .header_text {
+        margin: 1rem 2rem;
+    }
+    .header_text h2 {
+        font-size: 3rem;
+    }
+    .header_text p {
+        font-size: 1.5rem !important;
+        margin-top: 2rem;
+    }
+    .header_img img {
+        margin: 0;
+        height: 23rem;
+    }
+    .header_text .btn_view {
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+}

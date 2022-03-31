@@ -73,12 +73,65 @@
                             <div class="col d-flex justify-content-center">
                                 <div class="menu_bar">
                                     <div class="p-2 mr-auto p-2 bd-highlight">
-                                        <a href="index.html"><img src="./assets/images/nav-icon/2_.png" alt=""></a>
+                                        <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><img src="./assets/images/nav-icon/2_.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
-
-
+                        </div>
+                        <!-- Side Navbar -->
+                        <div class="sidenav">
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header" style="font-size:1.5rem;">
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                      </button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 d-flex justify-content-center flex-column">
+                                            <div class="domainology">
+                                                <a class="nav-link" href="#domains">Domainology</a>
+                                                <!-- <a class="nav-link" href="#domains">Up to the Minute</a> -->
+                                                <a class="nav-link" href="#our_story">Our Story</a>
+                                            </div>
+                                            <div class="offcanvas-img">
+                                                <img src="./assets/images/comming_soon/girl2.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-6 d-flex justify-content-center">
+                                            <div class="nav_links">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="index.html">Home
+                                  </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#howItWorks">How it works
+                                  </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" aria-current="page" href="#earnTokens">Earn Tokens
+                                  </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" aria-current="page" href="#becomeTrainee">Become a trainee
+                                  </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" aria-current="page" href="#footer">Connect
+                                  </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" aria-current="page" href="careers.html">Careers
+                                  </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
@@ -106,7 +159,7 @@
                         </div>
                     </div>
                     <main>
-                        <section class="working_section">
+                        <section class="working_section" id="howItWorks">
                             <div class="row">
                                 <div class="col">
                                     <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
@@ -221,7 +274,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section class="tokens_section">
+                        <section class="tokens_section" id="earnTokens">
                             <div class="row">
                                 <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
                                     <div class="tokens-content">
@@ -272,7 +325,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="joining_section">
+                                <div class="joining_section" id="becomeTrainee">
                                     <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
                                         <div class="p-2 bd-highlight">
                                             <h5 class="secondary_heading">Ready To Become A Trainee?</h5>
@@ -306,7 +359,7 @@
                 </div>
             </div>
         </div>
-        <footer>
+        <footer id="footer">
             <div class="row">
                 <div class="col d-flex justify-content-center">
                     <div class="d-flex flex-column bd-highlight">
