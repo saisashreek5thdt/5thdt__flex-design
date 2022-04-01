@@ -1,0 +1,63 @@
+/*BASE CSS*/
+
+@import "base.css";
+
+/*LAYOUT CSS*/
+
+@import "layout.css";
+
+/*COMPONENT CSS*/
+
+@import "component.css";
+
+/*ANIMATION CSS*/
+
+@import "animation.css";
+
+/*SQUAD CSS*/
+
+@import "squad.css";
+
+/*CAREERS CSS*/
+
+@import "careers.css";
+
+/*TEAM CSS*/
+
+@import "team.css";
+
+/*GAMING CSS*/
+
+@import "gaming.css";
+
+/*EDUCATION CSS*/
+
+@import "education.css";
+
+/*METAVERSE CSS*/
+
+@import "metaverse.css";
+
+/*VIRTUAL-TOURS CSS*/
+
+@import "virtual-tours.css";
+
+/*ARTS CSS*/
+
+@import "arts.css";
+
+/*ARTS-ILLUSTRATORS CSS*/
+
+@import "arts-illustrator.css";
+
+/*UI/UX CSS*/
+
+@import "ui-ux.css";
+
+/*APPS CSS*/
+
+@import "apps.css";
+
+/*ANIMATION CSS*/
+
+@import "animation.css";
