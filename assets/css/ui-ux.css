@@ -32,12 +32,13 @@
     width: 85%;
 }
 
-.animated_img_cards {
+.animated_img_cards,
+.anim_cards {
     width: 100%;
 }
 
 .anim-card {
-    width: 33.33%;
+    width: 100%;
 }
 
 .anim-img-card {

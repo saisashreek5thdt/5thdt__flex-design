@@ -1,0 +1,37 @@
+@media screen and (max-width:768px) {
+    .animated_img {
+        overflow-x: hidden !important;
+    }
+    .anim-card {
+        width: 100%;
+    }
+    .anim-card .card {
+        width: 100% !important;
+    }
+    .animation-cards {
+        width: 100%;
+    }
+    .animation_videos .btn-get {
+        width: 10rem;
+        font-size: 1.2rem;
+    }
+    .anim-img-card {
+        width: 100%;
+    }
+    .animated_img .card {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width:592px) {
+    .ui-primary-heading {
+        font-size: 2.5rem !important;
+        margin-top: 3rem;
+    }
+    .animated_img {
+        overflow-x: hidden !important;
+    }
+    .anim-card {
+        width: 100%;
+    }
+}

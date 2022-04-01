@@ -217,6 +217,10 @@
     width: 100%;
 }
 
+.game_char {
+    width: 100%;
+}
+
 .btn-join {
     background-color: var(--color-neon-dark);
     color: var(--color-white);
@@ -232,7 +236,7 @@
 }
 
 .char1-img {
-    width: 23rem;
+    width: 100%;
     margin: 0 1rem;
 }
 
@@ -284,6 +288,11 @@
     }
     .secondary-text {
         font-size: 1.3rem;
+    }
+    .char1-img img {
+        height: 28rem;
+        width: 23rem;
+        background-color: aliceblue;
     }
 }
 
@@ -361,6 +370,10 @@
         /* height: 18rem; */
     }
     .char1-img img {
-        height: 18rem;
+        height: 14rem;
+        width: 12rem;
+    }
+    .game_char {
+        overflow-x: hidden;
     }
 }

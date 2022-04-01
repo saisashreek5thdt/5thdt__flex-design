@@ -376,7 +376,7 @@ video {
     }
     .banner1_img img,
     .banner1_video video {
-        height: 23rem;
+        height: 31rem;
     }
     .header-links a {
         margin: 0 !important;
@@ -401,7 +401,7 @@ video {
     }
     .nocturnal .info-paragraph {
         font-size: 2rem !important;
-        padding: 2rem;
+        padding: 0 1rem;
         margin-left: 0 !important;
     }
     .nocturnal .info-secondary-title {
