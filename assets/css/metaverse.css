@@ -15,7 +15,7 @@
 .metaverse_header_bg {
     padding: 0 8rem;
     /* background-color: var(--color-black); */
-    background-image: linear-gradient(black, white);
+    background-image: linear-gradient(black 0%, #424242 94%, transparent 100%);
 }
 
 .meta_primary_heading {

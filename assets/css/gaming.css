@@ -9,7 +9,7 @@
 } */
 
 .gaming-bg {
-    background-color: var( --color-grey-dark);
+    background-image: linear-gradient(black 0%, #424242 95%, transparent 100%);
 }
 
 .banner2 {

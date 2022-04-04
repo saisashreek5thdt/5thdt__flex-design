@@ -7,8 +7,6 @@
     "watch:css": "node-sass assets/css/main.css assets/css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:css",
-
-    
     "compile:css": "node-sass assets/css/main.css assets/css/style.comp.css",
     "concat:css": "concat -o assets/css/style.concat.css assets/css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' assets/css/style.concat.css -o assets/css/style.prefix.css",

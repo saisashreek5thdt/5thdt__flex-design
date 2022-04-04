@@ -49,6 +49,9 @@ function showUploadform(id) {
         }
     }
 }
+document.getElementById("view_button").onclick = function() {
+    window.location = "#openings_list";
+};
 // showUploadform(id); {
 //     let i = id;
 //     let Id = data.id[i];

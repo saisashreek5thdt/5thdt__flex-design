@@ -1,5 +1,5 @@
 .education_header_bg {
-    background-color: var( --color-cream-light);
+    background-color: var( --color-grey-light1);
 }
 
 .trusted_educators_bg {
@@ -51,7 +51,7 @@
 }
 
 .mastery_reviews_bg {
-    background-color: var( --color-cream-light);
+    background-color: var(--color-grey-light1);
     height: 42rem;
     margin-top: 5rem;
     padding: 4rem 0;
@@ -59,7 +59,7 @@
 }
 
 .low_stakes_practice_bg {
-    background-color: var( --color-pink-light);
+    background-color: var( --color-grey-light1);
     height: 42rem;
     margin-top: 5rem;
     padding: 4rem 0;
@@ -67,7 +67,7 @@
 }
 
 .mastery_quizz_bg {
-    background-color: var( --color-navy-light);
+    background-color: var( --color-grey-light1);
     height: 42rem;
     margin-top: 5rem;
     padding: 4rem 0;
@@ -75,7 +75,7 @@
 }
 
 .lessons_bg {
-    background-color: var( --color-blue-light);
+    background-color: var( --color-grey-light1);
     height: 42rem;
     margin-top: 5rem;
     padding: 4rem 0;
@@ -83,8 +83,9 @@
 }
 
 .integrating_bg {
-    background-color: var( --color-purple);
+    background-color: var( --color-grey-light1);
     height: 40rem;
+    margin-top: 2rem;
 }
 
 .secondary-heading {
@@ -175,7 +176,7 @@
 }
 
 .metrics_assignments_bg {
-    background-color: var( --color-cream-light);
+    background-color: var( --color-grey-light1);
 }
 
 .worksheet-section {

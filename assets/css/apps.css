@@ -29,7 +29,7 @@
     width: 33.33%;
     margin: 2rem;
     text-align: center;
-    background-color: aliceblue;
+    background-color: var(--color-grey-light1)
 }
 
 .card7 img {
@@ -42,17 +42,18 @@
 }
 
 .small-card {
-    height: 45%;
+    height: 46%;
     width: 100%;
-    margin: 10px;
-    background-color: aliceblue;
+    margin: 10px 0;
+    ;
+    background-color: var(--color-grey-light1);
 }
 
 .testimonials .card8 {
     width: 50%;
     height: 20rem;
     margin: 1rem;
-    background-color: aliceblue;
+    background-color: var(--color-grey-light1);
 }
 
 .testimonials .secondary-heading {
@@ -70,7 +71,7 @@
 .bigcard {
     /* height: 15rem; */
     margin: 0 1rem;
-    background-color: aliceblue;
+    background-color: var(--color-grey-light1);
 }
 
 .bigcard img {
@@ -86,7 +87,7 @@
     width: 33.33%;
     /* height: 15rem; */
     margin: 1rem;
-    background-color: aliceblue;
+    background-color: var(--color-grey-light1);
 }
 
 .cards .card8 img {
