@@ -94,10 +94,11 @@
 .card2 {
     background-color: var(--color-grey-light1);
     height: 26rem;
-    width: 26rem;
+    /* width: 26rem; */
     text-align: center;
     border-radius: 5px;
     padding: 1rem;
+    margin-top: 1.5rem;
 }
 
 .card2 .service_img img {

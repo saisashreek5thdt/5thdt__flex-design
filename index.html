@@ -71,18 +71,18 @@
                         </div>
                     </div>
                     <div class="sidenav">
-                        <div class="offcanvas offcanvas-end" tabindex="-1" data-bs-scroll="true" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" aria-modal="true" role="dialog">
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                             <div class="offcanvas-header" style="font-size:1.5rem;">
-                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
                   </button>
                             </div>
                             <div class="offcanvas-body">
                                 <div class="row">
                                     <div class="col-6 d-flex justify-content-center flex-column">
                                         <div class="domainology">
-                                            <a class="nav-link" href="#domains">Domainology</a>
+                                            <a class="nav-link" id="domain" href="#domains">Domainology</a>
                                             <!-- <a class="nav-link" href="#domains">Up to the Minute</a> -->
-                                            <a class="nav-link" href="#our_story">Our Story</a>
+                                            <a class="nav-link" id="story" href="#our_story">Our Story</a>
                                         </div>
                                         <div class="offcanvas-img">
                                             <img src="./assets/images/comming_soon/girl2.png" alt="">
@@ -96,11 +96,11 @@
                               </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" aria-current="page" href="#domains">Skill
+                                                    <a class="nav-link active" id="domain" aria-current="page" href="#domains">Skill
                               </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" aria-current="page" href="#team_section1">Squad
+                                                    <a class="nav-link" id="people" aria-current="page" href="#team_section1">Squad
                               </a>
                                                 </li>
                                                 <li class="nav-item">
@@ -411,18 +411,24 @@
                 <div class="row">
                     <div class="col">
                         <div class="container">
+                            <!-- <div id="team_container"> -->
                             <div class="d-flex p-2 bd-highlight popular_services">
+                                <div class="row" id="team_container">
+                                </div>
+                            </div>
+                            <!-- </div> -->
+                            <!-- <div class="d-flex p-2 bd-highlight popular_services">
                                 <div class="p-2 flex-fill bd-highlight">
                                     <div class="our-team">
                                         <div class="picture">
-                                            <img src="./assets/images/team/director.svg" alt="">
+                                            <img src="" alt="image" id="squad_image">
                                         </div>
                                         <ul class="social">
                                             <li>
-                                                <a class="name" href="#">Shri Dr. D.S.N.Rao</a>
+                                                <a class="name" href="#" id="squad_name"></a>
                                             </li>
                                             <li>
-                                                <a class="sub_title" href="#">Chairman</a>
+                                                <a class="sub_title" href="#" id="title"></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -534,7 +540,7 @@
                                             </li>
                                     </div>
                                 </div>
-                            </div>
+                        </div> -->
                         </div>
                     </div>
                 </div>
@@ -557,10 +563,10 @@
                 </div>
             </section>
         </main>
-        <footer class="footer" id="footer">
+        <footer class="footer">
             <div class="row">
-                <div class="col d-flex justify-content-center">
-                    <div class="d-flex flex-column bd-highlight">
+                <div class="col d-flex justify-content-center" id="footer">
+                    <!-- <div class="d-flex flex-column bd-highlight">
                         <div class="p-2 bd-highlight">
                             <h5>Lets Communicate</h5>
                         </div>
@@ -620,7 +626,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </footer>
@@ -628,6 +634,8 @@
 
     <!--  Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+    <script type="text/javascript" src="./assets/js/footer.js"></script>
 </body>
 
 </html>

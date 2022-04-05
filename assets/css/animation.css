@@ -1,3 +1,9 @@
+/* @media screen and (min-width:768px) and (max-width:992px) {
+    .animated_img .card {
+        width: 20rem;
+    }
+} */
+
 @media screen and (max-width:768px) {
     .animated_img {
         overflow-x: hidden !important;
