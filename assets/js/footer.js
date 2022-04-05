@@ -185,7 +185,7 @@ heading5.textContent = 'Lets Communicate';
 footer_row.appendChild(heading5);
 
 var tel_icon = document.createElement('i');
-tel_icon.className = 'bi bi-telephone';
+tel_icon.setAttribute('class', 'bi bi-telephone');
 
 var footer_info1 = document.createElement('a');
 footer_info1.href = 'tel:+91 981-146-0684';
