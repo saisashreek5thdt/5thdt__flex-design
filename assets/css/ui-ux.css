@@ -29,6 +29,12 @@
     /* margin: 1rem; */
 }
 
+.animated_img .card:hover {
+    transform: scale(1.15);
+    transition: transform 0.6s ease-in-out;
+    animation: none !important;
+}
+
 .animation-cards {
     width: 85%;
 }

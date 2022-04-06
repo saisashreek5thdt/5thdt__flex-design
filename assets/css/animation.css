@@ -4,6 +4,58 @@
     }
 } */
 
+#animation_container1,
+#animation_container2 {
+    position: relative;
+    height: 100%;
+    width: 200%;
+    overflow: hidden;
+    /* margin-top: 20px auto; */
+    padding: 0px;
+    background: white;
+    display: inline-block;
+    font-size: 0;
+}
+
+#animation_container1 {
+    animation: rightmove 10s linear infinite;
+}
+
+#animation_container1:hover,
+#animation_container2:hover {
+    animation: none;
+}
+
+#animation_container2 {
+    animation: leftmove 10s linear infinite;
+}
+
+@keyframes leftmove {
+    from {
+        left: 0%;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+@keyframes rightmove {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+
+#animation_container1 img,
+#animation_container2 img {
+    height: auto;
+    /* width: 10%; */
+    display: inline;
+    overflow: visible;
+}
+
 @media screen and (max-width:768px) {
     .animated_img {
         overflow-x: hidden !important;

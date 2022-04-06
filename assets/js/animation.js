@@ -31,7 +31,7 @@ for (let i = 1; i <= 6; i++) {
 
 var cards_anim_container1 = document.getElementById("animation_container1");
 
-for (let i = 1; i <= 6; i++) {
+for (let i = 1; i <= 8; i++) {
 
     // var col_block = document.createElement('div');
     // col_blockcards_anim_container.className = 'col-md-6 col-lg-4 col-xl-4';
@@ -62,7 +62,7 @@ for (let i = 1; i <= 6; i++) {
 
 var cards_anim_container2 = document.getElementById("animation_container2");
 
-for (let i = 1; i <= 6; i++) {
+for (let i = 1; i <= 8; i++) {
 
     // var col_block = document.createElement('div');
     // col_blockcards_anim_container.className = 'col-md-6 col-lg-4 col-xl-4';
