@@ -9,7 +9,7 @@ for (let i = 1; i <= 6; i++) {
     cards_container_block1.appendChild(col_block);
 
     var anchortag = document.createElement('a');
-    anchortag.href = 'arts-illustrator.html';
+    anchortag.href = 'https://user-5thdt.artstation.com/';
     col_block.appendChild(anchortag);
 
     var card_block = document.createElement('div');
@@ -38,7 +38,7 @@ for (let i = 1; i <= 6; i++) {
     cards_container_block2.appendChild(col_block);
 
     var anchortag = document.createElement('a');
-    anchortag.href = 'arts-illustrator.html';
+    anchortag.href = 'https://user-5thdt.artstation.com/';
     col_block.appendChild(anchortag);
 
     var card_block = document.createElement('div');
