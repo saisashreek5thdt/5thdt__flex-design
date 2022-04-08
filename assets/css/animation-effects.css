@@ -1,0 +1,22 @@
+/* Sliding from left to right */
+
+@keyframes leftmove {
+    from {
+        left: 0%;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+
+/* Sliding from right to left */
+
+@keyframes rightmove {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0%;
+    }
+}

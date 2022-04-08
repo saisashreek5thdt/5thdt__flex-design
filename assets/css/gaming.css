@@ -235,16 +235,37 @@
     margin-top: 3rem;
 }
 
+#characters_row {
+    width: 200%;
+    position: relative;
+    animation: leftmove 10s linear infinite;
+}
+
+#characters_row:hover {
+    animation: none !important;
+}
+
 .char1-img {
     width: 100%;
-    margin: 0 1rem;
+    margin: 0 4rem;
+}
+
+.char1-img img:hover {
+    transform: scale(1.4);
+    transition: transform 0.6s ease-in-out;
+    animation: none !important;
 }
 
 .char1-img img {
     height: 28rem;
     width: 100%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
+
+
+/* .char1-img img:hover {
+    border: 3px solid black;
+} */
 
 .footer-bg {
     background-color: var(--color-grey-light);

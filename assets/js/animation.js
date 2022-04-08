@@ -19,6 +19,11 @@ for (let i = 1; i <= 6; i++) {
     // card_img_block.alt = 'image';
     card_block.appendChild(card_img_block);
 
+    var view_button = document.createElement('button');
+    view_button.className = 'view_more';
+    view_button.textContent = 'View More'
+    card_block.appendChild(view_button);
+
     var card_body = document.createElement('div');
     card_body.className = 'card-body';
     card_block.appendChild(card_body);
@@ -46,18 +51,18 @@ for (let i = 1; i <= 8; i++) {
     anim_card_block.appendChild(card_block);
 
     var card_img_block = document.createElement('img');
-    card_img_block.src = '';
+    card_img_block.src = './assets/images/animation_images/Earthworm-Jim.jpg';
     // card_img_block.alt = 'image';
     card_block.appendChild(card_img_block);
 
-    var card_body = document.createElement('div');
-    card_body.className = 'card-body';
-    card_block.appendChild(card_body);
+    // var card_body = document.createElement('div');
+    // card_body.className = 'card-body';
+    // card_block.appendChild(card_body);
 
-    var card_body_text = document.createElement('p');
-    card_body_text.className = 'card-text';
-    card_body_text.textContent = 'image' + i;
-    card_body.appendChild(card_body_text);
+    // var card_body_text = document.createElement('p');
+    // card_body_text.className = 'card-text';
+    // card_body_text.textContent = 'image' + i;
+    // card_body.appendChild(card_body_text);
 }
 
 var cards_anim_container2 = document.getElementById("animation_container2");
@@ -77,16 +82,16 @@ for (let i = 1; i <= 8; i++) {
     anim_card_block.appendChild(card_block);
 
     var card_img_block = document.createElement('img');
-    card_img_block.src = '';
+    card_img_block.src = './assets/images/animation_images/img3.jpg';
     // card_img_block.alt = 'image';
     card_block.appendChild(card_img_block);
 
-    var card_body = document.createElement('div');
-    card_body.className = 'card-body';
-    card_block.appendChild(card_body);
+    // var card_body = document.createElement('div');
+    // card_body.className = 'card-body';
+    // card_block.appendChild(card_body);
 
-    var card_body_text = document.createElement('p');
-    card_body_text.className = 'card-text';
-    card_body_text.textContent = 'image' + i;
-    card_body.appendChild(card_body_text);
+    // var card_body_text = document.createElement('p');
+    // card_body_text.className = 'card-text';
+    // card_body_text.textContent = 'image' + i;
+    // card_body.appendChild(card_body_text);
 }

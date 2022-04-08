@@ -19,6 +19,27 @@
     /* margin: 1rem; */
 }
 
+.card .view_more {
+    position: absolute;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: 1px solid var(--color-neon-dark);
+    background-color: var(--color-white);
+    color: var(--color-neon-dark);
+    font-weight: 600;
+    opacity: 0;
+}
+
+.card .view_more:hover {
+    background-color: var(--color-neon-dark);
+    color: var(--color-white);
+}
+
+.animation_videos .card:hover .view_more {
+    opacity: 1;
+}
+
 .animation_videos .ui-secondary-heading {
     /* margin-left: 12rem; */
 }

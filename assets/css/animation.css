@@ -30,28 +30,10 @@
     animation: leftmove 10s linear infinite;
 }
 
-@keyframes leftmove {
-    from {
-        left: 0%;
-    }
-    to {
-        left: -100%;
-    }
-}
-
-@keyframes rightmove {
-    from {
-        left: -100%;
-    }
-    to {
-        left: 0%;
-    }
-}
-
 #animation_container1 img,
 #animation_container2 img {
-    height: auto;
-    /* width: 10%; */
+    height: 100%;
+    width: 100%;
     display: inline;
     overflow: visible;
 }
