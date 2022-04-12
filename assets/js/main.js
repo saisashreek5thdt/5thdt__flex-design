@@ -49,6 +49,12 @@ let squad_info = [{
 
 ];
 
+var reviews_info = [{
+    review: "You have been absolutely wonderful for Kinship Center, and I can't thank you enough for all your tremendous skills, support and patience specially during our merger. You will always be Kinship Center's vendor of choice!",
+    name: "Liam Olivia",
+    profession: "Assitant Professor , University Of Arizona"
+}]
+
 // for (let i = 1; i < squad_info.length; i++) {
 //     document.getElementById("squad_image").src = squad_info[0].imagesrc;
 //     document.getElementById("squad_name").innerHTML = squad_info[0].name;
@@ -127,6 +133,10 @@ for (let i = 1; i <= 1; i++) {
     card_block.id = i;
     review_container.appendChild(card_block);
 
+
+    // var quotes = document.createElement('p');
+    // quotes.className = 'double_quotes';
+    // card_block.appendChild(quotes);
     // var profile = document.createElement('div');
     // profile.className = 'profile_pic';
     // card_block.appendChild(profile);
@@ -136,12 +146,12 @@ for (let i = 1; i <= 1; i++) {
     // profile.appendChild(profile_img);
 
     var review_block = document.createElement('div');
-    review_block.className = 'educator-review';
+    review_block.className = 'educator-review double_quotes';
     card_block.appendChild(review_block);
 
     var review = document.createElement('p');
     review.className = 'educator_review';
-    review.textContent = 'Review';
+    review.textContent = reviews_info[0].review;
     review_block.appendChild(review);
 
     var name_block = document.createElement('div');
@@ -150,7 +160,7 @@ for (let i = 1; i <= 1; i++) {
 
     var edu_name = document.createElement('p');
     edu_name.className = 'educator_name';
-    edu_name.textContent = 'Name' + i;
+    edu_name.textContent = reviews_info[0].name;
     name_block.appendChild(edu_name);
 
     var profession_block = document.createElement('div');
@@ -159,7 +169,7 @@ for (let i = 1; i <= 1; i++) {
 
     var profession = document.createElement('p');
     profession.className = 'educator_profession';
-    profession.textContent = 'Profession';
+    profession.textContent = reviews_info[0].profession;;
     profession_block.appendChild(profession);
 
     // card_block[0].add('active');

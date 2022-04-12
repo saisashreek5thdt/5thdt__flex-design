@@ -199,15 +199,30 @@ video {
 }
 
 .reviews_section .educator_name {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: var(--color-black);
 }
 
-.reviews_section .educator_review,
 .reviews_section .educator_profession {
     font-size: 1.5rem;
-    color: var(--color-black);
+    color: var(--color-grey-light);
+}
+
+.reviews_section .double_quotes::before {
+    content: "\201C";
+    font-size: 10rem;
+    color: var(--color-neon-dark);
+    margin-bottom: -90px;
+    margin-top: -20px;
+    display: block;
+}
+
+.reviews_section .educator_review {
+    padding: 0 3rem;
+    font-size: 1.8rem;
+    color: var(--color-grey);
+    text-align: justify;
 }
 
 @media screen and (min-width: 1920px) {
@@ -228,10 +243,22 @@ video {
         font-size: 13rem;
     } */
     .reviews_section .card {
-        height: 40rem;
-        width: 55%;
-        border-radius: 2rem;
-        background-color: var(--color-white);
+        height: 48rem;
+    }
+    .reviews_section .educator_name {
+        font-size: 3.5rem;
+    }
+    .reviews_section .educator_profession {
+        font-size: 2.5rem;
+    }
+    .reviews_section .double_quotes::before {
+        font-size: 18rem;
+        margin-top: -90px;
+        margin-bottom: -155px;
+    }
+    .reviews_section .educator_review {
+        padding: 0 3rem;
+        font-size: 2.8rem;
     }
 }
 
@@ -253,6 +280,22 @@ video {
         font-size: 2.5rem;
         line-height: 4rem;
     }
+    .reviews_section .card {
+        height: 35rem;
+    }
+    .reviews_section .educator_name {
+        font-size: 2.5rem;
+    }
+    .reviews_section .educator_profession {
+        font-size: 1.8rem;
+    }
+    .reviews_section .double_quotes::before {
+        margin-bottom: -90px;
+        margin-top: -28px;
+    }
+    .reviews_section .educator_review {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -267,7 +310,24 @@ video {
         width: 100%;
     }
     .section-primary-title {
-        font-size: 11.2rem;
+        font-size: 11rem;
+    }
+    .reviews_section .card {
+        height: 28rem;
+        width: 50%;
+    }
+    .reviews_section .educator_name {
+        font-size: 2rem;
+    }
+    .reviews_section .educator_profession {
+        font-size: 1.6rem;
+    }
+    .reviews_section .double_quotes::before {
+        margin-bottom: -90px;
+        margin-top: -28px;
+    }
+    .reviews_section .educator_review {
+        font-size: 1.5rem;
     }
 }
 
@@ -406,9 +466,9 @@ video {
     .testimonial h3 {
         font-size: 6.8rem !important;
     }
-    .reviews_section .section-primary-title {
+    /* .reviews_section .section-primary-title {
         font-size: 7rem !important;
-    }
+    } */
     .footer h5 {
         font-size: 3rem;
     }
@@ -417,6 +477,25 @@ video {
     }
     .footer p {
         font-size: 1.5rem;
+    }
+    .reviews_section .card {
+        height: 22rem;
+    }
+    .reviews_section .double_quotes::before {
+        font-size: 9rem;
+    }
+    .reviews_section .educator_name {
+        font-size: 1.7rem;
+    }
+    .reviews_section .educator_profession {
+        font-size: 1.2rem;
+    }
+    .reviews_section .double_quotes::before {
+        margin-bottom: -90px;
+        margin-top: -28px;
+    }
+    .reviews_section .educator_review {
+        font-size: 1.3rem;
     }
 }
 
@@ -499,6 +578,22 @@ video {
         width: 100%;
         margin-left: 0;
         margin-top: 2rem;
+    }
+    .reviews_section .card {
+        height: 18rem;
+        width: 85%;
+    }
+    .reviews_section .double_quotes::before {
+        font-size: 8rem;
+    }
+    .reviews_section .educator_review {
+        font-size: 1rem;
+    }
+    .reviews_section .educator_name {
+        font-size: 1.4rem;
+    }
+    .reviews_section .educator_profession {
+        font-size: 1.2rem;
     }
 }
 
