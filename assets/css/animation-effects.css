@@ -20,3 +20,15 @@
         left: 0%;
     }
 }
+
+
+/* Opacity */
+
+@keyframes displaycontent {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

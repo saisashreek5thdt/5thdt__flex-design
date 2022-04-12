@@ -1,6 +1,6 @@
 var review_container = document.getElementById("reviews_container");
 
-for (let i = 0; i <= 2; i++) {
+for (let i = 1; i <= 1; i++) {
     var card_block = document.createElement('div');
     card_block.className = 'card d-flex flex-column';
     card_block.id = i;
@@ -41,7 +41,7 @@ for (let i = 0; i <= 2; i++) {
     profession.textContent = 'Profession';
     profession_block.appendChild(profession);
 
-    // add('active');
+    // card_block[0].add('active');
 }
 
 
@@ -61,5 +61,13 @@ function next_slide() {
     cards[i].classList.remove('active');
     i = (i + 1) % cards.length;
     cards[i].classList.add('active');
+
+}
+
+window.addEventListener("scroll", showFunction);
+
+function showFunction() {
+    console.log("you scrolled");
+    document.getElementById("worksheet").style.display = "block";
 
 }
