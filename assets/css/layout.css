@@ -277,9 +277,9 @@ video {
     font-size: 2rem;
     line-height: 3.5rem;
   }
-  .slider_bg {
-    /* height: 45rem; */
-  }
+  /* .slider_bg {
+    height: 45rem;
+  } */
   .navbar img {
     height: 4rem;
   }
@@ -352,9 +352,9 @@ video {
 }
 
 @media screen and (max-width: 768px) {
-  .slider_bg {
-    /* height: 42rem; */
-  }
+  /* .slider_bg {
+    height: 42rem;
+  } */
   .offcanvas {
     width: 380px !important;
   }
