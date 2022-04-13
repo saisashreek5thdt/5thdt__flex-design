@@ -226,6 +226,23 @@ video {
 }
 
 @media screen and (min-width: 1920px) {
+    .offcanvas {
+        width: 40% !important;
+    }
+    .offcanvas-header .btn-close {
+        font-size: 2.5rem;
+    }
+    .offcanvas-body .domainology a {
+        font-size: 3rem !important;
+    }
+    .offcanvas-img img {
+        width: 22rem;
+        height: 38rem;
+    }
+    .offcanvas-body .nav-link {
+        font-size: 3rem !important;
+        line-height: 8rem;
+    }
     .banner1_img img {
         height: 57rem;
         width: 98%;

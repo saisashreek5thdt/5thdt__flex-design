@@ -18,7 +18,8 @@
     background-image: linear-gradient(black 0%, #424242 94%, transparent 100%);
 }
 
-.meta_primary_heading {
+
+/* .meta_primary_heading {
     font-size: 6rem;
     font-weight: 800;
     width: 54rem;
@@ -29,18 +30,20 @@
     font-size: 4.5rem;
     font-weight: 700;
     color: var(--color-neon-dark);
-}
+} */
 
 .meta_teritiary_heading {
     font-size: 1.5rem;
     color: var(--color-white);
 }
 
-.meta_primary_info {
+
+/* .meta_primary_info {
     font-size: 1.5rem;
     color: var(--color-white);
     width: 42rem;
 }
+*/
 
 .meta_secondary_info {
     color: var(--color-white);
@@ -115,17 +118,17 @@ ul {
     .metaverse_header_bg {
         padding: 0 3rem;
     }
-    .meta_primary_heading {
+    /* .meta_primary_heading {
         font-size: 4.5rem;
-    }
+    } */
     .banner_text,
     .digital_twins_text {
         padding: 2rem;
     }
-    .meta_secondary_heading {
+    .secondary-heading {
         font-size: 3.5rem;
     }
-    .meta_primary_info {
+    .primary-info {
         font-size: 1.4rem;
         width: 100%;
     }
@@ -138,11 +141,11 @@ ul {
     .metaverse_header {
         width: 100%;
     }
-    .meta_primary_heading {
+    .primary-heading {
         font-size: 3.6rem;
         width: 100%;
     }
-    .meta_primary_info {
+    .primary-info {
         font-size: 1.5rem;
         width: 100%;
     }
@@ -154,7 +157,7 @@ ul {
     .mars {
         width: 100%;
     }
-    .meta_secondary_info {
+    .secondary-info {
         width: 100%;
         font-size: 1.2rem !important;
     }
@@ -170,7 +173,7 @@ ul {
         padding-left: 0;
         margin-top: 3rem;
     }
-    .meta_primary_info {
+    .primary-info {
         text-align: justify;
         margin-top: 2rem;
     }

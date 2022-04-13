@@ -38,12 +38,13 @@
     margin-top: 1rem;
 }
 
-.heading_info {
+.secondary-info {
     color: var(--color-white);
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 300;
-    width: 35rem;
+    /* width: 45rem; */
     margin-top: 1rem;
+    /* text-align: justify; */
 }
 
 .btn-get,
@@ -280,7 +281,7 @@
     .working_section {
         width: 100%;
     }
-    .secondary_heading {
+    .secondary-heading {
         font-size: 2.8rem;
     }
     .working_features {
@@ -316,7 +317,7 @@
     .char1-img img {
         height: 28rem;
         width: 23rem;
-        background-color: aliceblue;
+        /* background-color: aliceblue; */
     }
 }
 
@@ -325,10 +326,10 @@
         flex-direction: column !important;
     }
     .banner2_text,
-    .heading_info {
+    .primary-info {
         width: 100%;
     }
-    .secondary_heading {
+    .secondary-heading {
         font-size: 2.3rem;
     }
     .banner2_img {

@@ -293,6 +293,9 @@
 }
 
 @media screen and (max-width: 592px) {
+    .banner-img {
+        width: 100%;
+    }
     .careers-header {
         flex-direction: column;
         width: 100%;
