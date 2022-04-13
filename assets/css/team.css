@@ -19,13 +19,14 @@ html {
     margin-left: 3rem;
 }
 
-.nocturnal .info-paragraph {
+
+/* .nocturnal .info-paragraph {
     font-family: inherit !important;
     font-size: 3.5rem;
     color: #48928c !important;
     text-align: justify;
     margin-left: 3rem;
-}
+} */
 
 .nocturnal span {
     font-size: 3rem;

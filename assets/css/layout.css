@@ -88,7 +88,7 @@ video {
     margin-left: 3rem;
 }
 
-.our-story h4 {
+.secondary-title-info {
     font-size: 2rem;
     font-weight: 500;
     text-align: justify;
@@ -227,12 +227,12 @@ video {
 
 @media screen and (min-width: 1920px) {
     .banner1_img img {
-        height: 58rem;
+        height: 57rem;
         width: 98%;
         object-fit: contain;
     }
     video {
-        height: 58rem;
+        height: 57rem;
         object-fit: cover;
         width: 100%;
     }
@@ -262,21 +262,34 @@ video {
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1680px) {
     .banner1_img img {
-        height: 43rem;
+        height: 50rem;
         width: 98%;
-        object-fit: contain;
+        object-fit: cover;
     }
     video {
-        height: 43rem;
+        height: 50rem;
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .banner1_img img {
+        height: 42rem;
+        width: 98%;
+        object-fit: cover;
+    }
+    video {
+        height: 42rem;
         object-fit: cover;
         width: 100%;
     }
     .section-primary-title {
         font-size: 12rem;
     }
-    .our-story h4 {
+    .secondary-title-info {
         font-size: 2.5rem;
         line-height: 4rem;
     }
@@ -300,12 +313,12 @@ video {
 
 @media screen and (max-width: 1280px) {
     .banner1_img img {
-        height: 37.8rem;
+        height: 37.5rem;
         width: 98%;
-        object-fit: contain;
+        object-fit: cover;
     }
     video {
-        height: 37.8rem;
+        height: 37.5rem;
         object-fit: cover;
         width: 100%;
     }
@@ -320,25 +333,26 @@ video {
         font-size: 2rem;
     }
     .reviews_section .educator_profession {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
     .reviews_section .double_quotes::before {
         margin-bottom: -90px;
         margin-top: -28px;
     }
     .reviews_section .educator_review {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    .our-story h4 {
-        font-size: 2rem;
-        line-height: 3.5rem;
+    .section-title-info {
+        font-size: 4rem !important;
+        text-align: start;
     }
-    .slider_bg {
-        /* height: 45rem; */
-    }
+    /* .slider_bg { */
+    /* height: 45rem; */
+    /* } */
     .navbar img {
         height: 4rem;
     }
@@ -411,9 +425,9 @@ video {
 }
 
 @media screen and (max-width: 768px) {
-    .slider_bg {
-        /* height: 42rem; */
-    }
+    /* .slider_bg { */
+    /* height: 42rem; */
+    /* } */
     .offcanvas {
         width: 380px !important;
     }
@@ -425,10 +439,10 @@ video {
         font-size: 1.4rem !important;
     }
     .banner1_img img {
-        height: 23rem;
+        height: 22rem;
     }
     .banner1_video video {
-        height: 23rem;
+        height: 22rem;
     }
     .header-links a {
         margin: 0;
@@ -452,10 +466,11 @@ video {
         font-size: 6rem;
     }
     .section-title-info {
-        font-size: small;
+        font-size: 3rem !important;
+        text-align: start;
     }
     .card .card_text h5 {
-        font-size: 10px;
+        font-size: 13px;
     }
     .card .card_icon .virtual_img {
         width: 20rem;
@@ -514,15 +529,17 @@ video {
         width: 100%;
         margin-top: 1rem;
     }
-    .banner1_img img,
-    .banner1_video video {
+    .banner1_img img {
         height: 33rem;
         width: 100%;
+    }
+    .banner1_video video {
+        height: auto;
     }
     .header-links a {
         margin: 0 !important;
         font-size: 1.8rem !important;
-        /* margin: 0 5px 0 5px !important; */
+        margin: 0 5px 0 5px !important;
     }
     .section-primary-title {
         font-size: 3.5rem !important;
@@ -535,6 +552,18 @@ video {
     }
     .section-title {
         font-size: 3.6rem;
+    }
+    .section-title-info {
+        font-size: 1.6rem !important;
+    }
+    .info-paragraph {
+        font-size: 1.8rem;
+        margin: 0;
+        padding: 0;
+    }
+    .secondary-title-info {
+        font-size: 1.5rem;
+        line-height: 3rem;
     }
     .nocturnal .info-primary-title {
         font-size: 2rem !important;
@@ -594,12 +623,5 @@ video {
     }
     .reviews_section .educator_profession {
         font-size: 1.2rem;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .our-story h4 {
-        font-size: 1.5rem;
-        line-height: 2.5rem;
     }
 }
