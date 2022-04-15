@@ -187,9 +187,10 @@
     background-color: var( --color-grey-light1);
 }
 
-#worksheet {
+
+/* #worksheet {
     display: none;
-}
+} */
 
 .worksheet-section {
     margin-top: 8rem;
