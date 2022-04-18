@@ -51,7 +51,7 @@ for (let i = 1; i <= 8; i++) {
     anim_card_block.appendChild(card_block);
 
     var card_img_block = document.createElement('img');
-    card_img_block.src = './assets/images/animation_images/Earthworm-Jim.jpg';
+    card_img_block.src = '';
     // card_img_block.alt = 'image';
     card_block.appendChild(card_img_block);
 
@@ -82,7 +82,7 @@ for (let i = 1; i <= 8; i++) {
     anim_card_block.appendChild(card_block);
 
     var card_img_block = document.createElement('img');
-    card_img_block.src = './assets/images/animation_images/img3.jpg';
+    card_img_block.src = '';
     // card_img_block.alt = 'image';
     card_block.appendChild(card_img_block);
 

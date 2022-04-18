@@ -64,10 +64,10 @@ function next_slide() {
 
 }
 
-window.addEventListener("scroll", showFunction);
+// window.addEventListener("scroll", showFunction);
 
-function showFunction() {
-    console.log("you scrolled");
-    document.getElementById("worksheet").style.display = "block";
+// function showFunction() {
+//     console.log("you scrolled");
+//     document.getElementById("worksheet").style.display = "block";
 
-}
+// }
