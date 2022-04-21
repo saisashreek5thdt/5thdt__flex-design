@@ -180,7 +180,7 @@ video {
 
 .offcanvas-img {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 85%;
 }
 
 .offcanvas-img img {
@@ -239,23 +239,25 @@ video {
         font-size: 2.5rem;
     }
     .offcanvas-body .domainology a {
-        font-size: 3rem !important;
+        font-size: 2rem !important;
+        line-height: 4rem;
     }
     .offcanvas-img img {
-        width: 22rem;
-        height: 38rem;
+        /* width: 22rem; */
+        height: 20rem;
+        object-fit: contain;
     }
     .offcanvas-body .nav-link {
-        font-size: 3rem !important;
-        line-height: 8rem;
+        font-size: 2rem !important;
+        line-height: 4rem;
     }
     .banner1_img img {
-        height: 57rem;
-        width: 98%;
+        height: 58rem;
+        width: 100%;
         object-fit: contain;
     }
     video {
-        height: 57rem;
+        height: 58rem;
         object-fit: cover;
         width: 100%;
     }
@@ -292,9 +294,13 @@ video {
 }
 
 @media screen and (max-width: 1680px) {
+    .offcanvas-img img {
+        height: 14rem !important;
+        object-fit: contain;
+    }
     .banner1_img img {
         height: 50rem;
-        width: 98%;
+        width: 100%;
         object-fit: cover;
     }
     video {
@@ -311,9 +317,13 @@ video {
 }
 
 @media screen and (max-width: 1440px) {
+    .offcanvas-body .domainology a,
+    .offcanvas-body .nav-link {
+        font-size: 1.5rem !important;
+    }
     .banner1_img img {
         height: 42rem;
-        width: 98%;
+        width: 100%;
         object-fit: cover;
     }
     video {
@@ -353,9 +363,20 @@ video {
 }
 
 @media screen and (max-width: 1280px) {
+    .navbar img {
+        height: 4rem;
+        margin: 0;
+    }
+    .offcanvas-body .domainology a,
+    .offcanvas-body .nav-link {
+        font-size: 1.3rem !important;
+    }
+    .offcanvas-img {
+        margin-top: 65%;
+    }
     .banner1_img img {
         height: 37.5rem;
-        width: 98%;
+        width: 100%;
         object-fit: cover;
     }
     video {
@@ -393,6 +414,20 @@ video {
 }
 
 @media screen and (max-width: 1024px) {
+    .navbar img {
+        height: 3.5rem;
+        margin: 0;
+    }
+    .offcanvas-body .domainology a,
+    .offcanvas-body .nav-link {
+        font-size: 1.2rem !important;
+    }
+    .offcanvas-img {
+        margin-top: 85%;
+    }
+    .offcanvas-img img {
+        height: 10rem !important;
+    }
     .section-title-info {
         font-size: 4rem !important;
         text-align: start;
@@ -406,13 +441,6 @@ video {
     .offcanvas {
         width: 430px !important;
     }
-    .offcanvas-body .nav-link {
-        font-size: 1.7rem !important;
-        font-weight: 600;
-    }
-    .offcanvas-body .domainology a {
-        font-size: 1.7rem !important;
-    }
     .banner1_img img {
         height: 30rem;
     }
@@ -421,7 +449,7 @@ video {
     }
     .header-links a {
         margin: 0 2rem 0 2rem;
-        font-size: 2rem !important;
+        font-size: 1.8rem !important;
     }
     .social_icons img {
         height: 4rem !important;
@@ -475,15 +503,17 @@ video {
     /* .slider_bg { */
     /* height: 42rem; */
     /* } */
+    .navbar img {
+        height: 3rem;
+        margin: 0;
+    }
     .offcanvas {
         width: 380px !important;
     }
-    .offcanvas-body .nav-link {
-        font-size: 1.4rem !important;
-        font-weight: 600;
-    }
+    .offcanvas-body .nav-link,
     .offcanvas-body .domainology a {
-        font-size: 1.4rem !important;
+        font-size: 1.2rem !important;
+        font-weight: 600;
     }
     .banner1_img img {
         height: 22rem;
@@ -493,7 +523,7 @@ video {
     }
     .header-links a {
         margin: 0;
-        font-size: 2rem !important;
+        font-size: 1.6rem !important;
     }
     .social__icons img {
         height: 3rem !important;
@@ -588,7 +618,7 @@ video {
     }
     .header-links a {
         margin: 0 !important;
-        font-size: 1.8rem !important;
+        font-size: 1.4rem !important;
         margin: 0 5px 0 5px !important;
     }
     .section-primary-title {

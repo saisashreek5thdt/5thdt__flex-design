@@ -4,7 +4,7 @@ overflow: hidden;
 
 .arts_bg {
     background: linear-gradient(to right, var(--color-white) 0%, var(--color-white) 50%, var(--color-black) 50%, var(--color-black) 100%);
-    /* height: 100vh; */
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -58,7 +58,8 @@ overflow: hidden;
 .carousel-item img {
     width: 100%;
     height: 49.5rem;
-    padding: 2rem;
+    margin-top: -3rem;
+    padding: 0 2rem;
     object-fit: contain;
     /* background-color: aquamarine; */
 }
@@ -157,7 +158,7 @@ overflow: hidden;
 .card5 img {
     width: 100%;
     height: 30rem;
-    object-fit: contain;
+    object-fit: cover;
     /* background-color: var(--color-grey-light1); */
 }
 
@@ -186,21 +187,21 @@ a {
 @media screen and (max-width:1920px) {
     .container1,
     .container2 {
-        height: 95rem;
+        height: 76rem;
     }
     .card5 {
-        height: 45rem;
+        height: 55rem;
         margin-top: 8rem;
     }
     .card5 img {
-        height: 45rem;
+        height: 55rem;
     }
 }
 
 @media screen and (max-width:1280px) {
     .container1,
     .container2 {
-        height: 50rem;
+        height: 46rem !important;
     }
     .card5 {
         height: 30rem;
@@ -212,18 +213,55 @@ a {
 }
 
 @media screen and (max-width:1440px) {
-    /* .container1,
+    .container1,
     .container2 {
-        height: 95rem;
-    } */
+        height: 52rem;
+    }
+    .card5 {
+        /* margin: 6rem 2rem 0 2rem; */
+        height: 35rem;
+    }
+    .card5 img {
+        height: 35rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container1,
+    .container2 {
+        height: 43rem !important;
+    }
+    .card5 {
+        /* margin: 6rem 2rem 0 2rem; */
+        height: 28rem !important;
+    }
+    .card5 img {
+        height: 28rem !important;
+    }
 }
 
 @media screen and (max-width:768px) {
+    .container1,
+    .container2 {
+        height: 43rem;
+    }
     .card5 {
         margin: 6rem 2rem 0 2rem;
-        height: 25rem;
+        height: 25rem !important;
     }
     .card5 img {
-        height: 100%;
+        height: 25rem !important;
+    }
+}
+
+@media screen and (max-width:592px) {
+    .card5 {
+        height: 15rem !important;
+    }
+    .card5 img {
+        height: 15rem !important;
+    }
+    .card5 .card-text {
+        font-size: 1.2rem;
     }
 }
