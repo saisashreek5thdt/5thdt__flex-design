@@ -1,36 +1,55 @@
-.team_banner img{
+.team_banner img {
     width: 100%;
 }
-.team_info h2{
+
+
+/* .not-visible-sx {
+    position: absolute;
+    top: 3px;
+    border: none;
+}
+
+.not-visible-dx {
+    position: absolute;
+    top: 3px;
+    border: none;
+    margin-left: -12px
+} */
+
+.team_info h2 {
     font-size: 8rem;
     margin-top: 8rem;
     margin-left: 4rem;
 }
-.team_info p{
+
+.team_info p {
     font-size: 5.5rem;
     margin-left: 4rem;
     color: var(--color-neon-dark);
 }
-.card1{
+
+.card1 {
     height: 28rem;
     margin-top: 3rem;
     border: none;
     background-color: var(--color-cream-light);
     filter: none;
 }
-@media screen and (max-width: 992px){
-    .team_info h2{
+
+@media screen and (max-width: 992px) {
+    .team_info h2 {
         font-size: 7rem;
     }
-    .team_info p{
+    .team_info p {
         font-size: 5rem;
     }
 }
-@media screen and (max-width: 768px){
-    .team_info h2{
+
+@media screen and (max-width: 768px) {
+    .team_info h2 {
         font-size: 6rem;
     }
-    .team_info p{
+    .team_info p {
         font-size: 4rem;
     }
 }

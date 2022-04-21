@@ -4,7 +4,7 @@ overflow: hidden;
 
 .arts_bg {
     background: linear-gradient(to right, var(--color-white) 0%, var(--color-white) 50%, var(--color-black) 50%, var(--color-black) 100%);
-    height: 100vh;
+    /* height: 100vh; */
     overflow: hidden;
 }
 
@@ -17,14 +17,74 @@ overflow: hidden;
     border-radius: 50%;
 }
 
+.modal-body {
+    /* background-color: gray; */
+    overflow: hidden;
+}
+
+.modal-body button {
+    margin-top: 25%;
+    height: max-content;
+}
+
+.carousel-indicators {
+    margin-left: 0;
+    justify-content: start;
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: -10px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 50%;
+    /* left: 150%; */
+    z-index: 15;
+    text-align: center;
+    list-style: none;
+}
+
+.carousel-indicators img {
+    height: 8rem !important;
+    width: 15rem;
+    object-fit: contain;
+    filter: drop-shadow(2px 4px 4px grey);
+}
+
+.carousel-item {
+    width: 100% !important;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 49.5rem;
+    padding: 2rem;
+    object-fit: contain;
+    /* background-color: aquamarine; */
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    background-color: #fff;
+    opacity: 0.3;
+    color: black;
+    border-radius: 50%;
+    height: 4.5rem;
+    width: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
 .container1 {
-    height: 100vh;
+    height: 50rem;
     scroll-behavior: auto;
     overflow: auto;
 }
 
 .container2 {
-    height: 100vh;
+    height: 50rem;
     overflow: auto;
 }
 
@@ -82,7 +142,7 @@ overflow: hidden;
 .card5 {
     /* width: 13rem !important; */
     height: 30rem;
-    margin-top: 5rem;
+    margin-top: 6rem;
     border: none;
     background-color: var(--color-grey-light1);
     position: inherit;
@@ -96,13 +156,15 @@ overflow: hidden;
 .card5 img {
     width: 100%;
     height: 30rem;
+    object-fit: contain;
     background-color: var(--color-grey-light1);
 }
 
 .card5 .card-text {
     color: var(--color-black);
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 600;
+    text-align: center;
 }
 
 .container2 .card-text {
@@ -120,9 +182,47 @@ a {
     margin-bottom: 1rem;
 }
 
+@media screen and (max-width:1920px) {
+    .container1,
+    .container2 {
+        height: 95rem;
+    }
+    .card5 {
+        height: 45rem;
+        margin-top: 8rem;
+    }
+    .card5 img {
+        height: 45rem;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .container1,
+    .container2 {
+        height: 50rem;
+    }
+    .card5 {
+        height: 30rem;
+        margin-top: 8rem;
+    }
+    .card5 img {
+        height: 30rem;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .container1,
+    .container2 {
+        height: 95rem;
+    }
+}
+
 @media screen and (max-width:768px) {
     .card5 {
         margin: 6rem 2rem 0 2rem;
         height: 25rem;
+    }
+    .card5 img {
+        height: 100%;
     }
 }

@@ -163,6 +163,7 @@
     color: var(--color-white);
     background-color: var(--color-neon-dark);
     text-align: center;
+    cursor: pointer;
     padding-top: 8px;
 }
 
