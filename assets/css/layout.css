@@ -233,7 +233,7 @@ video {
 
 @media screen and (min-width: 1920px) {
     .offcanvas {
-        width: 40% !important;
+        width: 25% !important;
     }
     .offcanvas-header .btn-close {
         font-size: 2.5rem;
@@ -294,8 +294,11 @@ video {
 }
 
 @media screen and (max-width: 1680px) {
+    .offcanvas-img {
+        margin-top: 125%;
+    }
     .offcanvas-img img {
-        height: 14rem !important;
+        height: 20rem !important;
         object-fit: contain;
     }
     .banner1_img img {
@@ -317,6 +320,13 @@ video {
 }
 
 @media screen and (max-width: 1440px) {
+    .offcanvas {
+        width: 320px !important;
+    }
+    .offcanvas-img {
+        text-align: center;
+        margin-top: 150%;
+    }
     .offcanvas-body .domainology a,
     .offcanvas-body .nav-link {
         font-size: 1.5rem !important;
@@ -367,12 +377,15 @@ video {
         height: 4rem;
         margin: 0;
     }
+    .offcanvas {
+        width: 320px !important;
+    }
     .offcanvas-body .domainology a,
     .offcanvas-body .nav-link {
         font-size: 1.3rem !important;
     }
     .offcanvas-img {
-        margin-top: 65%;
+        margin-top: 120%;
     }
     .banner1_img img {
         height: 37.5rem;
@@ -423,7 +436,7 @@ video {
         font-size: 1.2rem !important;
     }
     .offcanvas-img {
-        margin-top: 85%;
+        margin-top: 130%;
     }
     .offcanvas-img img {
         height: 10rem !important;
@@ -439,7 +452,7 @@ video {
         height: 4rem;
     }
     .offcanvas {
-        width: 430px !important;
+        width: 300px !important;
     }
     .banner1_img img {
         height: 30rem;
@@ -508,7 +521,10 @@ video {
         margin: 0;
     }
     .offcanvas {
-        width: 380px !important;
+        width: 280px !important;
+    }
+    .offcanvas-img {
+        margin-top: 150%;
     }
     .offcanvas-body .nav-link,
     .offcanvas-body .domainology a {
