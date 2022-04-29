@@ -1,16 +1,111 @@
+/*BASE CSS*/
 @import url(base.css);
+/*LAYOUT CSS*/
 @import url(layout.css);
+/*COMPONENT CSS*/
 @import url(component.css);
+/*ANIMATION CSS*/
 @import url(animation.css);
+/*SQUAD CSS*/
 @import url(squad.css);
+/*CAREERS CSS*/
 @import url(careers.css);
+/*TEAM CSS*/
 @import url(team.css);
+/*GAMING CSS*/
 @import url(gaming.css);
+/*EDUCATION CSS*/
 @import url(education.css);
+/*METAVERSE CSS*/
 @import url(metaverse.css);
+/*VIRTUAL-TOURS CSS*/
 @import url(virtual-tours.css);
+/*ARTS CSS*/
 @import url(arts.css);
+/*ARTS-ILLUSTRATORS CSS*/
 @import url(arts-illustrator.css);
+/*UI/UX CSS*/
 @import url(ui-ux.css);
+/*APPS CSS*/
 @import url(apps.css);
+/*ANIMATION CSS*/
 @import url(animation.css);
+--color-grey-light1); }
+
+.testimonials .card8 {
+  width: 50%;
+  height: 20rem;
+  margin: 1rem;
+  background-color: var(--color-grey-light1); }
+
+.testimonials .secondary-heading {
+  width: 90%; }
+
+.cards,
+.features-card,
+.features-heading,
+.testimonial-header,
+.testimonial-card {
+  width: 85%; }
+
+.bigcard {
+  /* height: 15rem; */
+  margin: 0 1rem;
+  background-color: var(--color-grey-light1); }
+
+.bigcard img {
+  width: 100%;
+  /* height: 100%; */ }
+
+.bigcard .card-body {
+  width: 100%; }
+
+.cards .card8 {
+  width: 33.33%;
+  /* height: 15rem; */
+  margin: 1rem;
+  background-color: var(--color-grey-light1); }
+
+.cards .card8 img {
+  width: 100%;
+  height: 18rem; }
+
+.testimonials .card8 .card-body {
+  width: 150%; }
+
+.testimonials .cards .card8 img {
+  width: 100%;
+  height: 85%;
+  margin: 2rem; }
+
+.testimonial-card img {
+  width: 100%;
+  height: 90%;
+  margin: 2rem; }
+
+.companies,
+.statistics {
+  background-color: var(--color-black);
+  height: 15rem; }
+
+.manage-bg {
+  color: var(--color-white);
+  background-color: var(--color-black);
+  margin-top: 10rem;
+  padding: 4rem 0; }
+
+.projects .secondary-heading {
+  margin-top: 10rem;
+  margin-left: 13rem; }
+
+.features-section,
+.save-money-section,
+.track-crypto-section,
+.testimonials,
+.statistics,
+.companies {
+  margin-top: 10rem; }
+
+.save-money,
+.tracking-crypto {
+  width: 85%; }

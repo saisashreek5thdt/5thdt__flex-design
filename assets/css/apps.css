@@ -33,8 +33,9 @@
 }
 
 .card7 img {
-    height: 10rem;
-    width: 10rem;
+    height: 25rem;
+    object-fit: contain;
+    /* width: 10rem; */
 }
 
 .small_card {
