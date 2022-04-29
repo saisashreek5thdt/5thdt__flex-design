@@ -35,6 +35,14 @@ overflow: hidden;
     margin-top: -10px;
 }
 
+#carousel_indicators {
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+}
+
 .carousel-indicators {
     position: absolute;
     top: 50%;
@@ -46,7 +54,7 @@ overflow: hidden;
 
 .carousel-indicators img {
     height: 8rem !important;
-    width: 15rem;
+    width: 13.8rem !important;
     object-fit: contain;
     filter: drop-shadow(2px 4px 4px grey);
 }
@@ -67,7 +75,7 @@ overflow: hidden;
 .carousel-control-prev i,
 .carousel-control-next i {
     background-color: #fff;
-    opacity: 0.3;
+    /* opacity: 0.3; */
     color: black;
     border-radius: 50%;
     height: 4.5rem;
@@ -76,6 +84,20 @@ overflow: hidden;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
+}
+
+.next,
+.prev {
+    height: 4rem !important;
+    width: 5% !important;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: none;
+    margin: 3rem 1rem !important;
+}
+
+.next {
+    float: right;
 }
 
 .container1 {

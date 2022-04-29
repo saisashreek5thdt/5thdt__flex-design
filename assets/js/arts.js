@@ -13,7 +13,7 @@ var arts_info_main1 = [{
     {
         title: "2D-GAME-CHARACTER-VARIATION",
         imgsrc: "assets/images/arts/2d-game-character-variation/1.jpg",
-    },
+    }
     // {
     //     arts_info0: [],
     //     arts_info1: [],
@@ -34,7 +34,7 @@ var arts_info_main2 = [{
     {
         title: "STORYBOARD",
         imgsrc: "assets/images/arts/storyboard/1.jpg",
-    },
+    }
     // {
     //     arts_info0: [],
     //     arts_info1: [],
@@ -55,7 +55,7 @@ var arts_info_primary0 = [
     { imgsrc: "assets/images/arts/2d-animation/11.jpg" },
     { imgsrc: "assets/images/arts/2d-animation/12.jpg" },
     { imgsrc: "assets/images/arts/2d-animation/13.jpg" },
-    { imgsrc: "assets/images/arts/2d-animation/14.jpg" },
+    { imgsrc: "assets/images/arts/2d-animation/14.jpg" }
 ];
 var arts_info_primary1 = [
     { imgsrc: "assets/images/arts/2d-bg-game/1.jpg" },
@@ -67,12 +67,12 @@ var arts_info_primary1 = [
     { imgsrc: "assets/images/arts/2d-bg-game/7.jpg" },
     { imgsrc: "assets/images/arts/2d-bg-game/8.jpg" },
     { imgsrc: "assets/images/arts/2d-bg-game/9.jpg" },
-    { imgsrc: "assets/images/arts/2d-bg-game/10.jpg" },
+    { imgsrc: "assets/images/arts/2d-bg-game/10.jpg" }
 ];
 
 var arts_info_primary2 = [
     { imgsrc: "assets/images/arts/2d-dragon-game/1.jpg" },
-    { imgsrc: "assets/images/arts/2d-dragon-game/2.jpg" },
+    { imgsrc: "assets/images/arts/2d-dragon-game/2.jpg" }
 ];
 
 var arts_info_primary3 = [
@@ -80,7 +80,7 @@ var arts_info_primary3 = [
     { imgsrc: "assets/images/arts/2d-game-character-variation/2.jpg" },
     { imgsrc: "assets/images/arts/2d-game-character-variation/3.jpg" },
     { imgsrc: "assets/images/arts/2d-game-character-variation/4.jpg" },
-    { imgsrc: "assets/images/arts/2d-game-character-variation/5.jpg" },
+    { imgsrc: "assets/images/arts/2d-game-character-variation/5.jpg" }
 ];
 
 var arts_info_secondary0 = [
@@ -91,12 +91,12 @@ var arts_info_secondary0 = [
     { imgsrc: "assets/images/arts/cat-character/5.jpg" },
     { imgsrc: "assets/images/arts/cat-character/6.jpg" },
     { imgsrc: "assets/images/arts/cat-character/7.jpg" },
-    { imgsrc: "assets/images/arts/cat-character/8.jpg" },
+    { imgsrc: "assets/images/arts/cat-character/8.jpg" }
 ];
 
 var arts_info_secondary1 = [
     { imgsrc: "assets/images/arts/guild-master-concept/1.jpg" },
-    { imgsrc: "assets/images/arts/guild-master-concept/2.jpg" },
+    { imgsrc: "assets/images/arts/guild-master-concept/2.jpg" }
 ];
 
 var arts_info_secondary2 = [
@@ -106,7 +106,7 @@ var arts_info_secondary2 = [
     { imgsrc: "assets/images/arts/mahabharatha-game/4.jpg" },
     { imgsrc: "assets/images/arts/mahabharatha-game/5.jpg" },
     { imgsrc: "assets/images/arts/mahabharatha-game/6.jpg" },
-    { imgsrc: "assets/images/arts/mahabharatha-game/7.jpg" },
+    { imgsrc: "assets/images/arts/mahabharatha-game/7.jpg" }
 ];
 
 var arts_info_secondary3 = [
@@ -120,7 +120,7 @@ var arts_info_secondary3 = [
     { imgsrc: "assets/images/arts/storyboard/8.jpg" },
     { imgsrc: "assets/images/arts/storyboard/9.jpg" },
     { imgsrc: "assets/images/arts/storyboard/10.jpg" },
-    { imgsrc: "assets/images/arts/storyboard/11.jpg" },
+    { imgsrc: "assets/images/arts/storyboard/11.jpg" }
 ];
 
 // Left Cards
@@ -191,30 +191,36 @@ for (let i = 0; i < arts_info_main2.length; i++) {
     card_body.appendChild(card_body_text);
 }
 
+let arts_info = 0;
+let start = 0;
 // 2D-Animation
 function loadimages(id) {
-    let arts_info = id;
-    // console.log(arts_info);
+    arts_info = id;
+    start = 0;
+    console.log(arts_info.length);
     // console.log(id[0].imgsrc);
     var animation_2d = document.getElementById("animation_2d");
     var carousel_indicator = document.getElementById("carousel_indicators");
     document.getElementById("animation_2d").innerHTML = "";
     carousel_indicator.innerHTML = "";
+    document.getElementById("nextclick").style.pointerEvents = "none";
+    document.getElementById("prevclick").style.pointerEvents = "none";
+
     for (let i = 0; i < arts_info.length; i++) {
-        // carousel indicators
-        var column_block = document.createElement("div");
-        column_block.className = "col g-1";
-        carousel_indicator.appendChild(column_block);
+        // var column_block = document.createElement("div");
+        // column_block.className = "col g-1";
+        // carousel_indicator.appendChild(column_block);
 
         var carousel_img = document.createElement("img");
         carousel_img.src = "";
         carousel_img.src = arts_info[i].imgsrc;
-        carousel_img.className = "d-block w-100";
+        carousel_img.className = "d-block w-100 thumbnail";
+        carousel_img.id = "img" + i;
         carousel_img.alt = "";
         carousel_img.setAttribute("data-bs-target", "#carouselExampleIndicators");
         carousel_img.setAttribute("data-bs-slide-to", i);
         carousel_img.setAttribute("aria-label", "slide " + i);
-        column_block.appendChild(carousel_img);
+        carousel_indicator.appendChild(carousel_img);
 
         // carousel inner
         var card_block = document.createElement("div");
@@ -230,16 +236,97 @@ function loadimages(id) {
         image_block.alt = "";
         card_block.appendChild(image_block);
         carousel_indicator.firstElementChild.setAttribute("aria-current", "true");
+        // carousel_indicator.
+
+        // console.log(carousel_indicator.children[i])
+
+        // if (arts_info.length >= 5) {
+        //     for (let i = 0; i < 4; i++) {
+        //         document.getElementById("img" + i).style.display = "none";
+        //     }
+        // }
+        // var first = document.getElementsByClassName("carousel-inner")
+        // var firstChild = document.getElementsByName(animation_2d).firstElementChild;
+        // document.getElementById("animation_2d").firstChild(card_block).classList.add('active');
+        // first.fi(card_block).classList.add("active");
+        // document.getElementsByClassName("carousel-inner").fir
+
+        // console.log(carousel_indicator.children[1]);
+        animation_2d.firstElementChild.classList.add("active");
+        carousel_indicator.firstElementChild.classList.add("active");
     }
-    // if (arts_info.length >= 5) {
-    //     carousel_indicator.firstElementChild.classList.add("not-visible-sx");
+    if (arts_info.length > 5) {
+        document.getElementById("nextclick").style.pointerEvents = "auto";
+    }
+}
+
+let clicks = 0;
+
+function nextrow() {
+    // console.log(arts_info.length);
+    // clicks += 1;
+    // console.log(clicks);
+    // counter = 5 * (clicks + 1);
+    // if (arts_info.length > 5) loadimages.apply; {
+    // let arts_info_length = arts_info.length - 5;
+    // for (i = clicks * 1; i < arts_info.length; i++) {
+    // document.getElementById("img" + i).style.setProperty('display', 'none', 'important');
     // }
-    // var first = document.getElementsByClassName("carousel-inner")
-    // var firstChild = document.getElementsByName(animation_2d).firstElementChild;
-    // document.getElementById("animation_2d").firstChild(card_block).classList.add('active');
-    // first.fi(card_block).classList.add("active");
-    // document.getElementsByClassName("carousel-inner").fir
-    console.log(carousel_indicator.children[1]);
-    animation_2d.firstElementChild.classList.add("active");
-    carousel_indicator.firstElementChild.classList.add("active");
+    // }
+    // for (i = clicks * 5; i < arts_info.length; i++) {
+    //     if()
+    // document.getElementById("img" + i).style.setProperty('display', 'none', 'important');
+    // }
+    clicks += 1
+        // start = clicks * 5;
+    start = start + 5;
+    document.getElementById("prevclick").style.pointerEvents = "auto";
+    // while (start < arts_info.length) {
+    for (let i = 0; i < arts_info.length; i++) {
+        document.getElementsByClassName("thumbnail")[i].style.setProperty('display', 'none', 'important');
+    }
+    for (let i = start; i <= start + 4; i++) {
+        console.log(i);
+        if (document.getElementById("img" + i)) {
+            document.getElementById("img" + i).style.setProperty('display', 'block', 'important');
+        }
+        if ((i + 1) == arts_info.length) {
+            document.getElementById("nextclick").style.pointerEvents = "none";
+        }
+    }
+    // console.log(i)
+    // }
+
+}
+
+function prevrow() {
+    for (let i = 0; i < arts_info.length; i++) {
+        document.getElementsByClassName("thumbnail")[i].style.setProperty('display', 'none', 'important');
+    }
+    for (let i = start; i >= start - 5; i--) {
+        // console.log(document.getElementsByClassName("thumbnail")[i]);
+        console.log(i);
+        if (document.getElementById("img" + i)) {
+            document.getElementById("img" + i).style.setProperty('display', 'block', 'important');
+        }
+        if (i == 4) {
+            document.getElementById("nextclick").style.pointerEvents = "auto";
+            document.getElementById("prevclick").style.pointerEvents = "none";
+        }
+        // if (i == arts_info.length) {
+        //     document.getElementById("nextclick").style.pointerEvents = "none";
+        // }
+    }
+    start = start - 5;
+    // console.log("prev");
+    // clicks += 1;
+    // let incr = arts_info.length - clicks
+    // console.log(incr)
+    // if (arts_info.length > 5) {
+    // let arts_info_length = arts_info.length - 5;
+    // for (let i = 0; i < (5 * clicks); i++) {
+    // console.log(arts_info.length);
+    // document.getElementById("img" + arts_info.length).style.setProperty('display', 'block');
+    // }
+    // }
 }
