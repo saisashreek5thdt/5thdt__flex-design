@@ -82,7 +82,7 @@ video {
 
 .info-paragraph {
     font-family: inherit !important;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #48928c !important;
     text-align: justify;
     margin-left: 3rem;
@@ -104,7 +104,7 @@ video {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     border: none;
 }
 
@@ -385,7 +385,7 @@ video {
         width: 100%;
     }
     .section-primary-title {
-        font-size: 11rem;
+        font-size: 10rem;
     }
     .testimonial video,
     .testimonial iframe {

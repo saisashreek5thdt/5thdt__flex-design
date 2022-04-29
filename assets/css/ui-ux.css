@@ -19,6 +19,10 @@
     /* margin: 1rem; */
 }
 
+.animation_videos .card video {
+    height: 26rem;
+}
+
 .card .view_more {
     position: absolute;
     width: 10rem;
@@ -36,9 +40,10 @@
     color: var(--color-white);
 }
 
-.animation_videos .card:hover .view_more {
+
+/* .animation_videos .card:hover .view_more {
     opacity: 1;
-}
+} */
 
 .animation_videos .ui-secondary-heading {
     /* margin-left: 12rem; */

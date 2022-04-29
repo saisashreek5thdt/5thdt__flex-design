@@ -1,32 +1,13 @@
-var characters_info = [{
-        imgsrc: './assets/images/gaming_images/avatar.png',
-    },
-    {
-        imgsrc: './assets/images/gaming_images/char1.png',
-    },
-    {
-        imgsrc: './assets/images/gaming_images/kid2.png',
-    },
-    {
-        imgsrc: './assets/images/gaming_images/kid3.png',
-    },
-    {
-        imgsrc: './assets/images/gaming_images/avatar.png',
-    },
-    {
-        imgsrc: './assets/images/gaming_images/char1.png',
-    },
-    {
-        imgsrc: './assets/images/gaming_images/kid2.png',
-    },
-    {
-        imgsrc: './assets/images/gaming_images/kid3.png',
-    }
+var characters_info = [
+    { imgsrc: "assets/images/arts/guild-master-concept/1.jpg" },
+    { imgsrc: "assets/images/arts/2d-game-character-variation/1.jpg" },
+    { imgsrc: "assets/images/arts/2d-game-character-variation/3.jpg" },
+    { imgsrc: "assets/images/arts/2d-game-character-variation/1.jpg" },
 ]
 
 var characters_section = document.getElementById("characters_row")
 
-for (let i = 0; i <= 7; i++) {
+for (let i = 0; i <= 3; i++) {
     var char_row = document.createElement('div');
     char_row.className = 'char1-img';
     characters_section.appendChild(char_row);
