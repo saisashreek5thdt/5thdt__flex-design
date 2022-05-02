@@ -230,7 +230,7 @@
     margin: 1rem;
 }
 
-.btn-bg i {
+.btn-bg svg {
     margin: 0;
     padding: 0;
     color: var(--color-white);

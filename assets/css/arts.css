@@ -53,8 +53,8 @@ overflow: hidden;
 }
 
 .carousel-indicators img {
-    height: 8rem !important;
-    width: 13.8rem !important;
+    height: 9rem !important;
+    width: 14.8rem !important;
     object-fit: contain;
     filter: drop-shadow(2px 4px 4px grey);
 }
@@ -72,18 +72,19 @@ overflow: hidden;
     /* background-color: aquamarine; */
 }
 
-.carousel-control-prev i,
-.carousel-control-next i {
-    background-color: #fff;
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: var( --color-grey-light1);
     /* opacity: 0.3; */
     color: black;
     border-radius: 50%;
-    height: 4.5rem;
+    height: 4.5rem !important;
     width: 4.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
+    margin: 0 3rem;
 }
 
 .next,
