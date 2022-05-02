@@ -33,6 +33,9 @@
     color: var(--color-neon-dark);
     font-weight: 600;
     opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .card .view_more:hover {
@@ -40,10 +43,9 @@
     color: var(--color-white);
 }
 
-
-/* .animation_videos .card:hover .view_more {
+.animation_videos .card:hover .view_more {
     opacity: 1;
-} */
+}
 
 .animation_videos .ui-secondary-heading {
     /* margin-left: 12rem; */

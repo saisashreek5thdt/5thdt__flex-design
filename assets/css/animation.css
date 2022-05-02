@@ -18,16 +18,17 @@
 }
 
 #animation_container1 {
-    animation: rightmove 10s linear infinite;
+    animation: rightmove 35s linear infinite;
 }
 
-#animation_container1:hover,
+
+/* #animation_container1:hover,
 #animation_container2:hover {
     animation: none;
-}
+} */
 
 #animation_container2 {
-    animation: leftmove 10s linear infinite;
+    animation: leftmove 35s linear infinite;
 }
 
 #animation_container1 img,
@@ -36,6 +37,12 @@
     width: 100%;
     display: inline;
     overflow: visible;
+}
+
+.modal video {
+    padding: 2rem;
+    height: 100%;
+    width: 100%;
 }
 
 @media screen and (max-width:768px) {

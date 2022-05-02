@@ -55,10 +55,17 @@ for (let i = 0; i < anim_videos.length; i++) {
     card_block.className = 'card';
     anim_card_block.appendChild(card_block);
 
+    // var anchortag = document.createElement("a");
+    // anchortag.href = "#";
+    // anchortag.id = i;
+    // anchortag.setAttribute("onclick", "loadimages(" + anchortag.id + ")");
+    // card_block.appendChild(anchortag);
+
     var card_video_block = document.createElement('video');
-    card_video_block.muted = true;
-    card_video_block.loop = true;
-    card_video_block.autoplay = true;
+    // card_video_block.muted = true;
+    // card_video_block.loop = true;
+    // card_video_block.autoplay = true;
+    card_video_block.id = i;
     card_block.appendChild(card_video_block);
 
     var card_source_block = document.createElement('source');
@@ -67,10 +74,16 @@ for (let i = 0; i < anim_videos.length; i++) {
     card_video_block.appendChild(card_source_block);
 
 
-    // var view_button = document.createElement('button');
-    // view_button.className = 'view_more';
-    // view_button.textContent = 'View More'
-    // card_block.appendChild(view_button);
+    var view_button = document.createElement('button');
+    view_button.className = 'view_more';
+    view_button.textContent = 'PLAY';
+    // view_button.onclick = 'loadimages(' + card_video_block.id + ')';
+    view_button.setAttribute('onclick', 'loadimages(' + i + ')');
+    // view_button.onclick = function() { loadimages(card_video_block.id) };
+    // view_button.addEventListener('click', 'loadimages(' + card_video_block.id + ')');
+    view_button.setAttribute("data-bs-toggle", "modal");
+    view_button.setAttribute("data-bs-target", "#exampleModalCenter");
+    card_block.appendChild(view_button);
 
     var card_body = document.createElement('div');
     card_body.className = 'card-body';
@@ -142,4 +155,10 @@ for (let i = 1; i <= anim_imges_row2.length; i++) {
     // card_body_text.className = 'card-text';
     // card_body_text.textContent = 'image' + i;
     // card_body.appendChild(card_body_text);
+}
+
+function loadimages(id) {
+    console.log(id)
+    document.getElementById("modal_video").src = anim_videos[id].videosrc
+    console.log(document.getElementById("modal_video").src)
 }
