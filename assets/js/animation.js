@@ -128,7 +128,7 @@ for (let i = 0; i < anim_imges_row1.length; i++) {
 
 var cards_anim_container2 = document.getElementById("animation_container2");
 
-for (let i = 1; i <= anim_imges_row2.length; i++) {
+for (let i = 0; i < anim_imges_row2.length; i++) {
 
     // var col_block = document.createElement('div');
     // col_blockcards_anim_container.className = 'col-md-6 col-lg-4 col-xl-4';
