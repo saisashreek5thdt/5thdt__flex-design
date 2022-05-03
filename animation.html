@@ -152,6 +152,14 @@
                         </h2>
                     </div>
                 </div>
+                <div class="d-flex p-2 justify-content-center flex-row bd-highlight">
+                    <div class="preview_options">
+                        <span class="option"><a href="#!" id="opt0" onclick="all_img()">All</a></span>
+                        <span class="option"><a href="#!" id="opt1" onclick="Illustrator()">Illustrations</a></span>
+                        <span class="option"><a href="#!" id="opt2" onclick="img_3d()">3D</a></span>
+                        <span class="option"><a href="#!" id="opt3" onclick="animation_cont()">Animations</a></span>
+                    </div>
+                </div>
                 <!--
                 <div class="d-flex p-2 justify-content-center flex-row bd-highlight">
                     <div class="p-2 bd-highlight">
@@ -182,24 +190,29 @@
                     <div class="animation-cards">
                         <div class="d-flex p-2 justify-content-center flex-row bd-highlight">
                             <div class="anim_cards">
-                                <div class="row" id="animation_container">
+                                <div class="row" id="all_container">
 
-                                    <!-- Modal  -->
-                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header" style="border-bottom: none;">
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="float: right;font-size: 1rem;"></button>
-                                                </div>
-                                                <div class="modal-body" style="padding: 0">
-                                                    <video autoplay controls controlsList="nodownload" src=" " type="video/mp4" id="modal_video">
+                                </div>
+                                <div class="row" id="illustrators_container"></div>
+                                <div class="row" id="img_3d_container"></div>
+                                <div class="row" id="animation_container"></div>
+                                <!-- Modal  -->
+                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header" style="border-bottom: none;">
+                                                <button type="button" onclick="pause_video()" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="float: right;font-size: 1rem;"></button>
+                                            </div>
+                                            <div class="modal-body" style="padding: 0">
+                                                <video autoplay controls muted controlsList="nodownload" src=" " type="video/mp4" id="modal_video">
                                   
                                   </video>
-                                                </div>
+                                                <iframe src=" " id="youtube_link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -212,12 +225,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
+                <!-- <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
                     <div class="animated_img_cards">
                         <div class="d-flex p-2 justify-content-center flex-row bd-highlight" id="animation_container2">
                         </div>
                     </div>
-                </div>
+                </div> -->
             </section>
         </main>
         <footer id="footer">

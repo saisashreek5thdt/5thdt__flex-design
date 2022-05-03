@@ -238,7 +238,7 @@
 }
 
 #characters_row:hover {
-    animation: none !important;
+    animation-play-state: paused;
 }
 
 .char1-img {
