@@ -48,18 +48,10 @@ var reviews_info = [{
     profession: "Assitant Professor , University Of Arizona",
 }, ];
 
-// for (let i = 1; i < squad_info.length; i++) {
-//     document.getElementById("squad_image").src = squad_info[0].imagesrc;
-//     document.getElementById("squad_name").innerHTML = squad_info[0].name;
-//     document.getElementById("title").innerHTML = squad_info[0].title;
-// }
 let i = 0;
 var people_container = document.getElementById("team_container");
 
 for (let i = 0; i < squad_info.length; i++) {
-    // var row_block = document.createElement('div');
-    // row_block.className = 'row';
-    // people_container.appendChild(row_block);
 
     //column block
     var col_block = document.createElement("div");

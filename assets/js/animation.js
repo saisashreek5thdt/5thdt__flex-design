@@ -21,12 +21,6 @@ const anim_imges_row1 = [
     { imgsrc: "assets/images/arts/2d-animation/3.jpg" },
     { imgsrc: "assets/images/arts/2d-animation/4.jpg" }
 
-    // { imgsrc: "assets/images/arts/2d-animation/9.jpg" },
-    // { imgsrc: "assets/images/arts/2d-animation/10.jpg" },
-    // { imgsrc: "assets/images/arts/2d-animation/11.jpg" },
-    // { imgsrc: "assets/images/arts/2d-animation/12.jpg" },
-    // { imgsrc: "assets/images/arts/2d-animation/13.jpg" },
-    // { imgsrc: "assets/images/arts/2d-animation/14.jpg" }
 ]
 const anim_imges_row2 = [
     { imgsrc: "assets/images/arts/2d-animation/5.jpg" },
@@ -55,12 +49,6 @@ for (let i = 0; i < anim_videos.length; i++) {
     card_block.className = 'card';
     anim_card_block.appendChild(card_block);
 
-    // var anchortag = document.createElement("a");
-    // anchortag.href = "#";
-    // anchortag.id = i;
-    // anchortag.setAttribute("onclick", "loadimages(" + anchortag.id + ")");
-    // card_block.appendChild(anchortag);
-
     var card_video_block = document.createElement('video');
     // card_video_block.muted = true;
     // card_video_block.loop = true;
@@ -77,10 +65,7 @@ for (let i = 0; i < anim_videos.length; i++) {
     var view_button = document.createElement('button');
     view_button.className = 'view_more';
     view_button.textContent = 'PLAY';
-    // view_button.onclick = 'loadimages(' + card_video_block.id + ')';
     view_button.setAttribute('onclick', 'loadimages(' + i + ')');
-    // view_button.onclick = function() { loadimages(card_video_block.id) };
-    // view_button.addEventListener('click', 'loadimages(' + card_video_block.id + ')');
     view_button.setAttribute("data-bs-toggle", "modal");
     view_button.setAttribute("data-bs-target", "#exampleModalCenter");
     card_block.appendChild(view_button);
@@ -88,20 +73,11 @@ for (let i = 0; i < anim_videos.length; i++) {
     var card_body = document.createElement('div');
     card_body.className = 'card-body';
     card_block.appendChild(card_body);
-
-    // var card_body_text = document.createElement('p');
-    // card_body_text.className = 'card-text';
-    // card_body_text.textContent = 'image' + i;
-    // card_body.appendChild(card_body_text);
 }
 
 var cards_anim_container1 = document.getElementById("animation_container1");
 
 for (let i = 0; i < anim_imges_row1.length; i++) {
-
-    // var col_block = document.createElement('div');
-    // col_blockcards_anim_container.className = 'col-md-6 col-lg-4 col-xl-4';
-    // cards_anim_container.appendChild(col_block);
 
     var anim_card_block = document.createElement('div');
     anim_card_block.className = 'anim-img-card';
@@ -113,26 +89,12 @@ for (let i = 0; i < anim_imges_row1.length; i++) {
 
     var card_img_block = document.createElement('img');
     card_img_block.src = anim_imges_row1[i].imgsrc;
-    // card_img_block.alt = 'image';
     card_block.appendChild(card_img_block);
-
-    // var card_body = document.createElement('div');
-    // card_body.className = 'card-body';
-    // card_block.appendChild(card_body);
-
-    // var card_body_text = document.createElement('p');
-    // card_body_text.className = 'card-text';
-    // card_body_text.textContent = 'image' + i;
-    // card_body.appendChild(card_body_text);
 }
 
 var cards_anim_container2 = document.getElementById("animation_container2");
 
 for (let i = 0; i < anim_imges_row2.length; i++) {
-
-    // var col_block = document.createElement('div');
-    // col_blockcards_anim_container.className = 'col-md-6 col-lg-4 col-xl-4';
-    // cards_anim_container.appendChild(col_block);
 
     var anim_card_block = document.createElement('div');
     anim_card_block.className = 'anim-img-card';
@@ -144,17 +106,8 @@ for (let i = 0; i < anim_imges_row2.length; i++) {
 
     var card_img_block = document.createElement('img');
     card_img_block.src = anim_imges_row2[i].imgsrc;
-    // card_img_block.alt = 'image';
     card_block.appendChild(card_img_block);
 
-    // var card_body = document.createElement('div');
-    // card_body.className = 'card-body';
-    // card_block.appendChild(card_body);
-
-    // var card_body_text = document.createElement('p');
-    // card_body_text.className = 'card-text';
-    // card_body_text.textContent = 'image' + i;
-    // card_body.appendChild(card_body_text);
 }
 
 function loadimages(id) {

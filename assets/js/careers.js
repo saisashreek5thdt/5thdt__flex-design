@@ -39,15 +39,6 @@ const openings_info = [{
         imagesrc: "./assets/images/career/mobile-dev1.svg"
     }
 ];
-/* <div class="card2">
-<div class="service_img">
-    <img src="./assets/images/career/ui-ux1.svg" alt="">
-</div>
-<div class="service_name">
-    <h4>UI/UX</h4>
-</div>
-<button class="btn-apply" data-bs-toggle="modal" data-bs-target="#exampleModal" id="1" onclick="showUploadform(id)">Apply Now</button>
-</div> */
 
 var people_container = document.getElementById("openings_row");
 
@@ -113,11 +104,3 @@ function showUploadform(id) {
 document.getElementById("view_button").onclick = function() {
     window.location = "#openings_list";
 };
-// showUploadform(id); {
-//     let i = id;
-//     let Id = data.id[i];
-//     let imagePath = data.id[i].imgpath
-//     if (i == Id) {
-//         document.getElementById("")
-//     }
-// };

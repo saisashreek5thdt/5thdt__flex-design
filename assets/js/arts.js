@@ -14,10 +14,7 @@ var arts_info_main1 = [{
         title: "2D-GAME-CHARACTER-VARIATION",
         imgsrc: "assets/images/arts/2d-game-character-variation/1.jpg",
     }
-    // {
-    //     arts_info0: [],
-    //     arts_info1: [],
-    // }
+
 ];
 var arts_info_main2 = [{
         title: "CAT-CHARACTER",
@@ -35,10 +32,7 @@ var arts_info_main2 = [{
         title: "STORYBOARD",
         imgsrc: "assets/images/arts/storyboard/1.jpg",
     }
-    // {
-    //     arts_info0: [],
-    //     arts_info1: [],
-    // }
+
 ];
 
 var arts_info_primary0 = [
@@ -207,9 +201,6 @@ function loadimages(id) {
     document.getElementById("prevclick").style.pointerEvents = "none";
 
     for (let i = 0; i < arts_info.length; i++) {
-        // var column_block = document.createElement("div");
-        // column_block.className = "col g-1";
-        // carousel_indicator.appendChild(column_block);
 
         var carousel_img = document.createElement("img");
         carousel_img.src = "";
@@ -228,30 +219,13 @@ function loadimages(id) {
         animation_2d.appendChild(card_block);
 
         var image_block = document.createElement("img");
-        // var tst = id[i][imgsrc];
-        // console.log(id[i])
+
         image_block.src = id[i].imgsrc;
-        // console.log(id[0].imgsrc)
         image_block.className = "d-block w-100";
         image_block.alt = "";
         card_block.appendChild(image_block);
+
         carousel_indicator.firstElementChild.setAttribute("aria-current", "true");
-        // carousel_indicator.
-
-        // console.log(carousel_indicator.children[i])
-
-        // if (arts_info.length >= 5) {
-        //     for (let i = 0; i < 4; i++) {
-        //         document.getElementById("img" + i).style.display = "none";
-        //     }
-        // }
-        // var first = document.getElementsByClassName("carousel-inner")
-        // var firstChild = document.getElementsByName(animation_2d).firstElementChild;
-        // document.getElementById("animation_2d").firstChild(card_block).classList.add('active');
-        // first.fi(card_block).classList.add("active");
-        // document.getElementsByClassName("carousel-inner").fir
-
-        // console.log(carousel_indicator.children[1]);
         animation_2d.firstElementChild.classList.add("active");
         carousel_indicator.firstElementChild.classList.add("active");
     }
@@ -263,20 +237,6 @@ function loadimages(id) {
 let clicks = 0;
 
 function nextrow() {
-    // console.log(arts_info.length);
-    // clicks += 1;
-    // console.log(clicks);
-    // counter = 5 * (clicks + 1);
-    // if (arts_info.length > 5) loadimages.apply; {
-    // let arts_info_length = arts_info.length - 5;
-    // for (i = clicks * 1; i < arts_info.length; i++) {
-    // document.getElementById("img" + i).style.setProperty('display', 'none', 'important');
-    // }
-    // }
-    // for (i = clicks * 5; i < arts_info.length; i++) {
-    //     if()
-    // document.getElementById("img" + i).style.setProperty('display', 'none', 'important');
-    // }
     clicks += 1
         // start = clicks * 5;
     start = start + 5;
@@ -294,8 +254,6 @@ function nextrow() {
             document.getElementById("nextclick").style.pointerEvents = "none";
         }
     }
-    // console.log(i)
-    // }
 
 }
 
@@ -304,7 +262,6 @@ function prevrow() {
         document.getElementsByClassName("thumbnail")[i].style.setProperty('display', 'none', 'important');
     }
     for (let i = start; i >= start - 5; i--) {
-        // console.log(document.getElementsByClassName("thumbnail")[i]);
         console.log(i);
         if (document.getElementById("img" + i)) {
             document.getElementById("img" + i).style.setProperty('display', 'block', 'important');
@@ -313,20 +270,6 @@ function prevrow() {
             document.getElementById("nextclick").style.pointerEvents = "auto";
             document.getElementById("prevclick").style.pointerEvents = "none";
         }
-        // if (i == arts_info.length) {
-        //     document.getElementById("nextclick").style.pointerEvents = "none";
-        // }
     }
     start = start - 5;
-    // console.log("prev");
-    // clicks += 1;
-    // let incr = arts_info.length - clicks
-    // console.log(incr)
-    // if (arts_info.length > 5) {
-    // let arts_info_length = arts_info.length - 5;
-    // for (let i = 0; i < (5 * clicks); i++) {
-    // console.log(arts_info.length);
-    // document.getElementById("img" + arts_info.length).style.setProperty('display', 'block');
-    // }
-    // }
 }

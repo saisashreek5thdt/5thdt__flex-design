@@ -3,11 +3,6 @@
     padding: 0 2rem;
 }
 
-
-/* .gaming-bg .menu_bar img {
-    background-color: var(--color-white);
-} */
-
 .gaming-bg {
     background-image: linear-gradient(black 0%, #424242 95%, transparent 100%);
 }
@@ -262,11 +257,6 @@
     width: 100%;
     background-color: aliceblue;
 }
-
-
-/* .char1-img img:hover {
-    border: 3px solid black;
-} */
 
 .footer-bg {
     background-color: var(--color-grey-light);

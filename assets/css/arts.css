@@ -1,7 +1,3 @@
-/* html{
-overflow: hidden;
-} */
-
 .arts_bg {
     background: linear-gradient(to right, var(--color-white) 0%, var(--color-white) 50%, var(--color-black) 50%, var(--color-black) 100%);
     height: 100vh;
@@ -135,33 +131,12 @@ overflow: hidden;
     margin-right: 3rem;
 }
 
-
-/* .container1,
-.container2 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-} */
-
-
-/* .container2 h4,
-.container2 h6{
-    text-align: end;
-    margin-right: 3rem;
-} */
-
 .arts_primary_heading {
     padding-top: 2rem;
     font-size: 2.5rem;
     font-weight: 600;
     color: var(--color-black);
 }
-
-
-/* .col-xl-5 {
-    display: flex;
-    justify-content: center;
-} */
 
 .card5 {
     /* width: 13rem !important; */

@@ -63,11 +63,3 @@ function next_slide() {
     cards[i].classList.add('active');
 
 }
-
-// window.addEventListener("scroll", showFunction);
-
-// function showFunction() {
-//     console.log("you scrolled");
-//     document.getElementById("worksheet").style.display = "block";
-
-// }
