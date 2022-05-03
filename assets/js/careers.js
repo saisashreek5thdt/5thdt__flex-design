@@ -1,42 +1,42 @@
 const openings_info = [{
         id: 0,
         title: "UI/UX",
-        imagesrc: "./assets/images/career/ui-ux1.svg"
+        imagesrc: "assets/images/career/ui-ux1.svg"
     },
     {
         id: 1,
         title: "Full Stack Development",
-        imagesrc: "./assets/images/career/full-stack1.svg"
+        imagesrc: "assets/images/career/full-stack1.svg"
     },
     {
         id: 2,
         title: "Metaverse",
-        imagesrc: "./assets/images/career/react-angular1.svg"
+        imagesrc: "assets/images/career/react-angular1.svg"
     },
     {
         id: 3,
         title: "Production(2D & 3D)",
-        imagesrc: "./assets/images/career/react-angular1.svg"
+        imagesrc: "assets/images/career/react-angular1.svg"
     },
     {
         id: 4,
         title: "Animator(2D/3D)",
-        imagesrc: "./assets/images/career/animator-editor1.svg"
+        imagesrc: "assets/images/career/animator-editor1.svg"
     },
     {
         id: 5,
         title: "Illustrator(2D/3D)",
-        imagesrc: "./assets/images/career/illustrator1.svg"
+        imagesrc: "assets/images/career/illustrator1.svg"
     },
     {
         id: 6,
         title: "Video Editor",
-        imagesrc: "./assets/images/career/animator-editor1.svg"
+        imagesrc: "assets/images/career/animator-editor1.svg"
     },
     {
         id: 7,
         title: "Mobile App Developer",
-        imagesrc: "./assets/images/career/mobile-dev1.svg"
+        imagesrc: "assets/images/career/mobile-dev1.svg"
     }
 ];
 

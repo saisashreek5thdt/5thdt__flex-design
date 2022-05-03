@@ -1,4 +1,5 @@
-.companies embed {
+.companies embed,
+.statistics embed {
     width: 10rem;
     height: 10rem;
 }
@@ -137,6 +138,20 @@
     height: 15rem;
     display: flex;
     align-items: center;
+}
+
+#clients_info {
+    width: 200%;
+    position: absolute;
+    animation: leftmove 10s linear infinite;
+}
+
+#clients_info .logo {
+    width: 20%;
+}
+
+#clients_info .logo img {
+    height: 10rem;
 }
 
 .manage-bg {
