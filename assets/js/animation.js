@@ -476,3 +476,10 @@ function load_3d_img(id) {
     document.getElementById("img_3d").style.display = 'block';
     document.getElementById("img_3d").src = img_3d_view_info[id].videosrc
 }
+
+function pause_video() {
+    document.getElementById("modal_img").src = 'none';
+    document.getElementById("youtube_link").src = 'none';
+    document.getElementById("modal_video").src = 'none';
+    document.getElementById("img_3d").src = 'none';
+}
