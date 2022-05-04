@@ -39,6 +39,10 @@
     width: 100%;
 }
 
+.modal video {
+    display: none;
+}
+
 .modal iframe {
     padding: 2rem;
     height: 48.5rem;
@@ -72,10 +76,6 @@
 #all_container iframe {
     height: 100%;
     width: 100%;
-}
-
-.ytp-large-play-button {
-    display: none !important;
 }
 
 @media screen and (max-width:1920px) {

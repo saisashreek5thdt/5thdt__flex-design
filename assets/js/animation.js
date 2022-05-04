@@ -251,6 +251,7 @@ for (let i = 0; i < anim_youtube_videos.length; i++) {
     card_video_block.id = i;
     card_block.appendChild(card_video_block);
 
+
 }
 
 // scrolling images 
@@ -475,4 +476,15 @@ function load_3d_img(id) {
     document.getElementById("modal_video").style.display = 'none';
     document.getElementById("img_3d").style.display = 'block';
     document.getElementById("img_3d").src = img_3d_view_info[id].videosrc
+}
+
+function pause_video() {
+    document.getElementById("modal_img").src = 'none';
+    document.getElementById("youtube_link").src = 'none';
+    document.getElementById("modal_video").src = 'none';
+    document.getElementById("img_3d").src = 'none';
+    document.getElementById("modal_img").style.display = 'none';
+    document.getElementById("youtube_link").style.display = 'none';
+    document.getElementById("modal_video").style.display = 'none';
+    document.getElementById("img_3d").style.display = 'none';
 }
