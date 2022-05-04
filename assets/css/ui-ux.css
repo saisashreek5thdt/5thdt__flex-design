@@ -80,7 +80,7 @@
 }
 
 .anim-card .card img {
-    height: 14rem;
+    height: 100%;
     width: 100%;
     object-fit: contain;
 }
