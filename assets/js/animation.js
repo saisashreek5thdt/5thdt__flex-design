@@ -47,6 +47,7 @@ const anim_imges_row2 = [
     { imgsrc: "assets/images/arts/2d-animation/8.jpg" },
 ]
 
+document.getElementById("opt1").style.color = 'var(--color-neon-dark)';
 // all 
 var all_img_container = document.getElementById("all_container");
 for (let i = 0; i < 3; i++) {
