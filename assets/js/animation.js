@@ -69,7 +69,7 @@ for (let i = 0; i < 3; i++) {
 
     var view_button = document.createElement('button');
     view_button.className = 'view_more';
-    view_button.textContent = 'PLAY';
+    view_button.textContent = 'PREVIEW';
     view_button.setAttribute('onclick', 'load_images(' + i + ')');
     view_button.setAttribute("data-bs-toggle", "modal");
     view_button.setAttribute("data-bs-target", "#exampleModalCenter");
@@ -293,7 +293,7 @@ for (let i = 0; i < anim_imges_row1.length; i++) {
 
     var view_button = document.createElement('button');
     view_button.className = 'view_more';
-    view_button.textContent = 'PLAY';
+    view_button.textContent = 'PREVIEW';
     view_button.setAttribute('onclick', 'load_images(' + i + ')');
     view_button.setAttribute("data-bs-toggle", "modal");
     view_button.setAttribute("data-bs-target", "#exampleModalCenter");
