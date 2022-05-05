@@ -1,191 +1,193 @@
 #animation_container1,
 #animation_container2 {
-    position: relative;
-    height: 100%;
-    width: 200%;
-    overflow: hidden;
-    /* margin-top: 20px auto; */
-    padding: 0px;
-    background: white;
-    display: inline-block;
-    font-size: 0;
+  position: relative;
+  height: 100%;
+  width: 200%;
+  overflow: hidden;
+  /* margin-top: 20px auto; */
+  padding: 0px;
+  background: white;
+  display: inline-block;
+  font-size: 0;
 }
 
 #animation_container1 {
-    -webkit-animation: rightmove 35s linear infinite;
+  -webkit-animation: rightmove 35s linear infinite;
+  animation: rightmove 35s linear infinite;
 }
 
 #animation_container2 {
-    -webkit-animation: leftmove 35s linear infinite;
+  -webkit-animation: leftmove 35s linear infinite;
+  animation: leftmove 35s linear infinite;
 }
 
 #animation_container1 img,
 #animation_container2 img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    display: inline;
-    overflow: visible;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  display: inline;
+  overflow: visible;
 }
 
 #animation_container1:hover {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 .modal video,
 .modal .modalbox_img {
-    padding: 2rem;
-    height: 100%;
-    width: 100%;
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
 }
 
 .modal video {
-    display: none;
+  display: none;
 }
 
 .modal iframe {
-    padding: 2rem;
-    height: 48.5rem;
-    object-fit: cover;
-    width: 100%;
+  padding: 2rem;
+  height: 48.5rem;
+  object-fit: cover;
+  width: 100%;
 }
 
 .preview_options .option {
-    font-size: 1.8rem;
-    font-weight: 600;
-    padding: 1rem 4rem;
-    /* cursor: pointer; */
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1rem 4rem;
+  /* cursor: pointer; */
 }
 
 .preview_options .option a {
-    text-decoration: none;
-    color: var(--color-grey-dark);
+  text-decoration: none;
+  color: var(--color-grey-dark);
 }
 
 .preview_options .option a:active {
-    color: var(--color-neon-dark);
+  color: var(--color-neon-dark);
 }
 
-#all_container,
+#illustrators_container,
 #img_3d_container,
 #animation_container {
-    display: none;
+  display: none;
 }
 
 #img_3d_container .sketchfab-embed-wrapper iframe,
 #all_container iframe {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
-@media screen and (max-width:1920px) {
-    .animation-cards {
-        width: 78%;
-    }
-    .animation_videos .card {
-        height: 20rem;
-    }
-    .animation_videos .card video,
-    .animation_videos .card iframe {
-        height: 100%;
-    }
-    .sketchfab-embed-wrapper {
-        height: 100%;
-        width: 100%;
-    }
-    .animated_img .card {
-        height: 25.4rem;
-    }
+@media screen and (max-width: 1920px) {
+  .animation-cards {
+    width: 78%;
+  }
+  .animation_videos .card {
+    height: 20rem;
+  }
+  .animation_videos .card video,
+  .animation_videos .card iframe {
+    height: 100%;
+  }
+  .sketchfab-embed-wrapper {
+    height: 100%;
+    width: 100%;
+  }
+  .animated_img .card {
+    height: 25.4rem;
+  }
 }
 
 @media screen and (max-width: 1440px) {
-    .animation-cards {
-        width: 95%;
-    }
-    .animation_videos .card {
-        height: 18.2rem;
-    }
-    .animated_img .card {
-        height: 19rem;
-    }
+  .animation-cards {
+    width: 95%;
+  }
+  .animation_videos .card {
+    height: 18.2rem;
+  }
+  .animated_img .card {
+    height: 19rem;
+  }
 }
 
 @media screen and (max-width: 1280px) {
-    .animation-cards {
-        width: 95%;
-    }
-    .animation_videos .card {
-        height: 16rem;
-    }
-    .animated_img .card {
-        height: 16.5rem;
-    }
+  .animation-cards {
+    width: 95%;
+  }
+  .animation_videos .card {
+    height: 16rem;
+  }
+  .animated_img .card {
+    height: 16.5rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .animation_videos .card {
-        height: 17rem;
-    }
-    .animated_img .card {
-        height: 13rem;
-    }
+  .animation_videos .card {
+    height: 17rem;
+  }
+  .animated_img .card {
+    height: 13rem;
+  }
 }
 
-@media screen and (max-width:768px) {
-    .animated_img {
-        overflow-x: hidden !important;
-    }
-    .anim-card {
-        width: 100%;
-    }
-    .anim-card .card {
-        width: 100% !important;
-    }
-    .animation-cards {
-        width: 100%;
-    }
-    .animation_videos .btn-get {
-        width: 10rem;
-        font-size: 1.2rem;
-    }
-    .anim-img-card {
-        width: 100%;
-    }
-    .animated_img .card {
-        height: 9.4rem;
-    }
-    .animation_videos .card {
-        height: 20.2rem;
-    }
+@media screen and (max-width: 768px) {
+  .animated_img {
+    overflow-x: hidden !important;
+  }
+  .anim-card {
+    width: 100%;
+  }
+  .anim-card .card {
+    width: 100% !important;
+  }
+  .animation-cards {
+    width: 100%;
+  }
+  .animation_videos .btn-get {
+    width: 10rem;
+    font-size: 1.2rem;
+  }
+  .anim-img-card {
+    width: 100%;
+  }
+  .animated_img .card {
+    height: 9.4rem;
+  }
+  .animation_videos .card {
+    height: 20.2rem;
+  }
 }
 
-@media screen and (max-width:592px) {
-    .ui-primary-heading {
-        font-size: 2.5rem !important;
-        margin-top: 3rem;
-    }
-    .animated_img {
-        overflow-x: hidden !important;
-    }
-    .animation-cards {
-        width: 75%;
-    }
-    .preview_options .option {
-        padding: 1rem 3rem;
-    }
-    .anim-card {
-        width: 100%;
-    }
-    .animation_videos .card {
-        height: 11.2rem;
-    }
-    .animated_img .card {
-        height: 7rem;
-    }
+@media screen and (max-width: 592px) {
+  .ui-primary-heading {
+    font-size: 2.5rem !important;
+    margin-top: 3rem;
+  }
+  .animated_img {
+    overflow-x: hidden !important;
+  }
+  .animation-cards {
+    width: 75%;
+  }
+  .preview_options .option {
+    padding: 1rem 3rem;
+  }
+  .anim-card {
+    width: 100%;
+  }
+  .animation_videos .card {
+    height: 11.2rem;
+  }
+  .animated_img .card {
+    height: 7rem;
+  }
 }
 
-@media screen and (max-width:425px) {
-    .animation_videos .card {
-        height: 16.3rem !important;
-    }
+@media screen and (max-width: 425px) {
+  .animation_videos .card {
+    height: 16.3rem !important;
+  }
 }
