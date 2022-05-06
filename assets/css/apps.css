@@ -140,27 +140,28 @@
   height: 90%;
   margin: 2rem;
 }
-
+.companies {
+  height: 15rem;
+  background-color: var(--color-black);
+}
 .companies,
 .statistics {
-  background-color: var(--color-black);
-  height: 15rem;
   display: flex;
   align-items: center;
 }
 
 #clients_info {
-  width: 200%;
-  position: absolute;
-  animation: leftmove 10s linear infinite;
+  width: 100%;
 }
 
 #clients_info .logo {
-  width: 20%;
+  width: 100%;
+  margin: 2rem 0;
+  text-align: center;
 }
 
 #clients_info .logo img {
-  height: 10rem;
+  height: 25rem;
 }
 
 .manage-bg {
@@ -174,7 +175,10 @@
   margin-top: 10rem;
   margin-left: 13rem;
 }
-
+.projects .primary-info {
+  margin-left: 13rem !important;
+  margin-top: 2rem;
+}
 .features-section,
 .save-money-section,
 .track-crypto-section,
