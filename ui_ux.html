@@ -152,6 +152,7 @@
             </div>
         </div>
         <main>
+            <!--
             <section class="create-NFT" id="createNFT">
                 <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
                     <div class="banner3 d-flex flex-row">
@@ -186,15 +187,24 @@
                     </div>
                 </div>
             </section>
+            -->
             <section class="animation_videos" id="marketplace">
                 <div class="d-flex p-2 justify-content-center flex-row bd-highlight">
-                    <div class="animation-cards">
-                        <h5 class="teritiary-heading">
-                            Marketplace
+                    <div class="animation-cards d-flex justify-content-center">
+                        <h5 class="teritiary-heading text-center">
+                            Our Showreel
                         </h5>
                     </div>
                 </div>
-                <div class="d-flex p-2 justify-content-center flex-row bd-highlight">
+                  <div class="d-flex p-2 justify-content-center flex-row bd-highlight">
+                    <div class="preview_options">
+                        <span class="option"><a href="#!" id="opt0" onclick="all_img()">All</a></span>
+                        <span class="option"><a href="#!" id="opt1" onclick="Illustrator()">Education</a></span>
+                        <span class="option"><a href="#!" id="opt2" onclick="img_3d()">Social</a></span>
+                        <!-- <span class="option"><a href="#!" id="opt3" onclick="animation_cont()">Animations</a></span> -->
+                    </div>
+                </div>
+                <!-- <div class="d-flex p-2 justify-content-center flex-row bd-highlight">
                     <div class="p-2 bd-highlight">
                         <div class="button-links">
                             <button class="btn btn-get">
@@ -217,21 +227,40 @@
                             </button>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="d-flex p-2 justify-content-center flex-row bd-highlight">
                     <div class="animation-cards">
                         <div class="d-flex p-2 justify-content-center flex-row bd-highlight">
                             <div class="anim_cards">
-                                <div class="row" id="animation_container">
+                                <div class="row" id="all_container">
+
                                 </div>
+                                <div class="row" id="illustrators_container"></div>
+                                <div class="row" id="img_3d_container"></div>
+                                <!-- <div class="row" id="animation_container"></div> -->
+                                <!-- Modal  -->
+                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header" style="border-bottom: none;">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="float: right;font-size: 1rem;"></button>
+                                            </div>
+                                            <div class="modal-body" style="padding: 0">
+                                                <img class="modalbox_img" src="" alt="" id="modal_img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+         
+                <!-- </section> -->
 
             <!-- Modal  -->
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header" style="border-bottom: none;">
@@ -261,7 +290,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
         </main>
         <footer id="footer">
             <div class="row">
@@ -331,7 +360,7 @@
         </footer>
     </div>
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="assets/js/animation.js"></script>
+    <script type="text/javascript" src="assets/js/ui_ux.js"></script>
 </body>
 
 </html>

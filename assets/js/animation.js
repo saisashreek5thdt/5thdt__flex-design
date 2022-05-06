@@ -103,9 +103,6 @@ const anim_imges_row2 = [
   { imgsrc: "assets/images/arts/2d-animation/8.jpg" },
 ];
 
-// index = 0;
-var images = {};
-var images_count = 0;
 let a = all_sec_images;
 let b = all_sec_anim_videos;
 let c = all_sec_3d_images;
