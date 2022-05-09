@@ -38,24 +38,6 @@
   }
 }
 
-@-webkit-keyframes rightmove1 {
-  from {
-    left: 0%;
-  }
-  to {
-    left: -100%;
-  }
-}
-
-@keyframes rightmove1 {
-  from {
-    left: 0%;
-  }
-  to {
-    left: -100%;
-  }
-}
-
 /* Opacity */
 
 @keyframes displaycontent {
