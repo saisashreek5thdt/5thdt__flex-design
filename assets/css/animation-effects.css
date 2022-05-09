@@ -21,6 +21,24 @@
     }
 }
 
+@keyframes rightmove1 {
+    from {
+        left: 0%;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+@-webkit-keyframes rightmove1 {
+    from {
+        left: 0%;
+    }
+    to {
+        left: -100%;
+    }
+}
+
 
 /* Opacity */
 

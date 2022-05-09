@@ -1,118 +1,120 @@
 .education_header_bg {
-  background-color: var(--color-grey-light1);
+    background-color: var(--color-grey-light1);
 }
 
 .trusted_educators_bg {
-  background-color: var(--color-white);
+    background-color: var(--color-white);
 }
 
 .banner3 {
-  width: 90%;
+    width: 90%;
 }
 
 .header-text {
-  width: 50%;
-  text-align: center !important;
+    width: 50%;
+    text-align: center !important;
 }
 
 .header-img {
-  width: 50%;
+    width: 50%;
 }
 
 .header-img img {
-  width: 100%;
-  height: 40rem;
-  object-fit: contain;
+    width: 100%;
+    height: 40rem;
+    object-fit: contain;
 }
 
 .primary-heading {
-  font-size: 5.5rem;
-  font-weight: 800;
-  color: var(--color-neon-dark);
+    font-size: 5.5rem;
+    font-weight: 800;
+    color: var(--color-neon-dark);
 }
 
 .primary-info {
-  font-size: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
 }
 
 .punitive_worksheet {
-  width: 85%;
+    width: 85%;
 }
 
 .primary_text_column {
-  width: 50%;
+    width: 50%;
 }
 
 .assignments_heading {
-  text-align: center;
+    text-align: center;
 }
 
 .assignments-bg {
-  width: 85%;
+    width: 85%;
 }
 
 .mastery_reviews_bg {
-  background-color: var(--color-grey-light1);
-  height: 42rem;
-  margin-top: 5rem;
-  padding: 4rem 0;
-  border-radius: 2rem;
+    background-color: var(--color-grey-light1);
+    height: 42rem;
+    margin-top: 5rem;
+    padding: 4rem 0;
+    border-radius: 2rem;
 }
 
 .low_stakes_practice_bg {
-  background-color: var(--color-grey-light1);
-  height: 42rem;
-  margin-top: 5rem;
-  padding: 4rem 0;
-  border-radius: 2rem;
+    background-color: var(--color-grey-light1);
+    height: 42rem;
+    margin-top: 5rem;
+    padding: 4rem 0;
+    border-radius: 2rem;
 }
 
 .mastery_quizz_bg {
-  background-color: var(--color-grey-light1);
-  height: 42rem;
-  margin-top: 5rem;
-  padding: 4rem 0;
-  border-radius: 2rem;
+    background-color: var(--color-grey-light1);
+    height: 42rem;
+    margin-top: 5rem;
+    padding: 4rem 0;
+    border-radius: 2rem;
 }
 
 .lessons_bg {
-  background-color: var(--color-grey-light1);
-  height: 42rem;
-  margin-top: 5rem;
-  padding: 4rem 0;
-  border-radius: 2rem;
+    background-color: var(--color-grey-light1);
+    height: 42rem;
+    margin-top: 5rem;
+    padding: 4rem 0;
+    border-radius: 2rem;
 }
 
 .integrating_bg {
-  background-color: var(--color-grey-light1);
-  height: 40rem;
-  margin-top: 2rem;
+    background-color: var(--color-grey-light1);
+    height: 40rem;
+    margin-top: 2rem;
 }
 
 .secondary-heading {
-  font-size: 4rem;
-  font-weight: 800;
-  color: var(--color-neon-dark);
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--color-neon-dark);
 }
 
 .teritiary-heading {
-  font-size: 2.8rem;
-  font-weight: 800;
-  color: var(--color-neon-dark);
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: var(--color-neon-dark);
 }
 
 .primary_text_column {
-  width: 50%;
-  padding: 3rem;
-  /* transform: translateX(-50%); */
+    width: 50%;
+    padding: 3rem;
+    /* transform: translateX(-50%); */
 }
 
 .primary_img_column {
-  width: 50%;
-  /* transform: translateX(50%); */
-  /* height: 30rem; */
-  /* background-color: aliceblue; */
+    width: 50%;
+    /* transform: translateX(50%); */
+    /* height: 30rem; */
+    /* background-color: aliceblue; */
 }
+
 
 /* .primary_img_column:hover,
 .primary_text_column:hover {
@@ -120,234 +122,235 @@
 } */
 
 .primary_img_column img {
-  width: 100%;
-  height: 30rem;
-  background-color: aliceblue;
+    width: 100%;
+    height: 30rem;
+    background-color: aliceblue;
 }
 
 .secondary_text_column {
-  width: 50%;
-  padding: 4rem;
+    width: 50%;
+    padding: 4rem;
 }
 
 .secondary_img_column {
-  width: 50%;
-  /* height: 32rem; */
-  margin: 0 3rem 0 3rem;
+    width: 50%;
+    /* height: 32rem; */
+    margin: 0 3rem 0 3rem;
 }
 
 .secondary_img_column img {
-  width: 100%;
-  height: 32rem;
-  background-color: aliceblue;
+    width: 100%;
+    height: 32rem;
+    background-color: aliceblue;
 }
 
 .secondary_heading1 {
-  text-align: center;
-  font-size: 3.6rem;
-  font-weight: 800;
-  color: var(--color-neon-dark);
-  margin-top: 4rem;
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 800;
+    color: var(--color-neon-dark);
+    margin-top: 4rem;
 }
 
 .beloved_educators {
-  background-color: var(--color-black);
+    background-color: var(--color-black);
 }
 
 .beloved_educators .card {
-  height: 30rem;
-  width: 55%;
-  border-radius: 2rem;
-  background-color: var(--color-grey);
-  /* align-items: flex-start; */
+    height: 30rem;
+    width: 55%;
+    border-radius: 2rem;
+    background-color: var(--color-grey);
+    /* align-items: flex-start; */
 }
 
 .profile_pic img {
-  height: 8rem;
-  width: 8rem;
+    height: 8rem;
+    width: 8rem;
 }
 
 .educator_review {
-  font-size: 1.8rem;
-  color: var(--color-white);
+    font-size: 1.8rem;
+    color: var(--color-white);
 }
 
 .educator_name {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--color-white);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-white);
 }
 
 .educator_profession {
-  font-size: 1.5rem;
-  color: var(--color-white);
+    font-size: 1.5rem;
+    color: var(--color-white);
 }
 
 .metrics_assignments_bg {
-  background-color: var(--color-grey-light1);
+    background-color: var(--color-grey-light1);
 }
+
 
 /* #worksheet {
     display: none;
 } */
 
 .worksheet-section {
-  margin-top: 8rem;
+    margin-top: 8rem;
 }
 
 .worksheet-section .assignments-section {
-  margin-top: 8rem;
+    margin-top: 8rem;
 }
 
 .beloved-section {
-  margin-top: 8rem;
+    margin-top: 8rem;
 }
 
 .btn-start {
-  background-color: var(--color-neon-dark);
-  color: var(--color-white);
-  width: 14rem;
-  height: 4rem;
-  border-radius: 2px;
-  margin-top: 3rem;
-  font-size: 1.2rem;
-  font-weight: 600;
+    background-color: var(--color-neon-dark);
+    color: var(--color-white);
+    width: 14rem;
+    height: 4rem;
+    border-radius: 2px;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .btn-bg {
-  background-color: var(--color-grey);
-  height: 5rem;
-  width: 5rem;
-  border-radius: 50%;
-  /* text-align: center; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem;
+    background-color: var(--color-grey);
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
 }
 
 .btn-bg svg {
-  margin: 0;
-  padding: 0;
-  color: var(--color-white);
-  font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    color: var(--color-white);
+    font-size: 3rem;
 }
 
 .button a {
-  color: black;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-decoration: underline;
-  padding: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: underline;
+    padding: 1rem;
 }
 
 .button a:hover {
-  background-color: var(--color-neon-dark);
-  color: var(--color-white);
-  text-decoration: none;
+    background-color: var(--color-neon-dark);
+    color: var(--color-white);
+    text-decoration: none;
 }
 
 .metrics,
 .assignments {
-  margin: 10rem 5rem;
+    margin: 10rem 5rem;
 }
 
 @media screen and (max-width: 768px) {
-  .primary-heading {
-    font-size: 4rem;
-  }
-  .primary-info {
-    font-size: 1.3rem;
-  }
-  .secondary-heading {
-    font-size: 2.8rem;
-  }
-  .teritiary-heading {
-    font-size: 2.2rem;
-  }
-  .secondary_text_column {
-    padding: 2rem;
-  }
+    .primary-heading {
+        font-size: 4rem;
+    }
+    .primary-info {
+        font-size: 1.3rem;
+    }
+    .secondary-heading {
+        font-size: 2.8rem;
+    }
+    .teritiary-heading {
+        font-size: 2.2rem;
+    }
+    .secondary_text_column {
+        padding: 2rem;
+    }
 }
 
 @media screen and (max-width: 592px) {
-  .banner3 {
-    flex-direction: column !important;
-  }
-  .header-text {
-    text-align: center;
-    width: 100%;
-  }
-  .header-img {
-    width: 100%;
-  }
-  .header-img img {
-    height: 25rem;
-  }
-  .primary-heading {
-    font-size: 3.5rem;
-    text-align: start;
-  }
-  .primary-info {
-    text-align: start;
-  }
-  .punitive_worksheet {
-    flex-direction: column !important;
-  }
-  .secondary-heading {
-    font-size: 2.5rem;
-  }
-  .primary_text_column {
-    width: 100%;
-    padding: 3rem 3rem 0 3rem;
-    margin-top: 0;
-  }
-  .secondary_text_column {
-    width: 100%;
-    padding: 0;
-  }
-  .primary_img_column {
-    width: 100%;
-    margin: 4rem 0;
-  }
-  .secondary_img_column {
-    width: 100%;
-    margin: 0;
-    margin-top: 3rem;
-  }
-  .teritiary-heading {
-    font-size: 2.5rem;
-    margin-top: 3rem;
-  }
-  .mastery,
-  .low_stakes,
-  .mastery_quizz,
-  .lessons {
-    flex-direction: column !important;
-  }
-  .mastery_reviews_bg,
-  .low_stakes_practice_bg,
-  .mastery_quizz_bg,
-  .lessons_bg {
-    height: auto;
-    padding: 2rem;
-  }
-  .assignments,
-  .metrics {
-    padding: 0;
-    margin: 0;
-  }
-  .metrics1,
-  .assignment {
-    flex-direction: column !important;
-  }
-  .worksheet-section {
-    margin-top: 4rem;
-  }
-  .secondary_heading1 {
-    font-size: 2.6rem;
-  }
-  .beloved_educators .card {
-    width: 80%;
-  }
+    .banner3 {
+        flex-direction: column !important;
+    }
+    .header-text {
+        text-align: center;
+        width: 100%;
+    }
+    .header-img {
+        width: 100%;
+    }
+    .header-img img {
+        height: 25rem;
+    }
+    .primary-heading {
+        font-size: 3.5rem;
+        text-align: start;
+    }
+    .primary-info {
+        text-align: start;
+    }
+    .punitive_worksheet {
+        flex-direction: column !important;
+    }
+    .secondary-heading {
+        font-size: 2.5rem;
+    }
+    .primary_text_column {
+        width: 100%;
+        padding: 3rem 3rem 0 3rem;
+        margin-top: 0;
+    }
+    .secondary_text_column {
+        width: 100%;
+        padding: 0;
+    }
+    .primary_img_column {
+        width: 100%;
+        margin: 4rem 0;
+    }
+    .secondary_img_column {
+        width: 100%;
+        margin: 0;
+        margin-top: 3rem;
+    }
+    .teritiary-heading {
+        font-size: 2.5rem;
+        margin-top: 3rem;
+    }
+    .mastery,
+    .low_stakes,
+    .mastery_quizz,
+    .lessons {
+        flex-direction: column !important;
+    }
+    .mastery_reviews_bg,
+    .low_stakes_practice_bg,
+    .mastery_quizz_bg,
+    .lessons_bg {
+        height: auto;
+        padding: 2rem;
+    }
+    .assignments,
+    .metrics {
+        padding: 0;
+        margin: 0;
+    }
+    .metrics1,
+    .assignment {
+        flex-direction: column !important;
+    }
+    .worksheet-section {
+        margin-top: 4rem;
+    }
+    .secondary_heading1 {
+        font-size: 2.6rem;
+    }
+    .beloved_educators .card {
+        width: 80%;
+    }
 }

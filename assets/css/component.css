@@ -1,9 +1,11 @@
 .logo {
-    margin-left: 8rem;
+    width: 25%;
+    margin: 2rem;
 }
 
 .logo img {
-    height: 7rem;
+    height: 100%;
+    width: 100%;
     margin: 1rem;
 }
 

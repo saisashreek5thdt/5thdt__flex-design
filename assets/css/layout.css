@@ -245,6 +245,7 @@ video {
     .offcanvas-img img {
         /* width: 22rem; */
         height: 20rem;
+        margin-top: 90%;
         object-fit: contain;
     }
     .offcanvas-body .nav-link {
