@@ -1,21 +1,15 @@
 /* Sliding from left to right */
 
 @-webkit-keyframes leftmove {
-  from {
-    left: 0%;
-  }
-  to {
-    left: -100%;
-  }
+  0% { left: 0;}
+    50%{ left : -100%;}
+    100%{ left: 0;}
 }
 
 @keyframes leftmove {
-  from {
-    left: 0%;
-  }
-  to {
-    left: -100%;
-  }
+   0% { left: 0;}
+    50%{ left : -100%;}
+    100%{ left: 0;}
 }
 
 /* Sliding from right to left */

@@ -13,10 +13,6 @@ const clients_logo_info = [
     { imgsrc: "assets/images/client/cags-logo.svg" },
     { imgsrc: "assets/images/client/korroboree-logo.svg" },
     { imgsrc: "assets/images/client/tictactoe-logo.svg" },
-    { imgsrc: "assets/images/client/cogo-logo.svg" },
-    { imgsrc: "assets/images/client/cags-logo.svg" },
-    { imgsrc: "assets/images/client/korroboree-logo.svg" },
-    { imgsrc: "assets/images/client/tictactoe-logo.svg" }
 ]
 const social_img_info = [{ imgsrc: "assets/images/projects/project3.png" }];
 
