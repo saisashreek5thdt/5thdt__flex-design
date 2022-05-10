@@ -390,7 +390,7 @@ video {
     font-size: 1.3rem !important;
   }
   .offcanvas-img {
-    margin-top: 120%;
+    margin-top: 85%;
   }
   .banner1_img img {
     height: 37.5rem;
@@ -647,6 +647,7 @@ video {
   }
   .section-secondary-title {
     font-size: 4rem !important;
+    padding: 0;
   }
   .info-secondary-title {
     font-size: 4rem !important;
@@ -656,6 +657,7 @@ video {
   }
   .section-title-info {
     font-size: 1.6rem !important;
+    padding: 0;
   }
   .info-paragraph {
     font-size: 1.8rem;

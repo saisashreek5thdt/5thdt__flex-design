@@ -24,7 +24,7 @@
   overflow: hidden;
 }
 
-.modal-body button {
+.modal-body .carousel-control-prev,.modal-body .carousel-control-next {
   margin-top: 25%;
   height: max-content;
 }
@@ -268,4 +268,27 @@ a {
   .card5 .card-text {
     font-size: 1.2rem;
   }
+  .carousel-item img{
+    height: 19rem;
+    margin-top: 0;
+  }
+  .modal-body .carousel-control-prev, .modal-body .carousel-control-next {
+    margin-top: 20% !important;
+    height: 2.5rem !important;
+    width: 2.5rem;
+    font-size: 2rem;
+    margin: 0 5px;
+}
+.carousel-indicators {
+  margin-top: 0;
+}
+.carousel-indicators img {
+  height: 3.6rem !important;
+}
+.next, .prev {
+  height: 3rem !important;
+  width: 6% !important;
+  font-size: 1rem;
+  margin: 1.5rem 1rem !important;
+}
 }
