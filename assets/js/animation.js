@@ -472,16 +472,15 @@ function load_images(id) {
   document.getElementById("modal_img").style.display = "block";
   document.getElementById("youtube_link").style.display = "none";
   document.getElementById("modal_video").style.display = "none";
-  document.getElementById("img_3d").style.display = "none";
-  document.getElementById("modal_img").src = anim_imges_row1[id].imgsrc;
+  // document.getElementById("img_3d").style.display = "none";
+  document.getElementById("modal_img").src = anim_imges_row[id].imgsrc;
 }
 
 function loadimages(id) {
-  console.log(id);
   document.getElementById("modal_img").style.display = "none";
   document.getElementById("youtube_link").style.display = "none";
   document.getElementById("modal_video").style.display = "block";
-  document.getElementById("img_3d").style.display = "none";
+  // document.getElementById("img_3d").style.display = "none";
   document.getElementById("modal_video").src = anim_videos[id].videosrc;
   console.log(document.getElementById("modal_video").src);
 }
@@ -491,25 +490,25 @@ function load_youtube_videos(id) {
   document.getElementById("modal_img").style.display = "none";
   document.getElementById("youtube_link").style.display = "block";
   document.getElementById("modal_video").style.display = "none";
-  document.getElementById("img_3d").style.display = "none";
+  // document.getElementById("img_3d").style.display = "none";
   document.getElementById("youtube_link").src =
     anim_youtube_videos[id].videosrc;
   // console.log(document.getElementById("modal_video").src)
 }
 
-function load_3d_img(id) {
-  document.getElementById("modal_img").style.display = "none";
-  document.getElementById("youtube_link").style.display = "none";
-  document.getElementById("modal_video").style.display = "none";
-  document.getElementById("img_3d").style.display = "block";
-  document.getElementById("img_3d").src = img_3d_view_info[id].videosrc;
-}
+// function load_3d_img(id) {
+//   document.getElementById("modal_img").style.display = "none";
+//   document.getElementById("youtube_link").style.display = "none";
+//   document.getElementById("modal_video").style.display = "none";
+//   document.getElementById("img_3d").style.display = "block";
+//   document.getElementById("img_3d").src = img_3d_view_info[id].videosrc;
+// }
 
 function load_3d_section_2d_view(id) {
   document.getElementById("modal_img").style.display = "block";
   document.getElementById("youtube_link").style.display = "none";
   document.getElementById("modal_video").style.display = "none";
-  document.getElementById("img_3d").style.display = "none";
+  // document.getElementById("img_3d").style.display = "none";
   document.getElementById("modal_img").src = img_3d__info[id].imgsrc;
 }
 
