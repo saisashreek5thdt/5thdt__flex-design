@@ -239,8 +239,8 @@
                 margin: 0 auto;
                 top: 0px;
                 left: 0px;
-                width: 1600px;
-                height: 560px;
+                width: 2560px;
+                height: 900px;
                 overflow: hidden;
                 visibility: hidden;
               "
@@ -277,8 +277,8 @@
                   position: relative;
                   top: 0px;
                   left: 0px;
-                  width: 1600px;
-                  height: 560px;
+                  width: 2560px;
+                  height: 900px;
                   overflow: hidden;
                 "
               >
@@ -443,60 +443,11 @@
             </div>
           </div>
           <div class="d-flex p-2 justify-content-center flex-row bd-highlight">
-            <div class="preview_options">
-              <span class="option"
-                ><a href="#!" id="opt0" onclick="all_img()">All</a></span
-              >
-              <span class="option"
-                ><a href="#!" id="opt1" onclick="Illustrator()"
-                  >Illustrations</a
-                ></span
-              >
-              <span class="option"
-                ><a href="#!" id="opt2" onclick="img_3d()">3D</a></span
-              >
-              <span class="option"
-                ><a href="#!" id="opt3" onclick="animation_cont()"
-                  >Animations</a
-                ></span
-              >
-            </div>
-          </div>
-          <!--
-                <div class="d-flex p-2 justify-content-center flex-row bd-highlight">
-                    <div class="p-2 bd-highlight">
-                        <div class="button-links">
-                            <button class="btn btn-get">
-                               Education
-                            </button>
-                            <button class="btn btn-get">
-                                Gaming
-                            </button>
-                            <button class="btn btn-get">
-                                Arts
-                            </button>
-                            <button class="btn btn-get">
-                                Apps
-                            </button>
-                            <button class="btn btn-get">
-                                Metaverse
-                            </button>
-                            <button class="btn btn-get">
-                                Virtual Tours
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                -->
-          <div class="d-flex p-2 justify-content-center flex-row bd-highlight">
             <div class="animation-cards">
               <div
                 class="d-flex p-2 justify-content-center flex-row bd-highlight"
               >
                 <div class="anim_cards">
-                  <div class="row" id="all_container"></div>
-                  <div class="row" id="illustrators_container"></div>
-                  <div class="row" id="img_3d_container"></div>
                   <div class="row" id="animation_container"></div>
                   <!-- Modal  -->
                   <div
@@ -523,12 +474,6 @@
                           ></button>
                         </div>
                         <div class="modal-body" style="padding: 0">
-                          <img
-                            class="modalbox_img"
-                            src=""
-                            alt=""
-                            id="modal_img"
-                          />
                           <video
                             autoplay
                             controls
@@ -537,23 +482,6 @@
                             type="video/mp4"
                             id="modal_video"
                           ></video>
-                          <div class="sketchfab-embed-wrapper">
-                            <iframe
-                              title="Cupboard"
-                              id="img_3d"
-                              frameborder="0"
-                              allowfullscreen
-                              mozallowfullscreen="true"
-                              webkitallowfullscreen="true"
-                              allow="autoplay; fullscreen; xr-spatial-tracking"
-                              xr-spatial-tracking
-                              execution-while-out-of-viewport
-                              execution-while-not-rendered
-                              web-share
-                              src=" "
-                            >
-                            </iframe>
-                          </div>
                           <iframe
                             src=" "
                             id="youtube_link"
@@ -572,21 +500,27 @@
             </div>
           </div>
         </section>
-        <section class="animated_img" id="anim_images">
-          <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
-            <div class="animated_img_cards">
-              <div
-                class="d-flex p-2 justify-content-center flex-row bd-highlight"
-                id="animation_container1"
-              ></div>
+        <section class="beloved-section" id="beloved">
+          <div class="row">
+            <div class="beloved_educators" id="reviews_section">
+              <h2 class="secondary_heading1">Testimonials</h2>
+              <div class="d-flex p-2 justify-content-around flex-row bd-highlight" id="reviews_container"></div>
+              <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
+                <div class="sliding_buttons d-flex flex-row">
+                  <div class="btn-bg">
+                    <a href="#reviews_section" onclick="previous_slide()">
+                      <i data-feather="arrow-left"></i
+                    ></a>
+                  </div>
+                  <div class="btn-bg">
+                    <a href="#reviews_section" onclick="next_slide()">
+                      <i data-feather="arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <!-- <div class="d-flex p-2 justify-content-around flex-row bd-highlight">
-                    <div class="animated_img_cards">
-                        <div class="d-flex p-2 justify-content-center flex-row bd-highlight" id="animation_container2">
-                        </div>
-                    </div>
-                </div> -->
         </section>
       </main>
       <footer id="footer">
@@ -680,8 +614,18 @@
       type="text/javascript"
       src="assets/js/carousel/carousel.js"
     ></script>
+    <script
+    type="text/javascript"
+    src="assets/js/testimonial_section.js"
+  ></script>
     <script type="text/javascript">
       jssor_1_slider_init();
     </script>
+        <!-- Feather Icons -->
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script>
+          feather.replace();
+        </script>
   </body>
 </html>
