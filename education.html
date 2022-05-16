@@ -362,17 +362,17 @@
                 </div>
                 <div class="d-flex p-2 justify-content-center flex-row bd-highlight">
                   <div class="preview_options">
-                    <span class="option" ><a href="#!" id="opt0" onclick="all_img()"> Interactive Books</a></span>
-                    <span class="option"><a href="#!" id="opt1" onclick="Illustrator()">Journals</a></span >
-                    <span class="option"><a href="#!" id="opt2" onclick="img_3d()">Comics</a></span >
-                    <span class="option"><a href="#!" id="opt3" onclick="animation_cont()">For Educators</a></span>
-                    <span class="option"><a href="#!" id="opt2" onclick="img_3d()">Curriculum Developers</a></span>
-                  <span class="option"><a href="#!" id="opt2" onclick="img_3d()">LMS</a></span>
-                <span class="option"><a href="#!" id="opt2" onclick="img_3d()">Schools</a></span>
+                    <span class="option" ><a href="#books" id="0" onclick="active_option(id)"> Interactive Books</a></span>
+                    <span class="option"><a href="#journals" id="1" onclick="active_option(id)">Journals</a></span >
+                    <span class="option"><a href="#comics" id="2" onclick="active_option(id)">Comics</a></span >
+                    <span class="option"><a href="#educators" id="3" onclick="active_option(id)">For Educators</a></span>
+                    <span class="option"><a href="#books" id="4" onclick="active_option(id)">Curriculum Developers</a></span>
+                  <span class="option"><a href="#journals" id="5" onclick="active_option(id)">LMS</a></span>
+                <span class="option"><a href="#comics" id="6" onclick="active_option(id)">Schools</a></span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="mastery_reviews_bg">
+                  <div class="mastery_reviews_bg" id="books">
                     <div
                       class="d-flex p-2 justify-content-around flex-row bd-highlight"
                     >
@@ -403,7 +403,7 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="low_stakes_practice_bg">
+                    <div class="low_stakes_practice_bg" id="journals">
                       <div
                         class="d-flex p-2 justify-content-around flex-row bd-highlight"
                       >
@@ -434,7 +434,7 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="mastery_quizz_bg">
+                    <div class="mastery_quizz_bg" id="comics">
                       <div
                         class="d-flex p-2 justify-content-around flex-row bd-highlight"
                       >
@@ -465,7 +465,7 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="lessons_bg">
+                    <div class="lessons_bg" id="educators">
                       <div
                         class="d-flex p-2 justify-content-around flex-row bd-highlight"
                       >
@@ -702,6 +702,7 @@
       </footer>
     </div>
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script  type="text/javascript" src="assets/js/education.js"></script>
     <script type="text/javascript" src="assets/js/testimonial_section.js"></script>
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
