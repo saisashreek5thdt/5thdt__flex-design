@@ -149,3 +149,17 @@
 .button-links .btn-get:hover {
   color: var(--color-white);
 }
+.animation_videos{
+  margin-top: 5rem;
+}
+
+@media screen and (min-width:1920px) {
+  .animation_videos{
+    margin-top: 7rem;
+  }
+}
+@media screen and (min-width:1440px) {
+  .animation_videos{
+    margin-top: 6rem;
+  }
+}

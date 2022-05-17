@@ -5,7 +5,7 @@ const companies_logos_info = [
     { imgsrc: "assets/images/client/Sanskrit_logo.svg" },
     { imgsrc: "assets/images/client/tv8.svg" },
     { imgsrc: "assets/images/client/cogo-logo.svg" },
-    { imgsrc: "assets/images/client/little-einstein-logo.svg" },
+    { imgsrc: "assets/images/client/little-einstein-logo.svg" }
 
 ]
 
