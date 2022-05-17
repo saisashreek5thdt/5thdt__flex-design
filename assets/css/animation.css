@@ -91,7 +91,9 @@
 .preview_options .option a:active {
   color: var(--color-neon-dark);
 }
-
+#illustrators_container,#img_3d_container{
+  display: none;
+}
 
 #img_3d_container .sketchfab-embed-wrapper iframe,
 #all_container iframe {
