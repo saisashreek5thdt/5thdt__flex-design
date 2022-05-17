@@ -1,24 +1,21 @@
 
-var reviews_info = [{
+var reviews_info = [
+    {
     review: "Animation is about creating the illusion of life. And you can't create it if you don't have one.",
     name: "Brad Bird"
-}, ];
+},
+ {
+    review: "Because we strongly believe that Education is everybody's right.",
+    name: "Vikram Seth"
+}];
 
 var review_container = document.getElementById("reviews_container");
-
-for (let i = 1; i <= 1; i++) {
+document.getElementById(0).style.pointerEvents="none"
+for (let i = 0; i < reviews_info.length; i++) {
     var card_block = document.createElement('div');
-    card_block.className = 'card d-flex flex-column';
-    card_block.id = i;
+    card_block.className = 'card';
+    card_block.id = "review_card"+i;
     review_container.appendChild(card_block);
-
-    var profile = document.createElement('div');
-    profile.className = 'profile_pic';
-    card_block.appendChild(profile);
-
-    var profile_img = document.createElement('img');
-    profile_img.src = '';
-    profile.appendChild(profile_img);
 
     var review_block = document.createElement('div');
     review_block.className = 'educator-review';
@@ -26,7 +23,7 @@ for (let i = 1; i <= 1; i++) {
 
     var review = document.createElement('p');
     review.className = 'educator_review';
-    review.textContent = reviews_info[0].review;
+    review.textContent = reviews_info[i].review;
     review_block.appendChild(review);
 
     var name_block = document.createElement('div');
@@ -35,7 +32,7 @@ for (let i = 1; i <= 1; i++) {
 
     var edu_name = document.createElement('p');
     edu_name.className = 'educator_name';
-    edu_name.textContent = reviews_info[0].name;
+    edu_name.textContent = reviews_info[i].name;
     name_block.appendChild(edu_name);
 
     var profession_block = document.createElement('div');
@@ -46,26 +43,33 @@ for (let i = 1; i <= 1; i++) {
     profession.className = 'educator_profession';
     profession.textContent = '';
     profession_block.appendChild(profession);
-
     // card_block[0].add('active');
 }
 
-
+document.getElementById(0).style.pointerEvents="none"
+document.getElementById("review_card1").style.display="none"
 let cards = document.querySelector('.card');
 // cards[0].add('active');
 let i = 0;
-
-function previous_slide() {
+function previous_slide(id) {
     console.log("previous");
-    cards[i].classList.remove('active');
-    i = (i - 1) % cards.length;
-    cards[i].classList.add('active');
+    document.getElementById(0).style.pointerEvents="auto"
+    document.getElementById(1).style.pointerEvents="none"
+    document.getElementById("review_card0").style.display="flex"
+    document.getElementById("review_card1").style.display="none"
+    // document.getElementsByClassName("card")[i].classList.remove('active');
+    // i = (i - 1) % reviews_info.length;
+    // document.getElementsByClassName("card")[i].classList.add('active');
 }
 
-function next_slide() {
+function next_slide(id) {
     console.log("next");
-    cards[i].classList.remove('active');
-    i = (i + 1) % cards.length;
-    cards[i].classList.add('active');
+    document.getElementById(0).style.pointerEvents="none"
+    document.getElementById(1).style.pointerEvents="auto"
+    document.getElementById("review_card0").style.display="none"
+    document.getElementById("review_card1").style.display="flex"
+    // document.getElementsByClassName("card")[i].classList.remove('active');
+    // i = (i + 1) % reviews_info.length;
+    // document.getElementsByClassName("card")[i].classList.add('active');
 
 }

@@ -210,7 +210,9 @@
 .beloved-section {
   margin-top: 8rem;
 }
-
+#journals,#comics,#educators{
+  display: none;
+}
 .btn-start {
   background-color: var(--color-neon-dark);
   color: var(--color-white);

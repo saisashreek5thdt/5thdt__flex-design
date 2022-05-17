@@ -101,6 +101,15 @@
   width: 100%;
 }
 
+.beloved_educators .card{
+  height: auto;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+#review_card1{
+  display: none;
+}
 @media screen and (max-width: 1920px) {
   #header_section_heading{
     margin-top: 8rem !important;
