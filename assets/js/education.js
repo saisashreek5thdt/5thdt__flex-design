@@ -1,10 +1,5 @@
 document.getElementById("0").style.color="var(--color-neon-dark)";
 
-var books_row = document.getElementById("#books");
-var journals_row = document.getElementById("#journals");
-var comics_row = document.getElementById("#comics");
-var educators_row = document.getElementById("#educators");
-
 function books_option(id){
     console.log(document.getElementsByClassName("mastery_reviews_bg")[i])
     document.getElementsByClassName("mastery_reviews_bg")[i].style.display="block";

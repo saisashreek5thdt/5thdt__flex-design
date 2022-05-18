@@ -207,6 +207,10 @@
   margin: 6px;
 }
 
+.modal-open{
+  padding: 0!important;
+}
+
 @media screen and (min-width: 1440px) and (max-width: 1920px) {
   .careers-header {
     width: 90%;
