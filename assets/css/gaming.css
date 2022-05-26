@@ -233,9 +233,8 @@
 }
 
 #characters_row {
-  width: 200%;
+  width: 100%;
   position: relative;
-  animation: leftmove 10s linear infinite;
 }
 
 #characters_row:hover {
