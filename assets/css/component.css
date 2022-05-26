@@ -19,6 +19,35 @@
   /* background-color: var(--color-white); */
 }
 
+/*custom video player*/
+
+@media (max-width: 827px) {
+  .fa {
+    color: white;
+    font-size: 0.9rem;
+  }
+  button + button {
+    margin-left: 0;
+  }
+  .time {
+    padding-left: 0;
+    margin-right: 0.5em;
+  }
+
+  .time-elapsed,
+  .fa-fast-forward {
+    padding-left: 0.75em;
+  }
+  .player {
+    width: 80%;
+  }
+}
+@media (max-width: 600px) {
+  .player {
+    width: 95%;
+  }
+}
+
 @media screen and (max-width: 552px) {
   .logo {
     margin-left: 0;

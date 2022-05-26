@@ -128,6 +128,11 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/carousel.css" />
+    <!--font-awesome css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <!--Custom video player css-->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Questrial">
   </head>
 
   <body>
@@ -408,25 +413,59 @@
         >
           <div class="header_videos_block">
             <div class="p-2 bd-highlight">
+              <video id="my-video" class="video-js" controls preload="auto" data-setup='' muted>
+                <source src="assets/video/animation/anim-1.mp4" type='video/mp4'>
+                </video>
+            </div>
+            <div class="p-2 bd-highlight">
+              <video id="my-video" class="video-js" controls preload="auto" data-setup='' muted>
+                <source src="assets/video/animation/Video 2 a.mp4" type='video/mp4'>
+                </video>
+            </div>
+            <!-- <div class="video-box">
+              <div class="player" id="player">
+                <video class="player_video viewer" src="assets/video/animation/anim-1.mp4"></video>
+
+                <div class="player_controls">
+                  <div class="progress-range" title="Jump-to">
+                    <div class="progress-bar"></div>
+                  </div>
+                  <div class="left-controls">
+                    <button class="player_button toggle" title='Toggle Play'><i class="fa fa-play" title="Play" id="play-btn"></i></button>
+                    <button class="player_button stop" title='Start over'><i class="fa fa-stop" title="Play" id="stop-btn"></i></button>
+                    <button class="player_button speaker"><i id="speaker_icon" class="fa fa-volume-up" aria-hidden="true"></i></button>
+                    <input type="range" name="volume" class="player_slider" min="0" max="1" step="0.05" value="1"></input>
+                  </div>
+                  <div class="right-controls">
+                    <button data-skip="-10" class="player_button"><i class="fa fa-fast-backward" aria-hidden="true"></i></button>
+                    <button data-skip="10" class="player_button"><i class="fa fa-fast-forward" aria-hidden="true"></i></button>
+                    <div class="time">
+                      <span class="time-elapsed">00:00 / </span>
+                      <span class="time-duration">2:38</span>
+                    </div>
+                    <button class="player_button screenSize"><i id="screenSize_icon" class="fa fa-expand" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="p-2 bd-highlight">
               <video
-                autoplay
                 controls
                 controlsList="nodownload"
                 src="assets/video/animation/anim-1.mp4"
                 type="video/mp4"
                 class="banner_video"
               ></video>
-            </div>
-            <div class="p-2 bd-highlight">
+            </div> 
+        <div class="p-2 bd-highlight">
               <video
-                autoplay
                 controls
                 controlsList="nodownload"
                 src="assets/video/animation/Video 2 a.mp4"
                 type="video/mp4"
                 class="banner_video"
               ></video>
-            </div>
+            </div>  -->
             <!-- <div class="p-2 bd-highlight">
               <video
                 autoplay
@@ -479,14 +518,18 @@
                           ></button>
                         </div>
                         <div class="modal-body" style="padding: 0">
-                          <video
-                            autoplay
-                            controls
-                            controlsList="nodownload"
-                            src=" "
-                            type="video/mp4"
-                            id="modal_video"
-                          ></video>
+                          <!-- <video class="video-js" controls autoplay>
+                           
+                          </video> -->
+                          <video id="modal_video" class="video-js" preload="auto" autoplay controls muted>
+                            </video>
+                          
+                          <!-- <video id="modal_video" class="video-js" controls preload="auto" data-setup=''>
+                            <source src=" " type='video/mp4'>
+                            </video> -->
+                          <!-- <video type='video/mp4' id="modal_video" src=" " class="video-js" controls preload="auto">
+                          
+                            </video> -->
                           <iframe
                             src=" "
                             id="youtube_link"
@@ -631,6 +674,7 @@
     <script type="text/javascript">
       jssor_1_slider_init();
     </script>
+    <script src="https://vjs.zencdn.net/5.4.6/video.js"></script>
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>

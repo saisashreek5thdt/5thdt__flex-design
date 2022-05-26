@@ -137,11 +137,50 @@ for (let i = 0; i < anim_youtube_videos.length; i++) {
 }
 
 function loadimages(id) {
+  var Id = id;
+
+  switch(Id){
+    case 0:
+      if(Id == 0){
+        document.getElementById("modal_video").src= anim_videos[0].videosrc;
+      }
+       break;
+    case 1:
+      if(Id == 1){
+        document.getElementById("modal_video").src= anim_videos[1].videosrc;
+      }
+      break;
+    case 2:
+      if(Id == 2){
+        document.getElementById("modal_video").src= anim_videos[2].videosrc;
+      }
+      break;
+    case 3:
+      if(Id == 3){
+        document.getElementById("modal_video").src= anim_videos[3].videosrc;
+      }
+       break;
+    case 4:
+      if(Id == 4){
+        document.getElementById("modal_video").src= anim_videos[4].videosrc;
+      }
+      break;
+    case 5:
+      if(Id == 5){
+        document.getElementById("modal_video").src= anim_videos[5].videosrc;
+      }
+       break;
+    case 6:
+      if(Id == 6){
+        document.getElementById("modal_video").src= anim_videos[6].videosrc;
+      }
+       break;
+  }
   document.getElementById("youtube_link").style.display = "none";
   document.getElementById("modal_video").style.display = "block";
   // document.getElementById("img_3d").style.display = "none";
-  document.getElementById("modal_video").src = anim_videos[id].videosrc;
-  console.log(document.getElementById("modal_video").src);
+  // document.getElementById("modal_video").src = anim_videos[id].videosrc;
+  // console.log(document.getElementById("modal_video").src);
 }
 
 function load_youtube_videos(id) {

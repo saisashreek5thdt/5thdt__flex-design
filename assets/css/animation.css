@@ -62,9 +62,9 @@
   width: 100%;
 }
 
-.modal video {
+/* .modal video {
   display: none;
-}
+} */
 
 .modal iframe {
   padding: 2rem;
