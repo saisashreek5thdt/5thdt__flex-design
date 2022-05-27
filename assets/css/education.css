@@ -35,6 +35,23 @@
   font-size: 1.6rem;
   font-weight: 600;
 }
+.preview_options,.journal_options{
+  margin-top: 2rem;
+}
+.preview_options .option,.journal_options .option {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 3rem 2rem;
+  /* cursor: pointer; */
+}
+
+.preview_options .option a ,.journal_options .option a{
+  text-decoration: none;
+  color: var(--color-grey-dark);
+}
+.journal_options{
+  display: none;
+}
 
 .punitive_worksheet {
   width: 85%;
@@ -127,7 +144,6 @@
 .primary_img_column img {
   width: 100%;
   height: 30rem;
-  background-color: aliceblue;
 }
 
 .secondary_text_column {
@@ -144,7 +160,6 @@
 .secondary_img_column img {
   width: 100%;
   height: 32rem;
-  background-color: aliceblue;
 }
 
 .secondary_heading1 {

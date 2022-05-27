@@ -77,24 +77,6 @@
   width: 100%;
 } */
 
-.preview_options{
-  margin-top: 2rem;
-}
-.preview_options .option {
-  font-size: 1.6rem;
-  font-weight: 600;
-  padding: 3rem 2rem;
-  /* cursor: pointer; */
-}
-
-.preview_options .option a {
-  text-decoration: none;
-  color: var(--color-grey-dark);
-}
-
-.preview_options .option a:active {
-  color: var(--color-neon-dark);
-}
 #illustrators_container,#img_3d_container{
   display: none;
 }

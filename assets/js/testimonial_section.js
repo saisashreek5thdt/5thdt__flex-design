@@ -10,7 +10,6 @@ var reviews_info = [
 }];
 
 var review_container = document.getElementById("reviews_container");
-document.getElementById(0).style.pointerEvents="none"
 for (let i = 0; i < reviews_info.length; i++) {
     var card_block = document.createElement('div');
     card_block.className = 'card';
@@ -46,15 +45,12 @@ for (let i = 0; i < reviews_info.length; i++) {
     // card_block[0].add('active');
 }
 
-document.getElementById(0).style.pointerEvents="none"
 document.getElementById("review_card1").style.display="none"
 let cards = document.querySelector('.card');
 // cards[0].add('active');
 let i = 0;
 function previous_slide(id) {
     console.log("previous");
-    document.getElementById(0).style.pointerEvents="auto"
-    document.getElementById(1).style.pointerEvents="none"
     document.getElementById("review_card0").style.display="flex"
     document.getElementById("review_card1").style.display="none"
     // document.getElementsByClassName("card")[i].classList.remove('active');
@@ -64,8 +60,6 @@ function previous_slide(id) {
 
 function next_slide(id) {
     console.log("next");
-    document.getElementById(0).style.pointerEvents="none"
-    document.getElementById(1).style.pointerEvents="auto"
     document.getElementById("review_card0").style.display="none"
     document.getElementById("review_card1").style.display="flex"
     // document.getElementsByClassName("card")[i].classList.remove('active');
