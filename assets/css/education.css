@@ -130,7 +130,7 @@
 
 .primary_img_column img {
   width: 100%;
-  height: 35rem !important;
+  height: 35rem;
   object-fit: contain;
 }
 
@@ -362,5 +362,25 @@
   }
   .beloved_educators .card {
     width: 80%;
+  }
+}
+@media screen and (max-width: 425px){
+  .header-img img {
+    height: 25rem !important;
+  }
+  .secondary_img_column img, .secondary_img_column video{
+    height: 15rem;
+  }
+  .preview_options, .journal_options{
+    text-align: justify;
+  }
+  .preview_options .option {
+    padding: 1rem;
+  }
+  .preview_options .option, .journal_options .option{
+    padding: 0 4rem;
+  }
+  .mastery_reviews_bg, .low_stakes_practice_bg, .mastery_quizz_bg, .lessons_bg, .curriculam_bg, .lms_bg, .schools_bg{
+    height: auto;
   }
 }
