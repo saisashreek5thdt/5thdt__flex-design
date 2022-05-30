@@ -1,23 +1,35 @@
-const journal_images0=[
+const assignments_images = [
+    {imgsrc:"assets/images/education_images/comics.jpg"},
+    {imgsrc:"assets/images/education_images/curriculam_img.png"}
+    // {imgsrc:"assets/images/education_images/"},
+    // {imgsrc:"assets/images/education_images/"},
+    // {imgsrc:"assets/images/education_images/"}
+]
+const journal_images0 = [
     {imgsrc:"assets/images/education_images/Activity 6.svg"},
     {imgsrc:"assets/images/education_images/Activity 6-1.svg"},
     {imgsrc:"assets/images/education_images/Activity 6-2.svg"}
 ];
-const journal_images1=[
+const journal_images1 = [
     {imgsrc:"assets/images/education_images/Activity 7.svg"},
     {imgsrc:"assets/images/education_images/Activity 7-1.svg"},
     {imgsrc:"assets/images/education_images/Activity 7-2.svg"}
 ];
-const journal_images2=[
+const journal_images2 = [
     {imgsrc:"assets/images/education_images/Activity 8.svg"},
     {imgsrc:"assets/images/education_images/Activity 8-1.svg"}
 ];
-const journal_images3=[
+const journal_images3 = [
     {imgsrc:"assets/images/education_images/Activity 9.svg"},
     {imgsrc:"assets/images/education_images/Activity 9-1.svg"}
 ];
 
-document.getElementById("0").style.color="var(--color-neon-dark)";
+    document.getElementsByClassName("curriculam_bg")[0].style.display="none";
+    document.getElementsByClassName("lms_bg")[0].style.display="none";
+    document.getElementsByClassName("schools_bg")[0].style.display="none";
+
+    document.getElementById("0").style.color="var(--color-neon-dark)";
+    
     document.getElementById("journal_images0").style.display = "block";
     document.getElementById("journal_images1").style.display = "none";
     document.getElementById("journal_images2").style.display = "none";
@@ -29,6 +41,9 @@ function books_option(id){
     document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="none";
     document.getElementsByClassName("mastery_quizz_bg")[i].style.display="none";
     document.getElementsByClassName("lessons_bg")[i].style.display="none";
+    document.getElementsByClassName("curriculam_bg")[i].style.display="none";
+    document.getElementsByClassName("lms_bg")[i].style.display="none";
+    document.getElementsByClassName("schools_bg")[i].style.display="none";
     // document.getElementById("#journals").style.display="none";
     // document.getElementById("#comics").style.display="none";
     // document.getElementById("#educators").style.display="none";
@@ -44,6 +59,9 @@ function journals_option(id){
     document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="block";
     document.getElementsByClassName("mastery_quizz_bg")[i].style.display="none";
     document.getElementsByClassName("lessons_bg")[i].style.display="none";
+    document.getElementsByClassName("curriculam_bg")[i].style.display="none";
+    document.getElementsByClassName("lms_bg")[i].style.display="none";
+    document.getElementsByClassName("schools_bg")[i].style.display="none";
     
     for(let i=0; i<7; i++){
         document.getElementById(i).style.color="var(--color-black)";
@@ -62,6 +80,9 @@ function comics_option(id){
     document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="none";
     document.getElementsByClassName("mastery_quizz_bg")[i].style.display="block";
     document.getElementsByClassName("lessons_bg")[i].style.display="none";
+    document.getElementsByClassName("curriculam_bg")[i].style.display="none";
+    document.getElementsByClassName("lms_bg")[i].style.display="none";
+    document.getElementsByClassName("schools_bg")[i].style.display="none";
     for(let i=0; i<7; i++){
         document.getElementById(i).style.color="var(--color-black)";
     }
@@ -74,6 +95,9 @@ function educators_option(id){
     document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="none";
     document.getElementsByClassName("mastery_quizz_bg")[i].style.display="none";
     document.getElementsByClassName("lessons_bg")[i].style.display="block";
+    document.getElementsByClassName("curriculam_bg")[i].style.display="none";
+    document.getElementsByClassName("lms_bg")[i].style.display="none";
+    document.getElementsByClassName("schools_bg")[i].style.display="none";
     for(let i=0; i<7; i++){
         document.getElementById(i).style.color="var(--color-black)";
     }
@@ -131,6 +155,50 @@ function journal4(id){
     document.getElementById(id).style.color="var(--color-neon-dark)";
 }
 
+function curriculam_option(id){
+    document.getElementsByClassName("journal_options")[i].style.display="none";
+    document.getElementsByClassName("mastery_reviews_bg")[i].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="none";
+    document.getElementsByClassName("mastery_quizz_bg")[i].style.display="none";
+    document.getElementsByClassName("lessons_bg")[i].style.display="none";
+    document.getElementsByClassName("curriculam_bg")[i].style.display="block";
+    document.getElementsByClassName("lms_bg")[i].style.display="none";
+    document.getElementsByClassName("schools_bg")[i].style.display="none";
+    for(let i=0; i<7; i++){
+        document.getElementById(i).style.color="var(--color-black)";
+    }
+    document.getElementById(id).style.color="var(--color-neon-dark)";
+}
+
+function lms_option(id){
+    document.getElementsByClassName("journal_options")[i].style.display="none";
+    document.getElementsByClassName("mastery_reviews_bg")[i].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="none";
+    document.getElementsByClassName("mastery_quizz_bg")[i].style.display="none";
+    document.getElementsByClassName("lessons_bg")[i].style.display="none";
+    document.getElementsByClassName("curriculam_bg")[i].style.display="none";
+    document.getElementsByClassName("lms_bg")[i].style.display="block";
+    document.getElementsByClassName("schools_bg")[i].style.display="none";
+    for(let i=0; i<7; i++){
+        document.getElementById(i).style.color="var(--color-black)";
+    }
+    document.getElementById(id).style.color="var(--color-neon-dark)";
+}
+
+function schools_option(id){
+    document.getElementsByClassName("journal_options")[i].style.display="none";
+    document.getElementsByClassName("mastery_reviews_bg")[i].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="none";
+    document.getElementsByClassName("mastery_quizz_bg")[i].style.display="none";
+    document.getElementsByClassName("lessons_bg")[i].style.display="none";
+    document.getElementsByClassName("curriculam_bg")[i].style.display="none";
+    document.getElementsByClassName("lms_bg")[i].style.display="none";
+    document.getElementsByClassName("schools_bg")[i].style.display="block";
+    for(let i=0; i<7; i++){
+        document.getElementById(i).style.color="var(--color-black)";
+    }
+    document.getElementById(id).style.color="var(--color-neon-dark)";
+}
 
 let journals_info = 0;
 let start = 0;

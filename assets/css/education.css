@@ -22,7 +22,7 @@
 .header-img img {
   width: 100%;
   height: 40rem;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .primary-heading {
@@ -77,36 +77,17 @@
   margin-top: 6rem;
 }
 
-.mastery_reviews_bg {
+.mastery_reviews_bg, 
+.low_stakes_practice_bg, 
+.mastery_quizz_bg, 
+.lessons_bg, 
+.curriculam_bg, 
+.lms_bg, 
+.schools_bg {
   background-color: var(--color-grey-light1);
   height: 42rem;
   margin-top: 5rem;
   padding: 4rem 0;
-  border-radius: 2rem;
-}
-
-.low_stakes_practice_bg {
-  background-color: var(--color-grey-light1);
-  height: 42rem;
-  margin-top: 5rem;
-  padding: 4rem 0;
-  border-radius: 2rem;
-}
-
-.mastery_quizz_bg {
-  background-color: var(--color-grey-light1);
-  height: 42rem;
-  margin-top: 5rem;
-  padding: 4rem 0;
-  border-radius: 2rem;
-}
-
-.lessons_bg {
-  background-color: var(--color-grey-light1);
-  height: 42rem;
-  margin-top: 5rem;
-  padding: 4rem 0;
-  border-radius: 2rem;
 }
 
 .integrating_bg {
@@ -130,6 +111,8 @@
 .primary_text_column {
   width: 50%;
   padding: 3rem;
+  display: flex;
+    align-items: center;
   /* transform: translateX(-50%); */
 }
 
@@ -147,7 +130,8 @@
 
 .primary_img_column img {
   width: 100%;
-  height: 30rem;
+  height: 35rem !important;
+  object-fit: contain;
 }
 
 .secondary_text_column {
@@ -161,9 +145,10 @@
   margin: 0 3rem 0 3rem;
 }
 
-.secondary_img_column img {
+.secondary_img_column img, .secondary_img_column video {
   width: 100%;
   height: 32rem;
+  object-fit: contain;
 }
 
 .secondary_heading1 {
@@ -181,7 +166,6 @@
 .beloved_educators .card {
   height: 33rem;
   width: 55%;
-  border-radius: 2rem;
   background-color: var(--color-grey-light2);
   padding: 2rem;
   box-shadow: 2px 3px var(--color-grey-light1);
