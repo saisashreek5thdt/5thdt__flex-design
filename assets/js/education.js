@@ -1,23 +1,27 @@
-const journal_images1=[
+const journal_images0=[
     {imgsrc:"assets/images/education_images/Activity 6.svg"},
     {imgsrc:"assets/images/education_images/Activity 6-1.svg"},
     {imgsrc:"assets/images/education_images/Activity 6-2.svg"}
 ];
-const journal_images2=[
+const journal_images1=[
     {imgsrc:"assets/images/education_images/Activity 7.svg"},
     {imgsrc:"assets/images/education_images/Activity 7-1.svg"},
     {imgsrc:"assets/images/education_images/Activity 7-2.svg"}
 ];
-const journal3_images3=[
+const journal_images2=[
     {imgsrc:"assets/images/education_images/Activity 8.svg"},
     {imgsrc:"assets/images/education_images/Activity 8-1.svg"}
 ];
-const journal4_images4=[
+const journal_images3=[
     {imgsrc:"assets/images/education_images/Activity 9.svg"},
     {imgsrc:"assets/images/education_images/Activity 9-1.svg"}
 ];
 
 document.getElementById("0").style.color="var(--color-neon-dark)";
+    document.getElementById("journal_images0").style.display = "block";
+    document.getElementById("journal_images1").style.display = "none";
+    document.getElementById("journal_images2").style.display = "none";
+    document.getElementById("journal_images3").style.display = "none";
 
 function books_option(id){
     document.getElementsByClassName("journal_options")[i].style.display="none";
@@ -40,6 +44,7 @@ function journals_option(id){
     document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="block";
     document.getElementsByClassName("mastery_quizz_bg")[i].style.display="none";
     document.getElementsByClassName("lessons_bg")[i].style.display="none";
+    
     for(let i=0; i<7; i++){
         document.getElementById(i).style.color="var(--color-black)";
     }
@@ -47,7 +52,7 @@ function journals_option(id){
         document.getElementById("a"+i).style.color="var(--color-black)";
     }
     document.getElementById(id).style.color="var(--color-neon-dark)";
-    document.getElementById("journal_img").src = journal_images1[0].imgsrc
+    document.getElementById("journal_img").src = journal_images0[0].imgsrc
     document.getElementById("a0").style.color="var(--color-neon-dark)";
 }
 
@@ -76,7 +81,11 @@ function educators_option(id){
 }
 
 function journal1(id){
-    document.getElementById("journal_img").src = journal1_images[0].imgsrc
+    document.getElementById("journal_img").src = journal_images0[0].imgsrc
+    document.getElementById("journal_images0").style.display = "block";
+    document.getElementById("journal_images1").style.display = "none";
+    document.getElementById("journal_images2").style.display = "none";
+    document.getElementById("journal_images3").style.display = "none";
     for(let i=0; i<4; i++){
         document.getElementById("a"+i).style.color="var(--color-black)";
     }
@@ -84,7 +93,11 @@ function journal1(id){
 }
 
 function journal2(id){
-    document.getElementById("journal_img").src = journal2_images[0].imgsrc
+    document.getElementById("journal_img").src = journal_images1[0].imgsrc
+    document.getElementById("journal_images0").style.display = "none";
+    document.getElementById("journal_images1").style.display = "block";
+    document.getElementById("journal_images2").style.display = "none";
+    document.getElementById("journal_images3").style.display = "none";
     console.log(id)
     for(let i=0; i<4; i++){
         document.getElementById("a"+i).style.color="var(--color-black)";
@@ -93,7 +106,11 @@ function journal2(id){
 }
 
 function journal3(id){
-    document.getElementById("journal_img").src = journal3_images[0].imgsrc
+    document.getElementById("journal_img").src = journal_images2[0].imgsrc;
+    document.getElementById("journal_images0").style.display = "none";
+    document.getElementById("journal_images1").style.display = "none";
+    document.getElementById("journal_images2").style.display = "block";
+    document.getElementById("journal_images3").style.display = "none";
     console.log(id)
     for(let i=0; i<4; i++){
         document.getElementById("a"+i).style.color="var(--color-black)";
@@ -102,7 +119,11 @@ function journal3(id){
 }
 
 function journal4(id){
-    document.getElementById("journal_img").src = journal4_images[0].imgsrc
+    document.getElementById("journal_img").src = journal_images3[0].imgsrc;
+    document.getElementById("journal_images0").style.display = "none";
+    document.getElementById("journal_images1").style.display = "none";
+    document.getElementById("journal_images2").style.display = "none";
+    document.getElementById("journal_images3").style.display = "block";
     console.log(id)
     for(let i=0; i<4; i++){
         document.getElementById("a"+i).style.color="var(--color-black)";
@@ -155,9 +176,9 @@ function load_journal_img(id) {
         animation_2d.firstElementChild.classList.add("active");
         carousel_indicator.firstElementChild.classList.add("active");
     }
-    if (arts_info.length > 5) {
-        document.getElementById("nextclick").style.pointerEvents = "auto";
-    }
+    // if (arts_info.length > 5) {
+    //     document.getElementById("nextclick").style.pointerEvents = "auto";
+    // }
 }
 
 let clicks = 0;
@@ -176,9 +197,9 @@ function nextrow() {
         if (document.getElementById("img" + i)) {
             document.getElementById("img" + i).style.setProperty('display', 'block', 'important');
         }
-        if ((i + 1) == arts_info.length) {
-            document.getElementById("nextclick").style.pointerEvents = "none";
-        }
+        // if ((i + 1) == arts_info.length) {
+        //     document.getElementById("nextclick").style.pointerEvents = "none";
+        // }
     }
 
 }

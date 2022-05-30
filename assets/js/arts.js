@@ -191,7 +191,7 @@ let start = 0;
 function loadimages(id) {
     arts_info = id;
     start = 0;
-    console.log(arts_info.length);
+    console.log(id);
     // console.log(id[0].imgsrc);
     var animation_2d = document.getElementById("animation_2d");
     var carousel_indicator = document.getElementById("carousel_indicators");
