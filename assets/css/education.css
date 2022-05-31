@@ -1,5 +1,5 @@
 .education_header_bg {
-  background-color: var(--color-grey-light1);
+  box-shadow: 2px 3px var(--color-grey-light1);
 }
 
 .trusted_educators_bg {
@@ -49,9 +49,6 @@
   text-decoration: none;
   color: var(--color-grey-dark);
 }
-.journal_options{
-  display: none;
-}
 
 .button{
   width: max-content;
@@ -84,10 +81,11 @@
 .curriculam_bg, 
 .lms_bg, 
 .schools_bg {
-  background-color: var(--color-grey-light1);
+  background-color: var(--color-white);
   height: 42rem;
   margin-top: 5rem;
   padding: 4rem 0;
+  filter: drop-shadow(rgb(215, 215, 215) 0px 0px 3px);
 }
 
 .integrating_bg {
@@ -166,7 +164,7 @@
 .beloved_educators .card {
   height: 33rem;
   width: 55%;
-  background-color: var(--color-grey-light2);
+  /* background-color: var(--color-grey-light2); */
   padding: 2rem;
   box-shadow: 2px 3px var(--color-grey-light1);
   /* align-items: flex-start; */
@@ -195,7 +193,7 @@
 }
 
 .metrics_assignments_bg {
-  background-color: var(--color-grey-light1);
+box-shadow: 0 0 2px 3px var(--color-grey-light1);
 }
 
 /* #worksheet {
@@ -264,13 +262,28 @@
 .assignments {
   margin: 10rem 5rem;
 }
-
+@media screen and (max-width: 1440px) {
+  .header-img img{
+    height: 35rem;
+  }
+  .metrics_section .primary_img_column img{
+    height: 37rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header-img img{
+    height: 30rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .primary-heading {
     font-size: 4rem;
   }
   .primary-info {
     font-size: 1.3rem;
+  }
+  .header-img img{
+    height: 30rem;
   }
   .secondary-heading {
     font-size: 2.8rem;

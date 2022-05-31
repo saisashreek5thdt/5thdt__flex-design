@@ -65,7 +65,11 @@
   height: 100%;
   width: 100%;
 }
-
+.modal iframe{
+  height: 52rem;
+    width: 100%;
+    padding: 0 2rem 2rem;
+}
 /* .modal video {
   display: none;
 } */
@@ -236,6 +240,9 @@
   .animated_img .card {
     height: 13rem;
   }
+  .modal iframe {
+    height: 44rem;
+  }
   .beloved_educators .card{
     width: 65% !important;
   }
@@ -308,6 +315,9 @@
   #animation_container1 {
     -webkit-animation: rightmove 15s linear infinite;
     animation: rightmove 15s linear infinite;
+  }
+  .modal iframe {
+    height: 44rem;
   }
   .beloved_educators .card{
     height: auto;
@@ -431,6 +441,9 @@
   #animation_container1 {
     -webkit-animation: rightmove 15s linear infinite;
     animation: rightmove 15s linear infinite;
+  }
+  .modal iframe{
+    height: 22rem;
   }
   .beloved_educators .card {
     width: 100% !important;
