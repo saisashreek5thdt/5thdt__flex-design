@@ -13,6 +13,9 @@
 .header-text {
   width: 50%;
   text-align: center !important;
+  display: flex;
+  align-items: end;
+  
 }
 
 .header-img {
