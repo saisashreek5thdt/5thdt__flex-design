@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap css path -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap icons path -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" crossorigin="anonymous">
+    <!-- Bootstrap js path -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Home page css path -->
+    <link rel="stylesheet" href="assets/css/todlearn.css" />
+    <title>TODLEARN-SESSIONS</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <main>
+            <section>
+
+                <div class="row d-block justify-content-center">
+                    <img src="./assets/images/bg-img/cartoon-image.svg" alt="" class="todlearn-logo">
+                </div>
+                <!-- First page -->
+                <div class="row" id="firstpage">
+                    <!-- Left side activities -->
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div id="activities-left" class="left-activities">
+                            <div class="row">
+                                <button type="button" class="btn" onclick="assesspage()">
+                                <div class="d-flex justify-content-end">
+                                    <span>Assess Your Mindset</span>
+                                    <img src="./assets/images/activity-icons/parent-icon.svg" alt="video-icon">
+                                </div>
+                            </button>
+                            </div>
+
+                            <div class="row mt-xl-3 mt-lg-3 mt-md-2">
+                                <button type="button" class="btn" onclick="moonshot()">
+                                <div class="d-flex justify-content-end">
+                                    <span>Moonshot Conversations</span>
+                                    <img src="./assets/images/activity-icons/parent-icon.svg" alt="video-icon">
+                                </div>
+                            </button>
+                            </div>
+                            <div class="row mt-xl-3 mt-lg-3 mt-md-2">
+                                <button type="button" class="btn" onclick="powerful()">
+                                <div class="d-flex justify-content-end">
+                                    <span>Powerful Why</span>
+                                    <img src="./assets/images/activity-icons/pencilwith-dairy.svg" alt="video-icon">
+                                   <img src="./assets/images/activity-icons/parent-icon.svg" alt="video-icon">
+                                </div>
+                            </button>
+                            </div>
+                            <div class="row mt-xl-3 mt-lg-3 mt-md-2">
+                                <button type="button" class="btn" onclick="contrarian()">
+                                <div class="d-flex justify-content-end">
+                                    <span>Contrarian Mindset</span>
+                                    <img src="./assets/images/activity-icons/pencilwith-dairy.svg" alt="video-icon">
+                                    <img src="./assets/images/activity-icons/parent-icon.svg" alt="video-icon">
+                                </div>
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- right side activities -->
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div id="activities-right" class="right-activities">
+                            <div class="row d-flex justify-content-end">
+                                <button type="button" class="btn" onclick="kites()">
+                                    <div class="d-flex justify-content-start">
+                                        <img src="./assets/images/activity-icons/pencilwith-dairy.svg" alt="video-icon">
+                                        <img src="./assets/images/activity-icons/parent-icon.svg" alt="video-icon">
+                                        <span class="d-flex justify-content-end">Kites Activity</span>
+                                    </div>
+                             </button>
+                            </div>
+                            <div class="row mt-xl-3 mt-lg-3 mt-md-2 d-flex justify-content-end">
+                                <button type="button" class="btn" onclick="wordsMatter()">
+                                    <div class="d-flex justify-content-start">
+                                        <img src="./assets/images/activity-icons/pencilwith-dairy.svg" alt="video-icon">
+                                        <img src="./assets/images/activity-icons/parent-icon.svg" alt="video-icon">
+                                        <span class="d-flex justify-content-end">Words Matter</span>
+                                    </div>
+                            </button>
+                            </div>
+                            <div class="row mt-xl-3 mt-lg-3 mt-md-2 d-flex justify-content-end">
+                                <button type="button" class="btn" onclick="jarActivity()">
+                                    <div class="d-flex justify-content-start">
+                                        <img src="./assets/images/activity-icons/pencilwith-dairy.svg" alt="video-icon">
+                                        <img src="./assets/images/activity-icons/parent-icon.svg" alt="video-icon">
+                                        <span class="d-flex justify-content-end">Jar Activity</span>
+                                    </div>
+                            </button>
+                            </div>
+                            <div class="row mt-xl-3 mt-lg-3 mt-md-2 d-flex justify-content-end">
+                                <button type="button" class="btn" onclick="videoActivity()">
+                                    <div class="d-flex justify-content-start">
+                                        <img src="./assets/images/activity-icons/video-icon.svg" alt="video-icon">
+                                        <span class="d-flex justify-content-end">Video Activity</span>
+                                    </div>
+                             </button>
+                            </div>
+                            <div class="row mt-xl-3 mt-lg-3 mt-md-2">
+                                <div class="next-button d-flex justify-content-end">
+                                    <button type="button" class="btn" onclick="showNext()">MORE</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- second page -->
+                <div id="secondpage" class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="left-activities-page2">
+                            <div class="row">
+                                <button type="button" class="btn btn-primary1" onclick="readingActivity()">
+                                <div class="d-flex justify-content-end">
+                                    <span>Reading Activity</span>
+                                    <img src="./assets/images/activity-icons/parent-icon.svg" alt="video-icon">
+                                </div>
+                            </button>
+                            </div>
+                            <div class="row mt-xl-3 mt-lg-3 mt-md-2">
+                                <div class="prev-button d-flex justify-content-start">
+                                    <button type="button" class="btn btn-primary1" onclick="showPrev()">BACK</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- Bottom sliding bar -->
+            <section>
+                <div class="bottom-slide-bar">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-md-3">
+                            <div class="d-flex justify-content-center mt-3">
+                                <p>
+                                    Journal No 01 &nbsp;&nbsp; Jan 2022
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-md-6">
+                            <div class="row">
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" onclick="show()"><img src="./assets/images/activity-icons/footer-img.svg" alt="logo"></a>
+                                    <span>Index</span>
+                                </div>
+                            </div>
+                            <!-- <div class="row d-flex justify-content-center"> -->
+                            <!-- <h6> Click here to Explore events.</h6> -->
+                            <!-- </div>\ -->
+                        </div>
+                        <div class="col-xl-2 col-md-3">
+                            <div class="d-flex justify-content-center mt-3">
+                                <p><i class="bi bi-bookmark"></i> No Bookmarks
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- Home page js path -->
+    <script type="text/javascript" src="./assets/js/todlearn.js"></script>
+</body>
+
+</html>
+
+<!-- cartoon image -->
+<!-- <div class="col-xl-4 d-flex justify-content-center"> -->
+<!-- <div class="circle "> -->
+<!-- <div class="bgcartoon"> -->
+<!-- <img src="./assets/images/bg-img/bg-cartoon-img.svg" alt=""> -->
+<!-- <h2>Todlearn Sessions</h2> -->
+<!-- </div> -->
+<!-- </div> -->
+<!-- </div> -->
+
+<!-- <div class="row mt-4"> -->
+<!-- <button type="button" class="btn btn-primary"> -->
+<!-- <div class="video-icon d-flex justify-content-end"> -->
+<!-- <span class="py-xl-2 my-xl-1 me-5 pe-4">Jar Activity</span> -->
+<!-- <img class="ms-5" src="./assets/images/activity-icons/video-icon.svg" -->
+<!-- alt="video-icon"> -->
+<!-- </div> -->
+<!-- </button> -->
+<!-- </div> -->
+<!-- <div class="row mt-4"> -->
+<!-- <button type="button" class="btn btn-primary"> -->
+<!-- <div class="video-icon d-flex justify-content-end"> -->
+<!-- <span class="py-xl-2 my-xl-1 me-5 pe-4">Video Activity</span> -->
+<!-- <img class="ms-4" src="./assets/images/activity-icons/video-icon.svg" -->
+<!-- alt="video-icon"> -->
+<!-- </div> -->
+<!-- </button> -->
+<!-- </div> -->

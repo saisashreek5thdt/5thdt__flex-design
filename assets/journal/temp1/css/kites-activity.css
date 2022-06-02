@@ -1,0 +1,423 @@
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 28px;
+    padding-top: 20px;
+    width: 64rem;
+    position: absolute;
+}
+
+#page1 {
+    margin-top: -65px;
+}
+
+#page2 {
+    margin-top: -65px;
+}
+
+.kite1 {
+    width: 10rem;
+    margin-left: 70px;
+    margin-top: 44px;
+}
+
+.kite2 {
+    height: 24rem;
+    margin-top: 6;
+    margin-left: -1px;
+}
+
+.kite2-2 {
+    height: 24rem;
+    margin-top: -19px;
+    margin-left: -1px;
+}
+
+.number {
+    position: absolute;
+    margin-top: 46px;
+    margin-left: 144px;
+    color: #6B3C3C;
+    font-size: 51px;
+}
+
+.circle img {
+    margin-left: 110px;
+    margin-top: 43px;
+    height: 90px;
+}
+
+.circle1 {
+    position: absolute;
+    height: 96px;
+    margin-left: 108px;
+    margin-top: 51px;
+}
+
+textarea[name=textbox0] {
+    height: 133px;
+    position: absolute;
+    margin-top: 82px;
+    margin-left: 136px;
+}
+
+.kite3 {
+    height: 8rem;
+    margin-left: 16px;
+}
+
+.kite4 {
+    height: 20rem;
+    margin-left: -231px;
+    margin-top: 37px;
+}
+
+.kite4-2 {
+    height: 20rem;
+    margin-left: -231px;
+    margin-top: 37px;
+}
+
+.circle2 {
+    position: absolute;
+}
+
+.circle2 img {
+    margin-left: -128px;
+    margin-top: 103px;
+    height: 90px;
+}
+
+.number4 {
+    margin-left: -96px;
+    margin-top: 103px;
+    font-size: 50px;
+    position: absolute;
+    color: #6B3C3C;
+}
+
+textarea[name=textbox1] {
+    position: absolute;
+    margin-top: 115px;
+    margin-left: -124px;
+    height: 116px;
+    width: 118px;
+}
+
+.kite5 {
+    height: 23rem;
+    margin-left: -239px;
+    margin-top: -136px;
+}
+
+.kite5-2 {
+    height: 25rem;
+    margin-left: -239px;
+    margin-top: -101px;
+}
+
+.circle3 {
+    position: absolute;
+}
+
+.circle3 img {
+    margin-left: -132px;
+    margin-top: -25px;
+    height: 90px;
+}
+
+.number5 {
+    margin-left: -96px;
+    margin-top: -22px;
+    font-size: 50px;
+    position: absolute;
+    color: #6B3C3C;
+}
+
+textarea[name=textbox2] {
+    position: absolute;
+    margin-top: 31px;
+    margin-left: -98px;
+    height: 138px;
+    width: 140px;
+}
+
+.kite6 {
+    height: 20rem;
+    margin-top: -133px;
+}
+
+.kite6-2 {
+    height: 20rem;
+    margin-top: -191px;
+}
+
+.circle4 {
+    position: absolute;
+}
+
+.circle4 img {
+    margin-left: 92px;
+    margin-top: -124px;
+    height: 96px;
+}
+
+.number1 {
+    margin-left: 126px;
+    margin-top: -93px;
+    font-size: 50px;
+    position: absolute;
+    color: #6B3C3C;
+}
+
+textarea[name=textbox3] {
+    position: absolute;
+    margin-top: -145px;
+    margin-left: 72px;
+    height: 137px;
+}
+
+.kite7 {
+    height: 12rem;
+    margin-top: -47px;
+    margin-left: 53px;
+}
+
+.kite8 {
+    height: 23rem;
+    margin-top: -189px;
+    margin-left: -74px;
+}
+
+.kite8-2 {
+    height: 23rem;
+    margin-top: -158px;
+    margin-left: -88px;
+}
+
+.circle5 {
+    position: absolute;
+}
+
+.circle5 img {
+    margin-left: 42px;
+    margin-top: -225px;
+    height: 90px;
+}
+
+.number3 {
+    margin-left: 72px;
+    margin-top: -138px;
+    font-size: 50px;
+    position: absolute;
+    color: #6B3C3C;
+}
+
+textarea[name=textbox4] {
+    position: absolute;
+    margin-top: -105px;
+    margin-left: -6px;
+    height: 157px;
+    width: 157px;
+}
+
+.kid1 {
+    margin-top: -152px;
+    margin-left: 91px;
+    height: 6rem;
+}
+
+.kid2 {
+    margin-top: -295px;
+    margin-left: -39px;
+    height: 7rem;
+}
+
+.kid3 {
+    margin-left: 197px;
+    margin-top: -275px;
+    height: 12rem;
+}
+
+.kid4 {
+    height: 10rem;
+    margin-top: 192px;
+    margin-left: -120px;
+}
+
+.circle {
+    position: absolute;
+    height: 5rem;
+    /* margin-top: -164px; */
+    /* margin-left: 83px; */
+}
+
+.main-kite {
+    margin-top: -309px;
+    margin-right: 188px;
+}
+
+.main-kite img {
+    height: 21rem;
+}
+
+.editbutton {
+    position: absolute;
+    margin-top: 157px;
+    margin-right: 204px;
+}
+
+.editbutton img {
+    margin-top: 70px;
+    height: 5rem;
+}
+
+.previewbutton {
+    position: absolute;
+    margin-right: 141px;
+    margin-top: 113px;
+}
+
+.previewbutton img {
+    margin-top: 70px;
+    height: 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.modal {
+    top: 20%;
+}
+
+.modal textarea {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px rgb(182, 182, 182));
+}
+
+.edit {
+    margin-top: -54px;
+    margin-left: 26px;
+    color: #702F9A;
+}
+
+.preview {
+    margin-top: -55px;
+    margin-left: 13px;
+    color: #702F9A;
+}
+
+.submit img {
+    height: 10rem;
+    margin-top: -188px;
+    margin-left: 467px;
+    position: fixed;
+}
+
+#page1 {
+    display: block;
+}
+
+#page2 {
+    display: none;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer span {
+    position: absolute;
+    font-size: 14px;
+    padding-top: 2px;
+    margin-left: 98px;
+    color: black;
+}
+
+.sliding-button {
+    margin-top: 35px;
+}
+
+.footer {
+    background-color: rgb(71, 157, 255);
+    height: 5rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-color: white;
+    border-top: 5px solid white;
+    animation: footer-slide 4s;
+}
+
+.expand-button img {
+    width: 20rem;
+}
+
+@keyframes footer-slide {
+    0% {
+        height: 0;
+        opacity: 0;
+    }
+    100% {
+        height: 5rem;
+        opacity: 1;
+    }
+}
+
+.footer p1 {
+    color: white;
+    font-size: 13px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer img {
+    height: 5rem;
+    margin-top: -48px;
+    margin-left: -49px;
+    position: absolute;
+}
+
+.footer h6 {
+    text-align: center;
+    margin-top: 38px;
+    color: white;
+}
+
+.hide-bar {
+    margin-top: -61px;
+    margin-left: 83rem;
+}
+
+.hide-bar i {
+    font-size: 41px;
+    position: absolute;
+    margin-left: 112px;
+    margin-top: -10px;
+    color: white;
+}
+
+.footer span {
+    position: absolute;
+    font-size: medium;
+    margin-left: 75px;
+    color: white;
+    margin-top: 38px;
+}
+
+#slide-bar {
+    display: none;
+}

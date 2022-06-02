@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap css path -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap icons path -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" crossorigin="anonymous">
+    <!-- Bootstrap js path -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Reading activity css path -->
+    <link rel="stylesheet" href="../assets/css/reading-activity.css" />
+    <title>Reading Activity</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <main>
+            <!-- <div class="home-icon"> -->
+            <!-- <a href="../index.html"><i class="bi bi-house-door"></i> Home -->
+            <!-- </a> -->
+            <!-- </div> -->
+            <!-- Activity icons -->
+            <div class="row">
+                <div class="video-activity-icon d-flex justify-content-end">
+                    <img src="../assets/images/activity-icons/video-icon.svg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="../assets/images/video-activity/Rectangle 669.svg" alt="" class="video-icon-bg">
+                    <div class="circle">
+                        <img src="../assets/images/reading-activity/book-icon.svg" alt="" class="video-icon">
+                    </div>
+                    <span>Excellent Resources </br> (Books)</span>
+
+                    <div class="book-description">
+                        <img src="" alt="" id="book-image">
+                        <h5 id="book-title"></h5>
+                        <h6 id="book-author"></h6>
+                        <p id="book-story"></p>
+                    </div>
+                    <button type="button" class="btn btn-info btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy now</button>
+                </div>
+
+                <div class="col-9">
+                    <div class="library-img d-flex justify-content-end">
+                        <img src="../assets/images/reading-activity/library-icon.svg" alt="">
+                    </div>
+                </div>
+                <!-- <div class="video-activity-icon d-flex justify-content-end"> -->
+                <!-- <img src="../assets/images/activity-icons/video-icon.svg" alt=""> -->
+                <!-- </div> -->
+            </div>
+            <!-- Next and Previous buttons -->
+            <div class="prev-button d-flex justify-content-start">
+                <a href="">
+                    <img src="../assets/images/reading-activity/prev-icon.svg" alt="">
+                </a>
+            </div>
+            <div class="next-button d-flex justify-content-end">
+                <a href="">
+                    <img src="../assets/images/reading-activity/next-icon.svg" alt="">
+                </a>
+            </div>
+            <div class="container">
+                <div class="books d-flex justify-content-center">
+                    <div class="row">
+                        <!-- Books images -->
+                        <div class="col d-flex justify-content-center">
+                            <a href="#" onclick="show(this.id)" id="1">
+                                <img src="../assets/images/reading-activity/not-yet.jpg" alt=""></a>
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <a href="#" onclick="show(this.id)" id="2">
+                                <img src="../assets/images/reading-activity/oops.jpg" alt=""></a>
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <a href="#" onclick="show(this.id)" id="3">
+                                <img src="../assets/images/reading-activity/giraffe1.jpg" alt=""></a>
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <a href="#" onclick="show(this.id)" id="4">
+                                <img src=" ../assets/images/reading-activity/girl.jpg" alt=" "></a>
+                        </div>
+                        <div class="col d-flex justify-content-center ">
+                            <a href="#" onclick="show(this.id)" id="5">
+                                <img src="../assets/images/reading-activity/mindset.jpg" alt=" ">
+                            </a>
+                        </div>
+                        <div class="col d-flex justify-content-center ">
+                            <a href="#" onclick="show(this.id)" id="6">
+                                <img src="../assets/images/reading-activity/brain.jpg" alt=" ">
+                            </a>
+                        </div>
+                        <div class="col d-flex justify-content-center ">
+                            <a href="#" onclick="show(this.id)" id="7">
+                                <img src="../assets/images/reading-activity/magnificient.jpg" alt=" ">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <form action="">
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header d-flex justify-content-center">
+                                <h5 class="modal-title" id="exampleModalLabel">ADD DETAILS</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <label for="firstname">FIRST NAME </label><br/>
+                                <input type="text" placeholder="FIRST NAME" name="firstname" size="15"><br/>
+                                <label for="lastname">LAST NAME</label> <br/>
+                                <input type="text" placeholder="LAST NAME" name="lastname" size="15"><br/>
+                                <label for="address">ADDRESS</label><br/>
+                                <input type="text" placeholder="ADDRESS" name="address" size="15"><br/>
+                                <label for="mobile">MOBILE</label><br/>
+                                <input type="text" placeholder="MOBILE" name="mobile" size="15">
+                            </div>
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-primary">Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- Modal -->
+        </main>
+    </div>
+    <footer>
+        <div class="expand-button ">
+            <div class="row ">
+                <div class="d-flex justify-content-center ">
+                    <a href="# " onclick="expand() ">
+                        <span>click here to expand</span>
+                        <img src="../assets/images/assess/exapand-img.svg " alt="exp-img ">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer" id="slide-bar">
+            <div class="row align-items-center">
+                <div class="col-2 ">
+                    <div class="d-flex justify-content-center mt-1">
+                        <p1>
+                            Journal No 01 &nbsp;&nbsp; Jan 2022
+                        </p1>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row ">
+                        <div class="d-flex justify-content-center">
+                            <a href="../index.html"><img src="../assets/images/activity-icons/footer-logo.svg" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <h6>Home</h6>
+                        <div class="hide-bar">
+                            <a href="#" onclick="hide()"><i class="bi bi-arrow-down-circle"></i></a>
+                            <span>click here to hide</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="d-flex justify-content-start mt-1">
+                        <p1> <i class="bi bi-bookmark"></i> No Bookmarks&nbsp;&nbsp;
+                            <a href="#"><i class="bi bi-skip-forward"></i> Next Topic</a>
+                        </p1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Reading activity js path -->
+    <script type="text/javascript" src="../assets/js/reading-activity.js"></script>
+</body>
+
+</html>
+
+
+<!-- <img src="../assets/images/video-activity/Rectangle 669.svg " alt=" " class="video-icon-bg "> -->
+<!-- <div class="circle "> -->
+<!-- <img src="../assets/images/video-activity/right-videoicon.svg " alt=" " class="video-icon "> -->
+<!-- </div> -->
+<!-- <span>Excellent Resources </br> (MOVIES)</span> -->
+<!-- <div class="movie-icons "> -->
+<!-- <div class="row " id="rowtest "> -->
+<!-- <div class="col-1 d-flex justify-content-center "> -->
+<!-- <i class="fas fa-chevron-circle-left "></i> -->
+<!-- <img class="sliding-buttons " src="../assets/images/video-activity/prev-button-disable.svg " alt=" "> -->
+<!-- </div> -->
+<!-- <div class="col "> -->
+<!-- <a href="# "><img class="movie-icon " src="../assets/images/video-activity/moana.jpg " alt="moana-img " id="img1 "></a> -->
+<!-- </div> -->
+<!-- <div class="col "> -->
+<!-- <a href="# "><img class="movie-icon " src="../assets/images/video-activity/sing.jpg " alt="sing-img "></a> -->
+<!-- </div> -->
+<!-- <div class="col "> -->
+<!-- <a href=" "><img class="movie-icon " src="../assets/images/video-activity/soar.jpg " alt="soar-img "></a> -->
+<!-- </div> -->
+<!-- <div class="col "> -->
+<!-- <a href=" "><img class="movie-icon " src="../assets/images/video-activity/brave.jpg " alt="brave-img "></a> -->
+<!-- </div> -->
+<!-- <div class="col "> -->
+<!-- <a href=" "><img class="movie-icon " src="../assets/images/video-activity/coco.jpg " alt="coco-img "></a> -->
+<!-- </div> -->
+<!-- <div class="col "> -->
+<!-- <a href=" "><img class="movie-icon " src="../assets/images/video-activity/inside-out.jpeg " alt="inside-out-img "></a> -->
+<!-- </div> -->
+<!-- <div class="col "> -->
+<!-- <a href=" "><img class="movie-icon " src="../assets/images/video-activity/fly.jpg " alt="fly-img "></a> -->
+<!-- </div> -->
+<!-- <div class="col "> -->
+<!-- <a href=" "><img class="movie-icon " src="../assets/images/video-activity/leap.jpg " alt="leap-img "></a> -->
+<!-- </div> -->
+<!-- <div class="col-1 d-flex justify-content-center "> -->
+<!-- <img class="sliding-buttons " src="../assets/images/video-activity/next-button.svg " alt=" "> -->
+<!-- <i class="fas fa-chevron-circle-right "></i> -->
+<!-- </div> -->
+<!-- </div> -->
+<!-- </div> -->
+
+
+<!-- <div class="row "> -->
+<!-- <img class="middle-banner " src="../assets/images/video-activity/Rectangle 718.svg " alt=" "> -->
+<!-- <div class="col-2 d-flex justify-content-center "> -->
+<!-- <div class="title ">Title</div> -->
+<!-- <p id="movie-title "></p> -->
+<!-- </div> -->
+<!-- <div class="col-8 d-flex justify-content-center "> -->
+<!-- <div class="synopsis ">Syopsis</div> -->
+<!-- <h5 id="movie-synopsis "></h5> -->
+<!-- </div> -->
+<!-- </div> -->

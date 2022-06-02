@@ -1,0 +1,426 @@
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    background-color: rgb(255, 227, 87);
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 20px;
+    width: 60rem;
+    color: #13375B;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+}
+
+.question-mark img {
+    height: 18rem;
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 97px;
+}
+
+.question-mark p1 {
+    margin-top: 331px;
+    margin-bottom: 1rem;
+    position: absolute;
+    margin-left: 110px;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    width: 23rem;
+}
+
+.text-box img {
+    height: 10rem;
+    margin-top: 265px;
+    margin-left: 22px;
+}
+
+.kids-img img {
+    margin-top: -45px;
+    height: 36rem;
+    margin-left: 159px;
+}
+
+
+/* .kids-img{ */
+
+
+/* margin-top: 15px; */
+
+
+/* } */
+
+.dairy-img {
+    position: absolute;
+}
+
+.dairy-row {
+    margin-top: -550px;
+    margin-left: 193px;
+}
+
+.dairy-row.text-row {
+    height: 68px;
+}
+
+.dairy-row img {
+    height: 66px;
+    margin-top: -10px;
+    margin-left: 0;
+}
+
+.dairy-row input {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -56px;
+    width: 21rem;
+    border: 0;
+}
+
+.notes {
+    position: absolute;
+    height: 2rem;
+    width: 23rem;
+    margin-left: -393px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: -57px;
+    margin-left: 241px;
+}
+
+.modal {
+    top: 20%;
+}
+
+.modal textarea {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px rgb(182, 182, 182));
+}
+
+.icons {
+    margin-top: -50px;
+    margin-left: 38px;
+}
+
+.icons img {
+    height: 55px;
+}
+
+.submit {
+    margin-left: 235px;
+}
+
+.submit img {
+    height: 150px;
+    position: absolute;
+    margin-left: 301px;
+    margin-top: 0px;
+}
+
+.btn-secondary {
+    height: 31px;
+    margin-left: 762px;
+    font-size: 12px;
+    background-color: white;
+    color: green;
+    margin-top: -10px;
+    border-radius: 25px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer span {
+    position: absolute;
+    font-size: 14px;
+    padding-top: 2px;
+    margin-left: 98px;
+    color: black;
+}
+
+.sliding-button {
+    margin-top: 35px;
+}
+
+.footer {
+    background-color: rgb(71, 157, 255);
+    height: 5rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-color: white;
+    border-top: 5px solid white;
+    animation: footer-slide 4s;
+}
+
+.expand-button img {
+    width: 20rem;
+}
+
+@keyframes footer-slide {
+    0% {
+        height: 0;
+        opacity: 0;
+    }
+    100% {
+        height: 5rem;
+        opacity: 1;
+    }
+}
+
+.footer p1 {
+    color: white;
+    font-size: 13px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer img {
+    height: 5rem;
+    margin-top: -48px;
+    margin-left: -49px;
+    position: absolute;
+}
+
+.footer h6 {
+    text-align: center;
+    margin-top: 38px;
+    color: white;
+}
+
+.hide-bar {
+    margin-top: -61px;
+    margin-left: 83rem;
+}
+
+.hide-bar i {
+    font-size: 41px;
+    position: absolute;
+    margin-left: 112px;
+    margin-top: -10px;
+    color: white;
+}
+
+.footer span {
+    position: absolute;
+    font-size: medium;
+    margin-left: 75px;
+    color: white;
+    margin-top: 38px;
+}
+
+#slide-bar {
+    display: none;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    h1 {
+        font-size: 17px;
+        width: 36rem;
+    }
+    .question-mark img {
+        height: 10rem;
+        margin-left: 48px;
+    }
+    .text-box img {
+        height: 6rem;
+        margin-top: 180px;
+        margin-left: -2px;
+    }
+    p {
+        margin-top: 214px;
+        margin-bottom: 1rem;
+        margin-left: 53px;
+        font-size: 16px;
+        width: 13rem;
+    }
+    .dairy {
+        margin-top: 20px;
+    }
+    .kids-img img {
+        height: 21rem;
+        margin-left: 134px;
+    }
+    .dairy-row {
+        margin-top: -310px;
+        margin-left: 116px;
+    }
+    .dairy-row img {
+        height: 37px;
+        margin-top: -8px;
+    }
+    .dairy-row.text-row {
+        height: 39px;
+    }
+    .dairy-row input {
+        margin-left: 95px;
+        margin-top: -34px;
+        width: 14rem;
+        border: 0;
+        height: 1rem;
+        font-size: 13px;
+    }
+    .submit img {
+        height: 110px;
+        margin-left: 110px;
+    }
+    .btn-secondary {
+        height: 21px;
+        margin-left: 471px;
+        font-size: 6px;
+        margin-top: -5px;
+        border-radius: 25px;
+    }
+    .icons {
+        margin-left: 3px;
+    }
+    .icons img {
+        height: 43px;
+    }
+    footer span {
+        font-size: 9px;
+        margin-left: 69px;
+        margin-top: 10px;
+    }
+    footer img {
+        width: 15rem;
+        padding-top: 6px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    h1 {
+        font-size: 20px;
+        width: 43rem;
+    }
+    .question-mark img {
+        height: 13rem;
+        margin-top: 76px;
+        margin-left: 61px;
+    }
+    .text-box img {
+        height: 7rem;
+        margin-top: 234px;
+        margin-left: 12px;
+    }
+    p {
+        margin-top: 274px;
+        margin-bottom: 1rem;
+        margin-left: 71px;
+        font-size: 19px;
+        width: 17rem;
+    }
+    .kids-img img {
+        height: 29rem;
+        margin-left: 148px;
+    }
+    .dairy-row {
+        margin-top: -431px;
+        margin-left: 160px;
+    }
+    .dairy-row.text-box {
+        height: 54px;
+    }
+    .dairy-row img {
+        height: 51px;
+        margin-top: -7px;
+    }
+    .dairy-row input {
+        margin-left: 136px;
+        margin-top: -46px;
+        width: 18rem;
+        border: 0;
+    }
+    .submit img {
+        height: 125px;
+        margin-left: 221px;
+    }
+    .btn-secondary {
+        height: 25px;
+        width: 4rem;
+        margin-left: 622px;
+        margin-top: -8px;
+        font-size: 8px;
+    }
+    .icons {
+        margin-left: 22px;
+    }
+    .icons img {
+        height: 50px;
+    }
+    footer img {
+        width: 20rem;
+    }
+    footer span {
+        font-size: 10px;
+        margin-left: 109px;
+        margin-top: 6px;
+    }
+}
+@media screen and (min-width:1280px){
+    .question-mark img {
+        height: 15rem;
+        margin-top: 62px;
+        margin-left: 97px;
+    }
+    .text-box img {
+        height: 9rem;
+        margin-top: 244px;
+        margin-left: 21px;
+    }
+    .question-mark p1 {
+        margin-top: 291px;
+        margin-bottom: 1rem;
+        margin-left: 93px;
+        font-size: 26px;
+    }
+    .kids-img img {
+        margin-top: -45px;
+        height: 28rem;
+        margin-left: 235px;
+    }
+    .dairy-row {
+        margin-top: -428px;
+        margin-left: 367px;
+    }
+    .dairy-row img {
+        height: 52px;
+        margin-top: -2px;
+        margin-left: -48px;
+    }
+    .notes {
+        height: 2rem;
+        width: 18rem;
+        margin-left: -393px;
+        margin-top: -48px;
+        margin-left: 91px;
+    }
+    .submit img {
+        height: 125px;
+        position: absolute;
+        margin-left: 301px;
+        margin-top: 0px;
+    }
+    .btn-secondary {
+        margin-left: 684px;
+    }
+}
