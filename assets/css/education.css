@@ -55,6 +55,7 @@
 
 .button{
   width: max-content;
+  margin-top:1rem;
 }
 
 .punitive_worksheet {
@@ -136,12 +137,15 @@
 }
 
 .secondary_text_column {
-  width: 50%;
   padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+    flex-direction: column;
 }
 
 .secondary_img_column {
-  width: 50%;
   /* height: 32rem; */
   margin: 0 3rem 0 3rem;
 }
@@ -267,7 +271,7 @@ box-shadow: 0 0 2px 3px var(--color-grey-light1);
 }
 @media screen and (max-width: 1440px) {
   .header-img img{
-    height: 35rem;
+    height: 32rem;
   }
   .metrics_section .primary_img_column img{
     height: 37rem;
@@ -285,6 +289,12 @@ box-shadow: 0 0 2px 3px var(--color-grey-light1);
   .primary-info {
     font-size: 1.3rem;
   }
+  .banner3{
+    display: block !important;
+  }
+  .header-img ,.header-text{
+    width: 100% !important;
+  }
   .header-img img{
     height: 30rem;
   }
@@ -295,7 +305,22 @@ box-shadow: 0 0 2px 3px var(--color-grey-light1);
     font-size: 2.2rem;
   }
   .secondary_text_column {
-    padding: 2rem;
+    padding: 4rem;
+  }
+  .preview_options .option{
+    padding: 0 2rem;
+  }
+  #books .row, #journals .row, #comics .row, #educators .row, #schools .row, #lms .row, #curriculam .row{
+    display: block;
+  }
+  .mastery_reviews_bg, .low_stakes_practice_bg, .mastery_quizz_bg, .lessons_bg, .curriculam_bg, .lms_bg, .schools_bg{
+    height: auto;
+  }
+  .metrics1,.assignment{
+    display: block !important;
+  }
+  .primary_text_column, .primary_img_column{
+    width: 100%;
   }
 }
 
@@ -344,6 +369,9 @@ box-shadow: 0 0 2px 3px var(--color-grey-light1);
     margin: 0;
     margin-top: 3rem;
   }
+  #books .row, #journals .row, #comics .row, #educators .row, #schools .row, #lms .row, #curriculam .row{
+    display: block;
+  }
   .teritiary-heading {
     font-size: 2.5rem;
     margin-top: 3rem;
@@ -386,6 +414,9 @@ box-shadow: 0 0 2px 3px var(--color-grey-light1);
   }
   .secondary_img_column img, .secondary_img_column video{
     height: 15rem;
+  }
+  #books .row, #journals .row, #comics .row, #educators .row, #schools .row, #lms .row, #curriculam .row{
+    display: block;
   }
   .preview_options, .journal_options{
     text-align: justify;
