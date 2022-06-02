@@ -1,4 +1,6 @@
 
+    document.getElementsByClassName("low_stakes_practice_bg")[0].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[1].style.display="none";
     document.getElementsByClassName("curriculam_bg")[0].style.display="none";
     document.getElementsByClassName("lms_bg")[0].style.display="none";
     document.getElementsByClassName("schools_bg")[0].style.display="none";
@@ -8,7 +10,8 @@
 
 function books_option(id){
     document.getElementsByClassName("mastery_reviews_bg")[i].style.display="block";
-    document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[0].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[1].style.display="none";
     document.getElementsByClassName("mastery_quizz_bg")[i].style.display="none";
     document.getElementsByClassName("lessons_bg")[i].style.display="none";
     document.getElementsByClassName("curriculam_bg")[i].style.display="none";
@@ -25,7 +28,8 @@ function books_option(id){
 
 function journals_option(id){
     document.getElementsByClassName("mastery_reviews_bg")[i].style.display="none";
-    document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="block";
+    document.getElementsByClassName("low_stakes_practice_bg")[0].style.display="block";
+    document.getElementsByClassName("low_stakes_practice_bg")[1].style.display="block";
     document.getElementsByClassName("mastery_quizz_bg")[i].style.display="none";
     document.getElementsByClassName("lessons_bg")[i].style.display="none";
     document.getElementsByClassName("curriculam_bg")[i].style.display="none";
@@ -40,7 +44,8 @@ function journals_option(id){
 
 function comics_option(id){
     document.getElementsByClassName("mastery_reviews_bg")[i].style.display="none";
-    document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[0].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[1].style.display="none";
     document.getElementsByClassName("mastery_quizz_bg")[i].style.display="block";
     document.getElementsByClassName("lessons_bg")[i].style.display="none";
     document.getElementsByClassName("curriculam_bg")[i].style.display="none";
@@ -54,7 +59,8 @@ function comics_option(id){
 
 function educators_option(id){
     document.getElementsByClassName("mastery_reviews_bg")[i].style.display="none";
-    document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[0].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[1].style.display="none";
     document.getElementsByClassName("mastery_quizz_bg")[i].style.display="none";
     document.getElementsByClassName("lessons_bg")[i].style.display="block";
     document.getElementsByClassName("curriculam_bg")[i].style.display="none";
@@ -68,7 +74,8 @@ function educators_option(id){
 
 function curriculam_option(id){
     document.getElementsByClassName("mastery_reviews_bg")[i].style.display="none";
-    document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[0].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[1].style.display="none";
     document.getElementsByClassName("mastery_quizz_bg")[i].style.display="none";
     document.getElementsByClassName("lessons_bg")[i].style.display="none";
     document.getElementsByClassName("curriculam_bg")[i].style.display="block";
@@ -82,7 +89,8 @@ function curriculam_option(id){
 
 function lms_option(id){
     document.getElementsByClassName("mastery_reviews_bg")[i].style.display="none";
-    document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[0].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[1].style.display="none";
     document.getElementsByClassName("mastery_quizz_bg")[i].style.display="none";
     document.getElementsByClassName("lessons_bg")[i].style.display="none";
     document.getElementsByClassName("curriculam_bg")[i].style.display="none";
@@ -96,7 +104,8 @@ function lms_option(id){
 
 function schools_option(id){
     document.getElementsByClassName("mastery_reviews_bg")[i].style.display="none";
-    document.getElementsByClassName("low_stakes_practice_bg")[i].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[0].style.display="none";
+    document.getElementsByClassName("low_stakes_practice_bg")[1].style.display="none";
     document.getElementsByClassName("mastery_quizz_bg")[i].style.display="none";
     document.getElementsByClassName("lessons_bg")[i].style.display="none";
     document.getElementsByClassName("curriculam_bg")[i].style.display="none";
