@@ -7048,11 +7048,11 @@ a.quote-big-post-single h5:hover{
 	position:relative;
 	text-align:left;
 	width:105px;
-	height:35px;
+	height:55px;
  /*   background:url('../images/logo-footer.png')no-repeat center center; */
 
   background:url('../images/new_logo.png')no-repeat center center;
-	background-size:105px 35px;
+	background-size:55px;
 	z-index:10;
 }
 .icon-footer{
@@ -9212,7 +9212,8 @@ Main components
     -moz-transition: color 0.3s, box-shadow 0.3s;
     transition: color 0.3s, box-shadow 0.3s;
   }
-  .cd-primary-nav > li > a:hover {
+  .cd-primary-nav > li > a:active {
+    
   }
 
 

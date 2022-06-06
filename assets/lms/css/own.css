@@ -965,7 +965,10 @@ a:hover {
 .mt_20 {
   margin-top: 20px !important;
 }
-
+#cd-primary-nav a:active{
+  color: #48928c !important;
+  font-weight: 800 !important;
+}
 .cd-primary-nav > li > a:active {
 }
 .active {
