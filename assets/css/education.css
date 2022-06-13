@@ -276,6 +276,17 @@ box-shadow: 0 0 2px 3px var(--color-grey-light1);
   .metrics_section .primary_img_column img{
     height: 37rem;
   }
+  .primary_img_column img{
+    height: 35rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .header-img img{
+    height: 30rem;
+  }
+  .primary_img_column img{
+    height: 35rem;
+  }
 }
 @media screen and (max-width: 1024px) {
   .header-img img{

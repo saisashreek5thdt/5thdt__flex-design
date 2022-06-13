@@ -1,0 +1,528 @@
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    background-image: url(../images/jar-activity/10\ bg.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    max-height: 100%;
+}
+
+h2 {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 155px;
+    color: white;
+}
+
+.activity-icons {
+    position: absolute;
+}
+
+.left-img p {
+    margin-top: -272px;
+    margin-left: 87px;
+    margin-bottom: 1rem;
+    font-size: 22px;
+    position: absolute;
+    width: 18rem;
+    color: white;
+    font-weight: 500;
+}
+
+.left-img img {
+    height: 25rem;
+    margin-top: 100px;
+}
+
+.right-img p {
+    position: absolute;
+    margin-top: -231px;
+    margin-left: 81px;
+    width: 12rem;
+    color: white;
+}
+
+.right-img {
+    margin-right: 14px
+}
+
+.right-img img {
+    height: 25rem;
+    margin-top: 63px;
+}
+
+.buttons {
+    margin-left: 172px;
+    margin-top: 30px;
+}
+
+.add-button img {
+    height: 53px;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 13px;
+}
+
+.view-button img {
+    height: 53px;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 13px;
+}
+
+.btn-primary {
+    width: 9rem;
+    height: 35px;
+    border-radius: 25px;
+    background-color: #FFC51C;
+    border: none;
+    margin-top: 25px;
+    color: black;
+    padding-right: 0;
+    font-weight: 500;
+    margin-left: 143px;
+}
+
+.btn-secondary {
+    margin-top: -98px;
+    margin-left: 198px;
+    height: 24px;
+    font-size: small;
+    font-weight: 500;
+    padding-top: 0;
+    width: 60px;
+    border-radius: 15px;
+    color: black;
+    background: #FFC51C;
+    border: none;
+}
+
+.jar img {
+    height: 26rem;
+    margin-top: -163px;
+}
+
+.text-banner img {
+    height: 15rem;
+    margin-left: -146px;
+    margin-top: -44px;
+}
+
+#text-box {
+    margin-top: 9px;
+    margin-left: -338px;
+    position: absolute;
+    height: 7rem;
+    border-radius: 25px;
+}
+
+.text-banner {
+    display: none;
+}
+
+#frame-text-box {
+    position: absolute;
+    height: 59px;
+    width: 7rem;
+    margin-left: 50px;
+    margin-top: 31px;
+    border-radius: 16px;
+}
+
+.text-frames {
+    margin-top: -68px;
+    margin-left: 58px;
+    display: none;
+}
+
+.text-frames img {
+    height: 7rem;
+    margin-top: 10px;
+}
+
+.back-button {
+    margin-top: 66px;
+    display: none;
+}
+
+.back-button img {
+    height: 53px;
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 118px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer span {
+    position: absolute;
+    font-size: 14px;
+    padding-top: 2px;
+    margin-left: 98px;
+    color: black;
+}
+
+.sliding-button {
+    margin-top: 35px;
+}
+
+.footer {
+    background-color: rgb(71, 157, 255);
+    height: 5rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-color: white;
+    border-top: 5px solid white;
+    animation: footer-slide 4s;
+}
+
+.expand-button img {
+    width: 20rem;
+}
+
+@keyframes footer-slide {
+    0% {
+        height: 0;
+        opacity: 0;
+    }
+    100% {
+        height: 5rem;
+        opacity: 1;
+    }
+}
+
+.footer p1 {
+    color: white;
+    font-size: 13px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer img {
+    height: 5rem;
+    margin-top: -48px;
+    margin-left: -49px;
+    position: absolute;
+}
+
+.footer h6 {
+    text-align: center;
+    margin-top: 38px;
+    color: white;
+}
+
+.hide-bar {
+    margin-top: -61px;
+    margin-left: 83rem;
+}
+
+.hide-bar i {
+    font-size: 41px;
+    position: absolute;
+    margin-left: 112px;
+    margin-top: -10px;
+    color: white;
+}
+
+.footer span {
+    position: absolute;
+    font-size: medium;
+    margin-left: 75px;
+    color: white;
+    margin-top: 38px;
+}
+
+#slide-bar {
+    display: none;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    h2 {
+        position: absolute;
+        margin-top: 71px;
+        margin-left: 72px;
+        font-size: 15px;
+        color: white;
+    }
+    .left-img img {
+        height: 12rem;
+        margin-top: 79px;
+    }
+    .left-img p {
+        margin-top: -131px;
+        margin-left: 38px;
+        margin-bottom: 1rem;
+        font-size: 11px;
+        position: absolute;
+        width: 9rem;
+        color: white;
+        font-weight: 500;
+    }
+    .right-img img {
+        height: 13rem;
+        margin-top: 62px;
+    }
+    .right-img p {
+        position: absolute;
+        margin-top: -116px;
+        margin-left: 36px;
+        font-size: 9px;
+        width: 7rem;
+        color: white;
+    }
+    .btn-primary {
+        width: 5rem;
+        height: 22px;
+        border-radius: 25px;
+        background-color: #FFC51C;
+        border: none;
+        margin-top: 29px;
+        color: black;
+        padding-right: 0;
+        font-weight: 500;
+        margin-left: 71px;
+        font-size: 11px;
+        padding-top: 2px;
+    }
+    .add-button img {
+        height: 37px;
+        position: absolute;
+        margin-left: 53px;
+        margin-top: 18px;
+    }
+    .view-button img {
+        height: 39px;
+        position: absolute;
+        margin-left: 53px;
+        margin-top: 17px;
+    }
+    .jar img {
+        height: 15rem;
+        margin-top: -70px;
+    }
+    .text-banner img {
+        height: 7rem;
+        margin-left: -70px;
+        margin-top: 8px;
+    }
+    #text-box {
+        margin-top: 31px;
+        margin-left: -159px;
+        position: absolute;
+        height: 50px;
+        border-radius: 15px;
+        width: 7rem;
+    }
+    .btn-secondary {
+        margin-top: -70px;
+        margin-left: 70px;
+        height: 13px;
+        font-size: 9px;
+        font-weight: 500;
+        padding-top: 0;
+        width: 43px;
+        border-radius: 15px;
+        color: black;
+        background: #FFC51C;
+        border: none;
+    }
+    .text-frames {
+        margin-top: -132px;
+        margin-left: 43px;
+        display: none;
+    }
+    .text-frames img {
+        height: 5rem;
+        margin-top: 10px;
+    }
+    .back-button img {
+        height: 40px;
+        position: absolute;
+        margin-top: 17px;
+        margin-left: 53px;
+    }
+    #frame-text-box {
+        height: 39px;
+        width: 5rem;
+        position: absolute;
+        margin-left: 37px;
+        margin-top: 26px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    h2 {
+        position: absolute;
+        margin-top: 90px;
+        margin-left: 76px;
+        color: white;
+        font-size: 22px;
+    }
+    .btn-primary {
+        width: 6rem;
+        height: 23px;
+        border-radius: 25px;
+        background-color: #FFC51C;
+        border: none;
+        margin-top: 25px;
+        color: black;
+        padding-right: 0px;
+        font-weight: 500;
+        margin-left: 110px;
+        padding-top: 2px;
+        font-size: 11px;
+    }
+    .add-button img {
+        height: 42px;
+        position: absolute;
+        margin-left: 90px;
+        margin-top: 13px;
+    }
+    .view-button img {
+        height: 42px;
+        position: absolute;
+        margin-left: 90px;
+        margin-top: 13px;
+    }
+    .left-img img {
+        height: 16rem;
+    }
+    .left-img p {
+        margin-top: -173px;
+        margin-left: 49px;
+        margin-bottom: 1rem;
+        font-size: 15px;
+        position: absolute;
+        width: 13rem;
+        color: white;
+        font-weight: 500;
+    }
+    .right-img img {
+        height: 16rem;
+        margin-top: 64px;
+    }
+    .right-img p {
+        position: absolute;
+        margin-top: -150px;
+        margin-left: 47px;
+        width: 8rem;
+        color: white;
+        font-size: 11px;
+    }
+    .text-frames img {
+        height: 82px;
+        margin-top: 10px;
+    }
+    #frame-text-box {
+        position: absolute;
+        height: 45px;
+        width: 5rem;
+        margin-left: 41px;
+        margin-top: 28px;
+        border-radius: 9px;
+    }
+    .back-button img {
+        height: 43px;
+        position: absolute;
+        margin-top: 11px;
+        margin-left: 90px;
+    }
+    .jar img {
+        height: 18rem;
+        margin-top: -107px;
+    }
+    .btn-secondary {
+        margin-top: -81px;
+        margin-left: 101px;
+        height: 19px;
+        font-size: 11px;
+        font-weight: 500;
+        padding-top: 0;
+        width: 46px;
+        border-radius: 15px;
+        color: black;
+        background: #FFC51C;
+        border: none;
+    }
+    .text-banner img {
+        height: 9rem;
+        margin-left: -85px;
+        margin-top: -6px;
+    }
+    #text-box {
+        margin-top: 25px;
+        margin-left: -205px;
+        position: absolute;
+        height: 4rem;
+        width: 9rem;
+        border-radius: 15px;
+    }
+}
+@media screen and (min-width:1280px){
+    h2 {
+        position: absolute;
+        margin-top: 38px;
+        margin-left: 116px;
+      }
+      .left-img img {
+        height: 20rem;
+        margin-top: 62px;
+    }
+    .left-img p {
+        margin-top: -214px;
+        margin-left: 73px;
+        margin-bottom: 1rem;
+        font-size: 17px;
+        width: 14rem;
+    }
+    .jar img {
+        height: 20rem;
+        margin-top: -117px;
+    }
+    .right-img img {
+        height: 19rem;
+        margin-top: 44px;
+    }
+    .right-img p {
+        margin-top: -192px;
+        margin-left: 65px;
+        width: 9rem;
+    }
+    .text-banner img {
+        height: 12rem;
+        margin-left: -146px;
+        margin-top: -44px;
+    }
+    #text-box {
+        margin-top: 0px;
+        margin-left: -271px;
+        position: absolute;
+        width: 12rem;
+        height: 5rem;
+        border-radius: 8px;
+    }
+    .btn-secondary {
+        margin-top: -98px;
+        margin-left: 107px;
+        height: 24px;
+        width: 60px;
+        border-radius: 15px;
+    }
+}

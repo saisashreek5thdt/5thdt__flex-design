@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap css path -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap icons path -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" crossorigin="anonymous">
+    <!--Font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous">
+    <!-- Bootstrap js path -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Video activity css path -->
+    <link rel="stylesheet" href="../assets/css/video-activity.css" />
+    <!--Activity icons css path -->
+    <link rel="stylesheet" href="../assets/css/activity-icons.css" />
+    <title>Video Activity</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <main>
+            <!-- <div class="home-icon"> -->
+            <!-- <a href="../index.html"><i class="bi bi-house-door"></i> Home -->
+            <!-- </a> -->
+            <!-- </div> -->
+            <div class="row">
+                <div class="activity-icons">
+                    <div class="col-12 d-flex justify-content-end">
+                        <div class="parent-icon">
+                            <img src="../assets/images/activity-icons/video-icon.svg" alt="" class="icon">
+                            <div class="tool-tip">
+                                <img src="../assets/images/activity-icons/info-icon.svg" alt="">
+                                <span class="tool-tiptext">
+                                Video Icon :
+                                <p>Video content.</p>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- <div class="video-activity-icon d-flex justify-content-end"> -->
+                <!-- <img src="../assets/images/activity-icons/video-icon.svg" alt=""> -->
+                <!-- </div> -->
+                <video autoplay="autoplay" id="video" class="video-play" muted loop>
+                    <source src=" " type="video/mp4">
+                    <source src=" " type="video/ogg">
+                </video>
+            </div>
+            <!-- Top left video icon -->
+            <img src="../assets/images/video-activity/Rectangle 669.svg" alt="" class="video-icon-bg">
+            <div class="circle">
+                <img src="../assets/images/video-activity/right-videoicon.svg" alt="" class="video-icon">
+            </div>
+            <span>Excellent Resources </br> (MOVIES)</span>
+            <div id="play-icon">
+                <i class="fas fa-play-circle"></i>
+                <p1>Play Trailer</p1>
+            </div>
+            <!--Bottom movies icons-->
+            <div class="movie-icons">
+                <div class="row" id="rowtest">
+                    <div class="col-1 d-flex justify-content-center">
+                        <i class="fas fa-chevron-circle-left"></i>
+                        <img class="sliding-buttons" src="../assets/images/video-activity/prev-button-disable.svg" alt="">
+                    </div>
+                    <div class="col">
+                        <a href="#" onclick="show(this.id)" id="1"><img class="movie-icon" src="../assets/images/video-activity/moana.jpg" alt="moana-img"></a>
+                    </div>
+                    <div class="col">
+                        <a href="#" onclick="show(this.id)" id="2"><img class="movie-icon" src="../assets/images/video-activity/sing.jpg" alt="sing-img"></a>
+                    </div>
+                    <div class="col">
+                        <a href="#" onclick="show(this.id)" id="3"><img class="movie-icon" src="../assets/images/video-activity/soar.jpg" alt="soar-img"></a>
+                    </div>
+                    <div class="col">
+                        <a href="#" onclick="show(this.id)" id="4"><img class="movie-icon" src="../assets/images/video-activity/brave.jpg" alt="brave-img"></a>
+                    </div>
+                    <div class="col">
+                        <a href="#" onclick="show(this.id)" id="5"><img class="movie-icon" src="../assets/images/video-activity/coco.jpg" alt="coco-img"></a>
+                    </div>
+                    <div class="col">
+                        <a href="#" onclick="show(this.id)" id="6"><img class="movie-icon" src="../assets/images/video-activity/inside-out.jpeg" alt="inside-out-img"></a>
+                    </div>
+                    <div class="col">
+                        <a href="#" onclick="show(this.id)" id="7"><img class="movie-icon" src="../assets/images/video-activity/fly.jpg" alt="fly-img"></a>
+                    </div>
+                    <div class="col">
+                        <a href="#" onclick="show(this.id)" id="8"><img class="movie-icon" src="../assets/images/video-activity/leap.jpg" alt="leap-img"></a>
+                    </div>
+                    <div class="col-1 d-flex justify-content-center">
+                        <img class="sliding-buttons" src="../assets/images/video-activity/next-button.svg" alt="">
+                        <i class="fas fa-chevron-circle-right"></i>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- Movie title and synopsis -->
+    <div class="row">
+        <img class="middle-banner" src="../assets/images/video-activity/Rectangle 718.svg" alt="">
+        <div class="col-2 d-flex justify-content-center">
+            <div class="title">Title</div>
+            <p id="movie-title"></p>
+        </div>
+        <div class="col-10  d-flex justify-content-center">
+            <div class="synopsis">Synopsis</div>
+            <h5 id="movie-synopsis"></h5>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="expand-button">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <a href="#" onclick="expand()">
+                        <span>click here to expand</span>
+                        <img src="../assets/images/assess/exapand-img.svg" alt="exp-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer" id="slide-bar">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <div class="d-flex justify-content-center mt-1">
+                        <p2>
+                            Journal No 01 &nbsp;&nbsp; Jan 2022
+                        </p2>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="d-flex justify-content-center">
+                            <a href="../index.html"><img src="../assets/images/activity-icons/footer-logo.svg" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <h6>Home</h6>
+                        <div class="hide-bar">
+                            <a href="#" onclick="hide()"><i class="bi bi-arrow-down-circle"></i></a>
+                            <span>click here to hide</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="d-flex justify-content-start mt-1">
+                        <p2><i class="bi bi-bookmark"></i> No Bookmarks&nbsp;&nbsp;
+                            <a href="#"><i class="bi bi-skip-forward"></i> Next Topic</a>
+                        </p2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Video activity js path -->
+    <script type="text/javascript" src="../assets/js/video-activity.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap css path -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap icons path -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" crossorigin="anonymous"> -->
+    <!-- Bootstrap js path -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--kites activity css path -->
+    <link rel="stylesheet" href="../assets/css/kites-activity.css" />
+    <link rel="stylesheet" href="../assets/css/activity-icons.css" />
+    <title>TODLEARN-SESSIONS</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <main>
+            <h1>
+                Reflect on some of the things you would like to do differently from now as a result of what you have experienced today.
+            </h1>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-end">
+                    <div class="parent-icon">
+                        <img src="../assets/images/activity-icons/parent-icon.svg" alt="" class="icon">
+                        <div class="tool-tip">
+                            <img src="../assets/images/activity-icons/info-icon.svg" alt="">
+                            <span class="tool-tiptext">
+                                Parent Icon :
+                                <p>Individual activity to be done by parents.</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="parent-icon">
+                        <img src="../assets/images/activity-icons/pencilwith-dairy.svg" alt="" class="icon">
+                        <div class="tool-tip">
+                            <img src="../assets/images/activity-icons/info-icon.svg" alt="">
+                            <span class="tool-tiptext">
+                                Pencil With Dairy :
+                                <p>Journal entry.</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- First page -->
+            <div id="page1">
+                <div class="row">
+                    <div class="col">
+                        <img class="kite1" src="../assets/images/kites-activity/red-kite.svg" alt="">
+
+                    </div>
+                    <div class="col">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="0" onclick="userText(this.id)">
+                            <div class="circle">
+                                <div class="number">2</div>
+                                <img src="../assets/images/kites-activity/circle.svg" alt="">
+                            </div>
+                            <img class="kite2" src="../assets/images/kites-activity/violet-kite.svg" alt="">
+                        </a>
+
+                        <img class="kid2" src="../assets/images/kites-activity/2img.svg" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="kite3" src="../assets/images/kites-activity/red-kite.svg" alt="">
+                    </div>
+                    <div class="col">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="1" onclick="userText(this.id)">
+                            <div class="circle2">
+                                <div class="number4">4</div>
+                                <img src="../assets/images/kites-activity/circle.svg" alt="">
+                            </div>
+                            <img class="kite4" src="../assets/images/kites-activity/red-kite.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="2" onclick="userText(this.id)">
+                            <div class="circle3">
+                                <div class="number5">5</div>
+                                <img src="../assets/images/kites-activity/circle.svg" alt="">
+                            </div>
+                            <img class="kite5" src="../assets/images/kites-activity/violet-kite.svg" alt="">
+                            <img class="kid4" src="../assets/images/kites-activity/4img.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="3" onclick="userText(this.id)">
+                            <div class="circle4">
+                                <div class="number1">1</div>
+                                <img src="../assets/images/kites-activity/circle.svg" alt="">
+                            </div>
+                            <img class="kite6" src="../assets/images/kites-activity/orange-kite.svg" alt="">
+                            <img class="kid1" src="../assets/images/kites-activity/1img.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <img class="kite7" src="../assets/images/kites-activity/blue-kite.svg" alt="">
+                    </div>
+                    <div class="col-2">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="4" onclick="userText(this.id)">
+                            <div class="circle5">
+                                <div class="number3">3</div>
+                                <img src="../assets/images/kites-activity/circle.svg" alt="">
+                            </div>
+                            <img class="kite8" src="../assets/images/kites-activity/orange-kite.svg" alt="">
+                            <img class="kid3" src="../assets/images/kites-activity/3img.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Second page -->
+            <div id="page2">
+                <div class="row">
+                    <div class="col">
+                        <img class="kite1" src="../assets/images/kites-activity/red-kite.svg" alt="">
+
+                    </div>
+                    <div class="col">
+                        <textarea class="notes" id="0" name="textbox0" rows="5" cols="15" maxlength="251" placeholder="Write here" onclick="userText(this.id)"></textarea>
+                        <img class="kite2-2" src="../assets/images/kites-activity/violet-kite2.svg" alt="">
+                        <img class="kid2" src="../assets/images/kites-activity/2img.svg" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="kite3" src="../assets/images/kites-activity/red-kite.svg" alt="">
+                    </div>
+                    <div class="col">
+                        <textarea class="notes" id="1" name="textbox1" rows="5" cols="15" maxlength="251" placeholder="Write here" onclick="userText(this.id)"></textarea>
+                        <img class="kite4-2" src="../assets/images/kites-activity/red-kite2.svg" alt="">
+                    </div>
+                    <div class="col">
+                        <textarea class="notes" id="2" name="textbox2" rows="5" cols="15" maxlength="251" placeholder="Write here" onclick="userText(this.id)"></textarea>
+                        <img class="kite5-2" src="../assets/images/kites-activity/violet-kite2.svg" alt="">
+                        <img class="kid4" src="../assets/images/kites-activity/4img.svg" alt="">
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <textarea class="notes" id="3" name="textbox3" rows="5" cols="15" maxlength="251" placeholder="Write here" onclick="userText(this.id)"></textarea>
+                        <img class="kite6-2" src="../assets/images/kites-activity/orange-kite2.svg" alt="">
+                        <img class="kid1" src="../assets/images/kites-activity/1img.svg" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="kite7" src="../assets/images/kites-activity/blue-kite.svg" alt="">
+                    </div>
+                    <div class="col-2">
+                        <textarea class="notes" id="4" name="textbox4" rows="5" cols="15" maxlength="251" placeholder="Write here" onclick="userText(this.id)"></textarea>
+                        <img class="kite8-2" src="../assets/images/kites-activity/orange-kite2.svg" alt="">
+                        <img class="kid3" src="../assets/images/kites-activity/3img.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="submit">
+                <a href="words-matter.html"><img src="../assets/images/kites-activity/submit.svg" alt="submit-bt"></a>
+            </div>
+            <div class="main-kite d-flex justify-content-end">
+                <img src="../assets/images/kites-activity/Kite_gif.gif" alt="">
+                <div class="editbutton">
+                    <a href="#">
+                        <img class="button2" src="../assets/images/kites-activity/circle.svg" alt="">
+                        <div class="edit">Edit</div>
+                    </a>
+                </div>
+                <div class=" previewbutton">
+                    <a href="#" onclick="showtext()">
+                        <img class="button1" src="../assets/images/kites-activity/circle.svg" alt="">
+                        <div class="preview">Preview</div>
+                    </a>
+                </div>
+            </div>
+
+            <!----Model-box-->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">What's in your mind</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <textarea name="" id="usercontent" cols="60" rows="5"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                            <button type="button" class="btn btn-primary" onclick="submit()" data-bs-dismiss="modal">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----Model-box-->
+        </main>
+        <footer>
+            <div class="expand-button">
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <a href="#" onclick="expand()">
+                            <span>click here to expand</span>
+                            <img src="../assets/images/assess/exapand-img.svg" alt="exp-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer" id="slide-bar">
+                <div class="row align-items-center">
+                    <div class="col-2">
+                        <div class="d-flex justify-content-center mt-1">
+                            <p1>
+                                Journal No 01 &nbsp;&nbsp; Jan 2022
+                            </p1>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="d-flex justify-content-center">
+                                <a href="../index.html"><img src="../assets/images/activity-icons/footer-logo.svg" alt="logo"></a>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                            <h6>Home</h6>
+                            <div class="hide-bar">
+                                <a href="#" onclick="hide()"><i class="bi bi-arrow-down-circle"></i>
+                                    <span>click here to hide</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="d-flex justify-content-start mt-1">
+                            <p1><i class="bi bi-bookmark"></i> No Bookmarks&nbsp;&nbsp;
+                                <a href="words-matter.html"><i class="bi bi-skip-forward"></i> Next Topic</a>
+                            </p1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--kites activity css path -->
+    <script type="text/javascript" src="../assets/js/kites-activity.js"></script>
+    <!-- Characters count js path -->
+    <script type="text/javascript" src="../assets/js/charactersCount.js"></script>
+</body>
+
+</html>

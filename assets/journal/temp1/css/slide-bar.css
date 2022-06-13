@@ -1,0 +1,40 @@
+footer {
+    background-color: rgb(71, 157, 255);
+    height: 5rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-color: white;
+    border-top: 5px solid white;
+    animation: footer-slide 4s;
+    display: none;
+}
+
+@keyframes footer-slide {
+    0% {
+        height: 0;
+        opacity: 0;
+    }
+    100% {
+        height: 5rem;
+        opacity: 1;
+    }
+}
+
+.footer p {
+    color: white;
+    font-size: 13px;
+}
+
+.footer img {
+    height: 5rem;
+    margin-top: -48px;
+    margin-left: -49px;
+    position: absolute;
+}
+
+.footer h6 {
+    text-align: center;
+    margin-top: 38px;
+    color: white;
+}
