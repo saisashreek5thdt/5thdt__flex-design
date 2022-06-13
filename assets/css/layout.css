@@ -144,13 +144,13 @@ video {
   text-align: center;
 }
 
-.testimonial video,
+/* .testimonial video,
 .testimonial iframe {
   height: 25rem;
   width: 80%;
-  margin-top: 1rem;
+  margin-top: 1rem; */
   /* margin-left: 5rem; */
-}
+/* } */
 
 .offcanvas {
   width: 500px !important;
@@ -271,9 +271,10 @@ video {
   }
   .testimonial video,
   .testimonial iframe {
-    width: 85%;
+    width: 98%;
     height: auto;
     height: 35rem;
+    margin-bottom: 2rem;
   }
   /* .reviews_section .section-primary-title {
         font-size: 13rem;
@@ -318,9 +319,10 @@ video {
   }
   .testimonial video,
   .testimonial iframe {
-    width: 100%;
+    width: 98%;
     height: auto;
     height: 35rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -355,9 +357,10 @@ video {
   }
   .testimonial video,
   .testimonial iframe {
-    width: 100%;
+    width: 98%;
     height: auto;
     height: 35rem;
+    margin-bottom: 2rem;
   }
   .reviews_section .card {
     height: 35rem;
@@ -407,9 +410,10 @@ video {
   }
   .testimonial video,
   .testimonial iframe {
-    width: 85%;
-    height: auto;
-    height: 26rem;
+    width: 98%;
+    /* height: auto; */
+    height: 28rem;
+    margin-bottom: 2rem;
   }
   .reviews_section .card {
     height: 28rem;
