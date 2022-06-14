@@ -1,3 +1,4 @@
+//Left Side Main Images
 var arts_info_main1 = [{
         title: "2D-ANIMATION",
         imgsrc: "assets/images/arts/2d-animation/3.jpg",
@@ -13,9 +14,14 @@ var arts_info_main1 = [{
     {
         title: "2D-GAME-CHARACTER-VARIATION",
         imgsrc: "assets/images/arts/2d-game-character-variation/1.jpg",
+    },
+    {
+        title: "BOY CHARACTER",
+        imgsrc: "assets/images/arts/boy-character/boy-1.png",
     }
 
 ];
+//Right Side Main Images
 var arts_info_main2 = [{
         title: "CAT-CHARACTER",
         imgsrc: "assets/images/arts/cat-character/1.jpg",
@@ -31,10 +37,15 @@ var arts_info_main2 = [{
     {
         title: "STORYBOARD",
         imgsrc: "assets/images/arts/storyboard/1.jpg",
+    },
+    {
+        title: "GIRL CHARACTER",
+        imgsrc: "assets/images/arts/girl-character/girl-1.png",
     }
 
 ];
 
+//2D Animation Images
 var arts_info_primary0 = [
     { imgsrc: "assets/images/arts/2d-animation/1.jpg" },
     { imgsrc: "assets/images/arts/2d-animation/2.jpg" },
@@ -51,6 +62,8 @@ var arts_info_primary0 = [
     { imgsrc: "assets/images/arts/2d-animation/13.jpg" },
     { imgsrc: "assets/images/arts/2d-animation/14.jpg" }
 ];
+
+//2D BG Game Images
 var arts_info_primary1 = [
     { imgsrc: "assets/images/arts/2d-bg-game/1.jpg" },
     { imgsrc: "assets/images/arts/2d-bg-game/2.jpg" },
@@ -64,11 +77,13 @@ var arts_info_primary1 = [
     { imgsrc: "assets/images/arts/2d-bg-game/10.jpg" }
 ];
 
+//2D Dragon Game Images
 var arts_info_primary2 = [
     { imgsrc: "assets/images/arts/2d-dragon-game/1.jpg" },
     { imgsrc: "assets/images/arts/2d-dragon-game/2.jpg" }
 ];
 
+//2D Game Character Variation Images
 var arts_info_primary3 = [
     { imgsrc: "assets/images/arts/2d-game-character-variation/1.jpg" },
     { imgsrc: "assets/images/arts/2d-game-character-variation/2.jpg" },
@@ -77,6 +92,13 @@ var arts_info_primary3 = [
     { imgsrc: "assets/images/arts/2d-game-character-variation/5.jpg" }
 ];
 
+//Boy Character Images
+var arts_info_primary4 = [
+    { imgsrc: "assets/images/arts/boy-character/boy-1.png" },
+    { imgsrc: "assets/images/arts/boy-character/boy-2.png" },
+];
+
+//Cat Character Images
 var arts_info_secondary0 = [
     { imgsrc: "assets/images/arts/cat-character/1.jpg" },
     { imgsrc: "assets/images/arts/cat-character/2.jpg" },
@@ -88,11 +110,13 @@ var arts_info_secondary0 = [
     { imgsrc: "assets/images/arts/cat-character/8.jpg" }
 ];
 
+//Guild Master Images
 var arts_info_secondary1 = [
     { imgsrc: "assets/images/arts/guild-master-concept/1.jpg" },
     { imgsrc: "assets/images/arts/guild-master-concept/2.jpg" }
 ];
 
+//Mahabharatha Images
 var arts_info_secondary2 = [
     { imgsrc: "assets/images/arts/mahabharatha-game/1.jpg" },
     { imgsrc: "assets/images/arts/mahabharatha-game/2.jpg" },
@@ -103,6 +127,7 @@ var arts_info_secondary2 = [
     { imgsrc: "assets/images/arts/mahabharatha-game/7.jpg" }
 ];
 
+//Story-Board Images
 var arts_info_secondary3 = [
     { imgsrc: "assets/images/arts/storyboard/1.jpg" },
     { imgsrc: "assets/images/arts/storyboard/2.jpg" },
@@ -116,6 +141,17 @@ var arts_info_secondary3 = [
     { imgsrc: "assets/images/arts/storyboard/10.jpg" },
     { imgsrc: "assets/images/arts/storyboard/11.jpg" }
 ];
+
+//Girl Character Images
+var arts_info_secondary4 = [
+    { imgsrc: "assets/images/arts/girl-character/girl-1.png"},
+    { imgsrc: "assets/images/arts/girl-character/girl-2.png"},
+    { imgsrc: "assets/images/arts/girl-character/girl-3.png"},
+    { imgsrc: "assets/images/arts/girl-character/girl-4.png"},
+    { imgsrc: "assets/images/arts/girl-character/girl-5.png"},
+    { imgsrc: "assets/images/arts/girl-character/girl-6.png"},
+    { imgsrc: "assets/images/arts/girl-character/girl-7.png"}
+]
 
 // Left Cards
 var cards_container_block1 = document.getElementById("cards_container1");
