@@ -86,7 +86,7 @@
 .lms_bg, 
 .schools_bg {
   background-color: var(--color-white);
-  height: 42rem;
+  height: auto;
   margin-top: 5rem;
   padding: 4rem 0;
   filter: drop-shadow(rgb(215, 215, 215) 0px 0px 3px);
