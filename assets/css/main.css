@@ -10,9 +10,13 @@
 
 @import "component.css";
 
+/*CUTSOM VIDEO CSS*/
+
+@import "custom_video_player.css";
+
 /*ANIMATION CSS*/
 
-@import "animation.css";
+@import "animation-effects.css";
 
 /*SQUAD CSS*/
 

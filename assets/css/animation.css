@@ -1,77 +1,461 @@
-/* @media screen and (min-width:768px) and (max-width:992px) {
-    .animated_img .card {
-        width: 20rem;
-    }
-} */
-
+#header_section_heading .teritiary-heading{
+  margin-top: 5rem !important;
+}
+#header_section_heading .teritiary-heading{
+  color: #48928c;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+}
+#header_section_heading .section-title-info{
+  font-size: 2.5rem
+}
+.banner_video {
+  height: auto;
+  object-fit: contain;
+  width: 100%;
+  margin: 4rem 0;
+}
 #animation_container1,
 #animation_container2 {
-    position: relative;
-    height: 100%;
-    width: 200%;
-    overflow: hidden;
-    /* margin-top: 20px auto; */
-    padding: 0px;
-    background: white;
-    display: inline-block;
-    font-size: 0;
+  position: relative;
+  height: 100%;
+  width: 200%;
+  overflow: hidden;
+  /* margin-top: 20px auto; */
+  padding: 0px;
+  background: white;
+  display: inline-block;
+  font-size: 0;
 }
 
 #animation_container1 {
-    animation: rightmove 10s linear infinite;
-}
-
-#animation_container1:hover,
-#animation_container2:hover {
-    animation: none;
+  -webkit-animation: rightmove 35s linear infinite;
+  animation: rightmove 35s linear infinite;
 }
 
 #animation_container2 {
-    animation: leftmove 10s linear infinite;
+  -webkit-animation: leftmove 35s linear infinite;
+  animation: leftmove 35s linear infinite;
 }
 
 #animation_container1 img,
 #animation_container2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  display: inline;
+  overflow: visible;
+}
+
+#animation_container1:hover {
+  animation-play-state: paused;
+}
+.header_videos_block {
+  width: 100%;
+  justify-content: center;
+}
+.header_videos_block iframe {
+  width: 100%;
+  height: 100%;
+}
+.modal video,
+.modal .modalbox_img {
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
+}
+.modal iframe{
+  height: 52rem;
+    width: 100%;
+    padding: 0 2rem 2rem;
+}
+/* .modal video {
+  display: none;
+} */
+
+/* .modal iframe {
+  padding: 2rem;
+  height: 48.5rem;
+  object-fit: cover;
+  width: 100%;
+} */
+
+#illustrators_container,#img_3d_container{
+  display: none;
+}
+
+#img_3d_container .sketchfab-embed-wrapper iframe,
+#all_container iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.beloved_educators .card{
+  height: auto;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+#review_card1{
+  display: none;
+}
+@media screen and (max-width: 1920px) {
+  #header_section_heading{
+    margin-top: 8rem !important;
+  }
+  .header_videos_block{
+    width: 100%;
+  }
+  .video1,.video2{
+    height: 41rem;
+    width: 78%;
+  }
+  /* .header_videos_block iframe{
+    width: 760px;
+    height: 320px;
+  } */
+  .anim_header_section {
+    margin-top: 5rem;
+  }
+  .anim_header_section .primary-info {
+    text-align: justify;
+    padding: 0 0 0 5rem;
+  }
+  .animation-cards {
+    width: 78%;
+  }
+  .animation_videos .card {
+    height: 20rem;
+  }
+  .animation_videos .card video,
+  .animation_videos .card iframe {
+    height: 100%;
+  }
+  .sketchfab-embed-wrapper {
     height: 100%;
     width: 100%;
-    display: inline;
-    overflow: visible;
+  }
+  .animated_img .card {
+    height: 25.4rem;
+  }
+  .beloved_educators .card{
+    width: 45% !important;
+  }
 }
 
-@media screen and (max-width:768px) {
-    .animated_img {
-        overflow-x: hidden !important;
-    }
-    .anim-card {
-        width: 100%;
-    }
-    .anim-card .card {
-        width: 100% !important;
-    }
-    .animation-cards {
-        width: 100%;
-    }
-    .animation_videos .btn-get {
-        width: 10rem;
-        font-size: 1.2rem;
-    }
-    .anim-img-card {
-        width: 100%;
-    }
-    .animated_img .card {
-        width: 20rem;
-    }
+@media screen and (max-width: 1440px) {
+  #header_section_heading{
+    margin-top: 8rem !important;
+  }
+  .header_videos_block{
+    width: 100%;
+  }
+  .video1, .video2 {
+    height: 37rem;
+    width: 95%;
+}
+  /* .header_videos_block iframe{
+    width: 665px;
+    height: 277px;
+  } */
+  .slider-section {
+    width: 100%;
+  }
+  .anim_header_section {
+    width: 95%;
+  }
+  .anim_header_section .secondary-heading {
+    font-size: 3.5rem;
+  }
+  .anim_header_section .primary-info {
+    padding: 0 2rem;
+  }
+  .animation-cards {
+    width: 95%;
+  }
+  .animation_videos .card {
+    height: 18.2rem;
+  }
+  .animated_img .card {
+    height: 19rem;
+  }
+  .beloved_educators .card{
+    width: 55% !important;
+    height: auto;
+  }
 }
 
-@media screen and (max-width:592px) {
-    .ui-primary-heading {
-        font-size: 2.5rem !important;
-        margin-top: 3rem;
-    }
-    .animated_img {
-        overflow-x: hidden !important;
-    }
-    .anim-card {
-        width: 100%;
-    }
+@media screen and (max-width: 1280px) {
+  .header_videos_block {
+    width: 100%;
+    display: block !important;
+}
+.video1, .video2 {
+  height: 33rem;
+}
+/* .header_videos_block iframe {
+  width: 560px;
+  height: 238px;
+} */
+  .anim_header_section .secondary-heading {
+    font-size: 3.3rem;
+  }
+  .anim_header_section .header-img img {
+    object-fit: cover;
+  }
+  .animation-cards {
+    width: 95%;
+  }
+  .animation_videos .card {
+    height: 16rem;
+  }
+  .animated_img .card {
+    height: 16.5rem;
+  }
+  .beloved_educators .card{
+    width: 55% !important;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  #header_section_heading .section-title-info {
+    font-size: 3rem !important;
+}
+  .header_videos_block{
+    width: 100%;
+  }
+  .header_videos_block{
+    flex-wrap: nowrap;
+  }
+  .video1,.video2{
+    height: 27.5rem;
+  }
+  
+  .animation_videos .card {
+    height: 17rem;
+  }
+  .animated_img .card {
+    height: 13rem;
+  }
+  .modal iframe {
+    height: 44rem;
+  }
+  .beloved_educators .card{
+    width: 65% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #header_section_heading .section-title-info{
+    font-size: 2.5rem !important;
+  }
+  .header_videos_block{
+    width: 100%;
+  }
+  .header_videos_block{
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+  }
+  .video1, .video2 {
+    height: 20.5rem;
+    width: 100%;
+}
+  .header_video_section{
+    flex-wrap: wrap;
+  }
+  .banner_video{
+    height: 20rem;
+    margin: 2rem 0;
+  }
+  .anim_header_section {
+    width: 100%;
+  }
+  .anim_header_section .secondary-heading {
+    font-size: 2.8rem;
+  }
+  .anim_header_section .primary-info {
+    font-size: 1.3rem;
+  }
+  .anim_header_section .header-img img {
+    object-fit: cover;
+    height: 26rem;
+  }
+  .preview_options .option {
+    font-size: 1.6rem;
+  }
+  .animated_img {
+    overflow-x: hidden !important;
+  }
+  .anim-card {
+    width: 100%;
+  }
+  .anim-card .card {
+    width: 100% !important;
+  }
+  .animation-cards {
+    width: 100%;
+  }
+  .animation_videos .btn-get {
+    width: 10rem;
+    font-size: 1.2rem;
+  }
+  .anim-img-card {
+    width: 100%;
+  }
+  .animation_videos .card {
+    height: 20.2rem;
+  }
+  .animated_img .card {
+    height: 16rem;
+    width: max-content;
+  }
+  #animation_container1 {
+    -webkit-animation: rightmove 15s linear infinite;
+    animation: rightmove 15s linear infinite;
+  }
+  .modal iframe {
+    height: 44rem;
+  }
+  .beloved_educators .card{
+    height: auto;
+    width: 100%;
+  }
+  .profile_pic img {
+    height: 4rem;
+    width: 4rem;
+  }
+  .educator_review{
+    font-size: 1.6rem;
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 592px) {
+
+  #header_section_heading .teritiary-heading{
+    font-size: 2.5rem !important;
+  }
+  #header_section_heading .section-title-info{
+    font-size: 2rem !important;
+  }
+  .header_videos_block{
+    width: 100%;
+  }
+  .header_videos_block .row{
+    display: block;
+  }
+  .header_videos_block .col{
+    justify-content: center !important;
+  }
+  .video1,.video2{
+    width: 75%;
+    margin-top: 2rem;
+  }
+  /* .header_videos_block iframe {
+    width: 385px;
+  } */
+  .banner_video{
+    height: auto;
+    margin: 1rem 0;
+  }
+  .ui-primary-heading {
+    font-size: 2.5rem !important;
+    margin-top: 3rem;
+  }
+  .animated_img {
+    overflow-x: hidden !important;
+  }
+  .animation-cards {
+    width: 75%;
+  }
+  .preview_options .option {
+    padding: 1rem 3rem;
+  }
+  .anim-card {
+    width: 100%;
+  }
+  .animation_videos .card {
+    height: 11.2rem;
+  }
+  .animated_img .card {
+    height: 16rem;
+    width: max-content;
+  }
+  #animation_container1 {
+    -webkit-animation: rightmove 15s linear infinite;
+    animation: rightmove 15s linear infinite;
+  }
+  .beloved_educators .card {
+    width: 100% !important;
+    height: auto;
+}
+.profile_pic img {
+  height: 4rem;
+  width: 4rem;
+}
+.educator_review{
+  font-size: 1.4rem;
+  padding: 2rem 1rem;
+}
+}
+
+@media screen and (max-width: 425px) {
+  #header_section_heading .teritiary-heading{
+    font-size: 2rem !important;
+  }
+  .header_video_section{
+    flex-wrap:inherit !important;
+  }
+  .video1,.video2{
+  margin-top: 2rem;
+  }
+  .banner_video{
+    margin: 2rem 0;
+  }
+  .anim_header_section .secondary-heading {
+    font-size: 2.2rem;
+  }
+  .anim_header_section .primary-info {
+    font-size: 1rem;
+  }
+  .animation_videos {
+    margin-top: 0;
+  }
+  .preview_options .option {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+  }
+  .animation_videos .card {
+    height: 16.4rem;
+  }
+  .animation_videos .card {
+    height: 16.3rem !important;
+  }
+  .animated_img .card {
+    height: 16rem;
+    width: max-content;
+  }
+  #animation_container1 {
+    -webkit-animation: rightmove 15s linear infinite;
+    animation: rightmove 15s linear infinite;
+  }
+  .modal iframe{
+    height: 22rem;
+  }
+  .beloved_educators .card {
+    width: 100% !important;
+    height: auto;
+}
+.profile_pic img {
+  height: 4rem;
+  width: 4rem;
+}
+.educator_review{
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
 }

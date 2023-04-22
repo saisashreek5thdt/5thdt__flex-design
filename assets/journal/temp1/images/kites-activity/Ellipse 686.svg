@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="553.836" height="553.836" viewBox="0 0 553.836 553.836">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientTransform="matrix(0.387, 0.922, -0.922, 0.387, -120.676, 23.673)" gradientUnits="objectBoundingBox">
+      <stop offset="0.139"/>
+      <stop offset="0.232" stop-color="#131313"/>
+      <stop offset="0.421" stop-color="#464646"/>
+      <stop offset="0.69" stop-color="#989898"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+  </defs>
+  <circle id="Ellipse_686" data-name="Ellipse 686" cx="195.811" cy="195.811" r="195.811" transform="translate(0 276.918) rotate(-45)" fill="url(#radial-gradient)" style="mix-blend-mode: color-burn;isolation: isolate"/>
+</svg>

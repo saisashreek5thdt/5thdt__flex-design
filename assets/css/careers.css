@@ -1,351 +1,360 @@
 .header_text {
-    margin-top: 4rem;
-    margin-left: 6rem;
+  margin-top: 4rem;
+  margin-left: 6rem;
 }
 
 .header_img {
-    text-align: center;
+  text-align: center;
 }
 
 .header_img img {
-    height: 40rem;
-    margin: 6rem;
-    margin-left: 2rem;
+  height: 40rem;
+  margin: 6rem;
+  margin-left: 2rem;
 }
 
 .work-life {
-    text-align: center;
+  text-align: center;
 }
 
 .header_text h2,
 .work-life h2,
 .joining_list h2 {
-    font-size: 4.5rem;
-    font-weight: 700;
+  font-size: 4.5rem;
+  font-weight: 700;
 }
 
 .header_text h2 {
-    color: var(--color-neon-dark);
+  color: var(--color-neon-dark);
 }
 
 .header_text p {
-    font-size: 2rem !important;
+  font-size: 2rem !important;
 }
 
 .header_text p,
 .work-life p {
-    font-size: 2.4rem;
-    font-weight: 600;
-    margin-top: 5rem;
-    text-align: start;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-top: 5rem;
+  text-align: start;
 }
 
 .header_text a {
-    color: var(--color-orange-dark);
-    font-size: 2rem;
+  color: var(--color-orange-dark);
+  font-size: 2rem;
 }
 
 .header_text .btn_view {
-    width: 19rem;
-    height: 6rem;
-    border-radius: 4px;
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: var(--color-neon-dark);
-    background-color: var(--color-white);
-    border: 2px solid var( --color-neon-dark);
-    margin-top: 5rem;
-    border-radius: 4rem;
+  width: 19rem;
+  height: 6rem;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-neon-dark);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-neon-dark);
+  margin-top: 5rem;
+  border-radius: 4rem;
 }
 
 .header_text .btn_view:hover {
-    background-color: var(--color-neon-dark);
-    color: var(--color-white);
+  background-color: var(--color-neon-dark);
+  color: var(--color-white);
 }
 
 .work-life p {
-    margin: 5rem;
+  margin: 5rem;
 }
 
 .work-life {
-    margin-top: 9rem;
-    text-align: center;
+  margin-top: 9rem;
+  text-align: center;
 }
 
 .joining_list {
-    margin-top: 9rem;
+  margin-top: 9rem;
 }
 
 .joining_list h4,
 .joining_list h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .joining_list h4 {
-    font-size: 2.9rem;
-    font-weight: 700;
-    color: var(--color-neon-dark);
+  font-size: 2.9rem;
+  font-weight: 700;
+  color: var(--color-neon-dark);
 }
 
 .joining-list {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .card2 {
-    background-color: var(--color-grey-light1);
-    height: 26rem;
-    /* width: 26rem; */
-    text-align: center;
-    border-radius: 5px;
-    padding: 1rem;
-    margin-top: 1.5rem;
+  background-color: var(--color-grey-light1);
+  height: 26rem;
+  /* width: 26rem; */
+  text-align: center;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 1.5rem;
 }
 
 .card2 .service_img img {
-    width: 14rem;
-    height: 9rem;
-    margin-top: 1rem;
+  width: 14rem;
+  height: 9rem;
+  margin-top: 1rem;
 }
 
 .service_name {
-    height: 3rem;
+  height: 3rem;
 }
 
 .card2 .service_name h4 {
-    font-size: 1.8rem;
-    color: var(--color-black);
-    margin-top: 3rem;
+  font-size: 1.8rem;
+  color: var(--color-black);
+  margin-top: 3rem;
 }
 
 .card2 .btn-apply {
-    height: 4rem;
-    width: 12rem;
-    margin-top: 3rem;
-    border: none;
-    background-color: var(--color-neon-dark);
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: var(--color-white);
+  height: 4rem;
+  width: 12rem;
+  margin-top: 3rem;
+  border: none;
+  background-color: var(--color-neon-dark);
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--color-white);
 }
 
 .modal-dialog {
-    max-width: 850px;
+  max-width: 850px;
 }
 
 .modal-dialog .service_list-img img {
-    margin-top: 4rem;
-    width: 36rem;
-    height: 42rem;
+  margin-top: 4rem;
+  width: 36rem;
+  height: 42rem;
 }
 
 .modal-dialog .description h4 {
-    text-align: start;
-    margin-top: 2rem;
-    color: var(--color-neon-dark);
+  text-align: start;
+  margin-top: 2rem;
+  color: var(--color-neon-dark);
 }
 
 .modal-dialog .description h6 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
 }
 
 .modal-dialog input[type="file"] {
-    display: none;
+  display: none;
 }
 
 .modal-dialog label {
-    height: 4rem;
-    width: 20rem;
-    border: none;
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: var(--color-white);
-    background-color: var(--color-neon-dark);
-    text-align: center;
-    cursor: pointer;
-    padding-top: 8px;
+  height: 4rem;
+  width: 20rem;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-white);
+  background-color: var(--color-neon-dark);
+  text-align: center;
+  cursor: pointer;
+  padding-top: 8px;
 }
 
 .modal-dialog .btn-save {
-    height: 4rem;
-    width: 12rem;
-    border: none;
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: var(--color-white);
-    background-color: var(--color-neon-dark);
-    margin-left: 1rem;
+  height: 4rem;
+  width: 12rem;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-white);
+  background-color: var(--color-neon-dark);
+  margin-left: 1rem;
+  margin-top: 0;
+}
+
+.modal-dialog .btn-close {
+  margin-top: 0;
 }
 
 .modal-dialog .description p {
-    font-size: 1.3rem;
-    font-weight: 400;
-    line-height: 2.4rem;
-    color: var( --color-grey-dark);
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: var(--color-grey-dark);
 }
 
 .modal-dialog .all-skills {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .modal-dialog .key-skills {
-    background-color: var(--color-neon-dark);
-    color: var(--color-white) !important;
-    margin: 1rem;
-    height: 3rem;
-    /* width: 14rem; */
-    text-align: center;
-    align-items: center;
-    display: flex;
-    padding: 1rem;
-    margin: 6px;
+  background-color: var(--color-neon-dark);
+  color: var(--color-white) !important;
+  margin: 1rem;
+  height: 3rem;
+  /* width: 14rem; */
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+  margin: 6px;
 }
 
-@media screen and (min-width:1440px) and (max-width:1920px) {
-    .careers-header {
-        width: 90%;
-    }
-    .banner-text,
-    .banner-img {
-        width: 50%;
-    }
-    .header_text h2 {
-        font-size: 6rem;
-    }
-    .header_text p {
-        font-size: 3rem !important;
-    }
-    /* .btn_view {
+.modal-open{
+  padding: 0!important;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+  .careers-header {
+    width: 90%;
+  }
+  .banner-text,
+  .banner-img {
+    width: 50%;
+  }
+  .header_text h2 {
+    font-size: 6rem;
+  }
+  .header_text p {
+    font-size: 3rem !important;
+  }
+  /* .btn_view {
         width: 25rem !important;
         height: 8rem;
         font-size: 2.3rem;
     } */
-    .header_img img {
-        height: 100%;
-        width: 100%;
-    }
-    .work-life {
-        width: 80% !important;
-    }
-    .work-life p {
-        text-align: center;
-    }
-    .openings {
-        width: 100%;
-    }
-    .openings .card2 {
-        width: 100%;
-    }
+  .header_img img {
+    height: 100%;
+    width: 100%;
+  }
+  .work-life {
+    width: 80% !important;
+  }
+  .work-life p {
+    text-align: center;
+  }
+  .openings {
+    width: 100%;
+  }
+  .openings .card2 {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .careers-header {
-        width: 100%;
-    }
-    .header_text {
-        margin: 0 2rem;
-    }
-    .popular_services {
-        flex-direction: column;
-    }
-    .header_text h2 {
-        font-size: 3.8rem;
-    }
-    .header_text p,
-    .work-life p {
-        font-size: 1.8rem !important;
-        margin-top: 2rem;
-    }
-    .banner-img {
-        width: 50%;
-    }
-    .header_img {
-        width: 100%;
-    }
-    .header_img img {
-        margin: 0;
-        height: auto;
-    }
-    .btn_view {
-        margin-top: 2rem !important;
-        width: 15rem !important;
-        height: 4rem !important;
-        font-size: 1.4rem !important;
-    }
-    .joining_list h4 {
-        font-size: 2.2rem;
-    }
-    .work-life h2,
-    .joining_list h2 {
-        font-size: 2.5rem;
-    }
-    .joining_list {
-        margin-top: 2rem;
-    }
-    .card2 {
-        width: 100%;
-        margin: 1rem 0;
-    }
-    .modal-dialog label {
-        width: 15rem;
-        margin: 1rem;
-    }
+  .careers-header {
+    width: 100%;
+  }
+  .header_text {
+    margin: 0 2rem;
+  }
+  .popular_services {
+    flex-direction: column;
+  }
+  .header_text h2 {
+    font-size: 3.8rem;
+  }
+  .header_text p,
+  .work-life p {
+    font-size: 1.8rem !important;
+    margin-top: 2rem;
+  }
+  .banner-img {
+    width: 50%;
+  }
+  .header_img {
+    width: 100%;
+  }
+  .header_img img {
+    margin: 0;
+    height: auto;
+  }
+  .btn_view {
+    margin-top: 2rem !important;
+    width: 15rem !important;
+    height: 4rem !important;
+    font-size: 1.4rem !important;
+  }
+  .joining_list h4 {
+    font-size: 2.2rem;
+  }
+  .work-life h2,
+  .joining_list h2 {
+    font-size: 2.5rem;
+  }
+  .joining_list {
+    margin-top: 2rem;
+  }
+  .card2 {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .modal-dialog label {
+    width: 15rem;
+    margin: 1rem;
+  }
 }
 
 @media screen and (max-width: 592px) {
-    .banner-img {
-        width: 100%;
-    }
-    .careers-header {
-        flex-direction: column;
-        width: 100%;
-    }
-    .header_text {
-        margin: 1rem 2rem;
-    }
-    .header_text h2 {
-        font-size: 3rem;
-    }
-    .header_text p {
-        font-size: 1.5rem !important;
-        margin-top: 2rem;
-    }
-    .header_img img {
-        margin: 0;
-        margin-top: 5rem;
-        height: 23rem;
-    }
-    .header_text .btn_view {
-        width: 14rem;
-        height: 4rem;
-        font-size: 1.2rem;
-        margin-top: 1rem;
-    }
-    .work-life h2 {
-        font-size: 3rem;
-    }
-    .work-life p {
-        font-size: 1.5rem;
-        margin: 2rem;
-        text-align: justify;
-    }
-    .joining_list h2 {
-        font-size: 2.8rem;
-    }
-    .joining_list h4 {
-        font-size: 2rem;
-    }
-    .card2 {
-        width: 100% !important;
-    }
-    .service_list-img {
-        text-align: center;
-    }
-    .modal-dialog .service_list-img img {
-        height: 18rem;
-    }
-    .modal_content {
-        flex-direction: column !important;
-    }
+  .banner-img {
+    width: 100%;
+  }
+  .careers-header {
+    flex-direction: column;
+    width: 100%;
+  }
+  .header_text {
+    margin: 1rem 2rem;
+  }
+  .header_text h2 {
+    font-size: 3rem;
+  }
+  .header_text p {
+    font-size: 1.5rem !important;
+    margin-top: 2rem;
+  }
+  .header_img img {
+    margin: 0;
+    margin-top: 5rem;
+    height: 23rem;
+  }
+  .header_text .btn_view {
+    width: 14rem;
+    height: 4rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .work-life h2 {
+    font-size: 3rem;
+  }
+  .work-life p {
+    font-size: 1.5rem;
+    margin: 2rem;
+    text-align: justify;
+  }
+  .joining_list h2 {
+    font-size: 2.8rem;
+  }
+  .joining_list h4 {
+    font-size: 2rem;
+  }
+  .card2 {
+    width: 100% !important;
+  }
+  .service_list-img {
+    text-align: center;
+  }
+  .modal-dialog .service_list-img img {
+    height: 18rem;
+  }
+  .modal_content {
+    flex-direction: column !important;
+  }
 }

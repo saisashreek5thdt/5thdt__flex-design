@@ -4,8 +4,10 @@
 @import url(layout.css);
 /*COMPONENT CSS*/
 @import url(component.css);
+/*CUTSOM VIDEO CSS*/
+@import url(custom_video_player.css);
 /*ANIMATION CSS*/
-@import url(animation.css);
+@import url(animation-effects.css);
 /*SQUAD CSS*/
 @import url(squad.css);
 /*CAREERS CSS*/

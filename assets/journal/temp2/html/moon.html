@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap css path -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap icons path -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" crossorigin="anonymous">
+    <!-- Bootstrap js path -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Moon activity css path -->
+    <link rel="stylesheet" href="../assets/css/moon.css" />
+    <!-- Activity icons css path -->
+    <link rel="stylesheet" href="../assets/css/activity-icons.css" />
+    <title>TODLEARN-SESSIONS</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <main>
+            <!-- <div class="home-icon"> -->
+            <!-- <a href="../index.html"><i class="bi bi-house-door"></i> Home -->
+            <!-- </a> -->
+            <!-- </div> -->
+
+            <h1>What is 'MY' powerful and why of attending this Moonshot Conversations?</h1>
+            <!-- Activity icons -->
+            <div class="row">
+                <div class="col-12 d-flex justify-content-end">
+                    <div class="parent-icon">
+                        <img src="../assets/images/activity-icons/parent-icon.svg" alt="" class="icon">
+                        <div class="tool-tip">
+                            <img src="../assets/images/activity-icons/info-icon.svg" alt="">
+                            <span class="tool-tiptext">
+                                Parent Icon :
+                                <p>Individual activity to be done by parents.</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="parent-icon">
+                        <img src="../assets/images/activity-icons/pencilwith-dairy.svg" alt="" class="icon">
+                        <div class="tool-tip">
+                            <img src="../assets/images/activity-icons/info-icon.svg" alt="">
+                            <span class="tool-tiptext">
+                                Pencil With Dairy :
+                                <p>Journal entry.</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom"> -->
+            <!-- <img src="../assets/images/activity-icons/pencilwith-dairy.svg" alt="" class="activity-icon"> -->
+            <!-- </a> -->
+
+
+            <div class="row">
+                <div class="introduction-banner d-flex justify-content-center">
+                    <img src="../assets/images/moonshot-conversations/intro-logo.svg" alt="intro-logo">
+                </div>
+                <!-- Introduction page -->
+                <div id="first-page">
+                    <div class="question-mark d-flex justify-content-center">
+                        <img src="../assets/images/moonshot-conversations/question-mar.svg" alt="">
+                        <h2>Why are you here?</h2>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="start-button d-flex justify-content-center">
+                            <a href="#" onclick="nextpage()">
+                                <img src="../assets/images/moonshot-conversations/letsStart-logo.svg" alt="next-page">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second page -->
+                <div id="second-page">
+                    <div class="d-flex justify-content-center">
+                        <div class="conversation-list">
+                            <div class="row m-2 ">
+                                <label for="" class="p"> <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                                        onclick="hidet()">To know more about my child</label>
+                            </div>
+                            <div class="row m-2">
+                                <label for="" class="p"> <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                                        onclick="hidet()">To learn about conscious parenting</label>
+                            </div>
+                            <div class="row m-2">
+                                <label for="" class="p"> <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault3"
+                                        onclick="hidet()">To interact with other parents</label>
+                            </div>
+                            <div class="row m-2">
+                                <label for="" class="p"> <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault4"
+                                        onclick="textareabox()">Other</label>
+                                <div class="d-flex justify-content-center">
+                                    <div id="textareabox">
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                            <textarea name="" id="content" cols="40" rows="5" placeholder="Write here" maxlength="250" minlength="1"></textarea>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="submit-button d-flex justify-content-center">
+                            <a href="powerful.html">
+                                <img src="../assets/images/moonshot-conversations/submit-logo.svg" alt="submit-bt" id="submit">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="kids-image d-flex justify-content-center">
+                        <img src="../assets/images/moonshot-conversations/kids-logo.svg" alt="kids-logo">
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="border-radius: 10px;">
+                            <div class="modal-logo d-flex justify-content-center">
+                                <img src="../assets/images/moonshot-conversations/cartoon-img.svg" alt="">
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">What's in your mind</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <textarea name="content" id="usercontent" cols="60" rows="5" maxlength="251" minlength="1" onkeyup="countChars(this);"></textarea>
+                            </div>
+                            <div class="modal-footer">
+                                <p1 style="margin-right: 255px; font-weight: 500;" id="charNum">Max-characters : 250</p1>
+                                <button type="button" class="btn btn-primary" onclick="submit()" data-bs-dismiss="modal">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+
+        </main>
+
+        <footer>
+            <div class="expand-button">
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <a href="#" onclick="expand()">
+                            <span>click here to expand</span>
+                            <img src="../assets/images/assess/exapand-img.svg" alt="exp-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer" id="slide-bar">
+                <div class="row align-items-center">
+                    <div class="col-2">
+                        <div class="d-flex justify-content-center">
+                            <p1>
+                                Journal No 01 &nbsp;&nbsp; Jan 2022
+                            </p1>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="d-flex justify-content-center">
+                                <a href="../index.html"><img src="../assets/images/activity-icons/footer-logo.svg" alt="logo"></a>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                            <h6>Home</h6>
+                            <div class="hide-bar">
+                                <a href="#" onclick="hide()"><i class="bi bi-arrow-down-circle"></i></a>
+                                <span>click here to hide</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="d-flex justify-content-start">
+                            <p1><i class="bi bi-bookmark"></i> No Bookmarks&nbsp;&nbsp;
+                                <a href="powerful.html"><i class="bi bi-skip-forward"></i> Next Topic</a>
+                            </p1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+        <!-- Moon activity js path -->
+        <script type="text/javascript" src="../assets/js/moon.js"></script>
+        <!--Characters count js path -->
+        <script type="text/javascript" src="../assets/js/charactersCount.js"></script>
+</body>
+
+</html>

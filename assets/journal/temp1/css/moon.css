@@ -1,0 +1,502 @@
+@import url(../css/animation-effects.css);
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    background-image: url(../images/moonshot-conversations/background-img.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    font-size: 28px;
+    padding-top: 20px;
+    color: #13375B;
+    position: absolute;
+}
+
+.introduction-banner {
+    height: 20rem;
+    margin-top: -96px
+}
+
+.question-mark {
+    margin-top: -274px;
+    height: 8rem;
+}
+
+h2 {
+    position: absolute;
+    margin-top: 140px;
+    color: white;
+}
+
+.start-button img {
+    height: 150px;
+    margin-top: 90px;
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+    animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+.kids-image {
+    height: 17rem;
+    position: absolute;
+    margin-top: -50px;
+}
+
+#second-page {
+    display: none;
+}
+
+.conversation-list {
+    margin-top: -258px;
+}
+
+label.p {
+    font-size: 17px;
+    color: white;
+}
+
+.btn-primary {
+    pointer-events: none;
+}
+
+textarea {
+    overflow: hidden;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px rgb(182, 182, 182));
+}
+
+textarea::after {
+    border: none;
+}
+
+textarea::placeholder {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 15px;
+}
+
+#textareabox {
+    display: none;
+}
+
+.text-box {
+    width: 15rem;
+    height: 4rem;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.submit-button img {
+    height: 150px;
+    margin-top: -56px;
+}
+
+.submit-button a {
+    pointer-events: none;
+}
+
+#content {
+    height: 66px;
+    width: 246px;
+    font-size: 9px;
+    position: absolute;
+    border-radius: 15px;
+    margin-left: -118px;
+    margin-top: 5px;
+    padding-top: 0;
+    text-align: center;
+}
+
+.modal {
+    top: 20%;
+}
+
+.modal-logo img {
+    height: 4rem;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer span {
+    position: absolute;
+    font-size: 14px;
+    padding-top: 2px;
+    margin-left: 98px;
+    color: black;
+}
+
+.sliding-button {
+    margin-top: 35px;
+}
+
+.footer {
+    background-color: rgb(71, 157, 255);
+    height: 5rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-color: white;
+    border-top: 5px solid white;
+    animation: footer-slide 4s;
+}
+
+.expand-button img {
+    width: 20rem;
+}
+
+@keyframes footer-slide {
+    0% {
+        height: 0;
+        opacity: 0;
+    }
+    100% {
+        height: 5rem;
+        opacity: 1;
+    }
+}
+
+.footer p1 {
+    color: white;
+    font-size: 13px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer img {
+    height: 5rem;
+    margin-top: -48px;
+    margin-left: -49px;
+    position: absolute;
+}
+
+.footer h6 {
+    text-align: center;
+    margin-top: 38px;
+    color: white;
+}
+
+.hide-bar {
+    margin-top: -61px;
+    margin-left: 83rem;
+}
+
+.hide-bar i {
+    font-size: 41px;
+    position: absolute;
+    margin-left: 112px;
+    margin-top: -10px;
+    color: white;
+}
+
+.footer span {
+    position: absolute;
+    font-size: medium;
+    margin-left: 75px;
+    color: white;
+    margin-top: 38px;
+}
+
+#slide-bar {
+    display: none;
+}
+@media screen and (min-width:1280px){
+    .introduction-banner {
+        height: 16rem;
+        margin-top: -96px;
+    }
+    .question-mark {
+        margin-top: -226px;
+        height: 6rem;
+    }
+    h2 {
+        margin-top: 102px;  
+    }
+    .start-button img  {
+        margin-top: 65px;
+        height: 125px;
+    }
+    .conversation-list {
+        margin-top: -216px;
+    }
+    label.p {
+        font-size: 14px;
+    }
+    #content {
+        height: 44px;
+        width: 172px;
+        font-size: 9px;
+        margin-left: -94px;
+        margin-top: 3px;
+       
+    }
+    .submit-button img{
+        height: 125px;
+        margin-top: -65px;
+    }
+    .kids-image {
+        height: 14rem;
+        position: absolute;
+        margin-top: -55px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    h1 {
+        font-size: 20px;
+        padding-top: 15px;
+        width: 35rem;
+    }
+    .introduction-banner {
+        height: 12rem;
+        margin-top: -8px;
+    }
+    .question-mark {
+        margin-top: -164px;
+        height: 5rem;
+    }
+    .submit-button img {
+        height: 90px;
+        margin-top: -32px;
+    }
+    .conversation-list {
+        margin-top: -164px;
+        margin-left: 7px;
+    }
+    label.p {
+        font-size: 10px;
+        color: white;
+    }
+    .text-box {
+        width: 6rem;
+        height: 2rem;
+        border-radius: 9px;
+    }
+    #content {
+        height: 33px;
+        width: 111px;
+        font-size: 10px;
+    }
+    .start-button img {
+        height: 90px;
+        margin-top: 52px;
+    }
+    .kids-image {
+        height: 10rem;
+        bottom: 18px;
+    }
+    footer img {
+        width: 16rem;
+        padding-top: 10px;
+    }
+    footer span {
+        font-size: 11px;
+        margin-left: 74px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    h1 {
+        font-size: 20px;
+    }
+    .introduction-banner {
+        height: 15rem;
+    }
+    .question-mark {
+        margin-top: -208px;
+        height: 6rem;
+    }
+    .conversation-list {
+        margin-top: -183px;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    label.p {
+        font-size: 14px;
+        margin-top: -6px;
+    }
+    .text-box {
+        width: 10rem;
+        height: 3rem;
+    }
+    #content {
+        height: 50px;
+        width: 165px;
+        font-size: 12px;
+    }
+    .start-button img {
+        height: 125px;
+        margin-top: 70px;
+    }
+    .submit-button img {
+        height: 125px;
+        margin-top: -42px;
+    }
+    .kids-image {
+        height: 12rem;
+        margin-top: -15px;
+    }
+    footer img {
+        width: 20rem;
+    }
+    footer span {
+        font-size: small;
+        margin-left: 114px;
+        margin-top: 3px;
+    }
+}
+
+
+/* h1 { */
+
+
+/* font-size: 28px; */
+
+
+/* } */
+
+
+/*  */
+
+
+/* .introduction-banner { */
+
+
+/* height: 16rem; */
+
+
+/* } */
+
+
+/*  */
+
+
+/* .question-mark { */
+
+
+/* margin-top: -205px; */
+
+
+/* height: 6rem; */
+
+
+/* } */
+
+
+/* .submit-button img { */
+
+
+/* height: 135px; */
+
+
+/* margin-top: -53px; */
+
+
+/* } */
+
+
+/*      */
+
+
+/* .conversation-list { */
+
+
+/* margin-top: -216px; */
+
+
+/* margin-left: 22px; */
+
+
+/* } */
+
+
+/*      */
+
+
+/* label.p { */
+
+
+/* font-size: 14px; */
+
+
+/* font-weight: 600px; */
+
+
+/* color: white; */
+
+
+/* } */
+
+
+/*      */
+
+
+/* .text-box { */
+
+
+/* width: 10rem; */
+
+
+/* height: 3rem; */
+
+
+/* border-radius: 12px; */
+
+
+/* } */
+
+
+/*  */
+
+
+/* .start-button img { */
+
+
+/* height: 135px; */
+
+
+/* margin-top: 56px; */
+
+
+/* } */
+
+
+/*  */
+
+
+/* .kids-image { */
+
+
+/* height: 13rem; */
+
+
+/* position: absolute; */
+
+
+/* bottom: 0; */
+
+
+/* } */
+
+
+/* } */

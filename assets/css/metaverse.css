@@ -1,23 +1,21 @@
 .metaverse_header_bg .logo,
 .metaverse_header_bg .menu_bar {
-    margin: 0;
+  margin: 0;
 }
 
 .metaverse_header {
-    width: 52%;
+  width: 52%;
 }
-
 
 /* .metaverse_header_bg .menu_bar img {
     background-color: var(--color-white);
 } */
 
 .metaverse_header_bg {
-    padding: 0 8rem;
-    /* background-color: var(--color-black); */
-    background-image: linear-gradient(black 0%, #424242 94%, transparent 100%);
+  padding: 0 8rem;
+  /* background-color: var(--color-black); */
+  background-image: linear-gradient(black 0%, #424242 94%, transparent 100%);
 }
-
 
 /* .meta_primary_heading {
     font-size: 6rem;
@@ -33,154 +31,146 @@
 } */
 
 .meta_teritiary_heading {
-    font-size: 1.5rem;
-    color: var(--color-white);
+  font-size: 1.5rem;
+  color: var(--color-white);
 }
-
-
-/* .meta_primary_info {
-    font-size: 1.5rem;
-    color: var(--color-white);
-    width: 42rem;
-}
-*/
 
 .meta_secondary_info {
-    color: var(--color-white);
-    width: 65%;
+  color: var(--color-white);
+  width: 65%;
 }
 
 .meta_banner,
 .digital_twins {
-    width: 100%;
-    margin-top: 10rem;
+  width: 100%;
+  margin-top: 10rem;
 }
 
 .banner_img,
 .digital_twins_img {
-    width: 50%;
-    /* height: 30rem; */
-    /* background-color: aliceblue; */
+  width: 50%;
+  /* height: 30rem; */
+  /* background-color: aliceblue; */
 }
 
 .banner_img img,
 .digital_twins_img img {
-    width: 100%;
-    height: 30rem;
-    background-color: aliceblue;
+  width: 100%;
+  height: 30rem;
+  background-color: aliceblue;
 }
 
 .banner_text,
 .digital_twins_text {
-    width: 50%;
-    padding-left: 8rem;
+  width: 50%;
+  padding-left: 8rem;
 }
 
 .metaverse_header,
 .services,
 .technologies {
-    margin-top: 8rem;
+  margin-top: 8rem;
 }
 
 .technologies {
-    height: 25rem;
+  height: 25rem;
 }
 
 .meta_heading1 {
-    font-size: 3rem;
-    font-weight: 600;
-    color: var(--color-neon-dark);
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--color-neon-dark);
 }
 
 .btn-getin {
-    background-color: var(--color-neon-dark);
-    color: var(--color-white);
-    width: 14rem;
-    height: 4rem;
-    border-radius: 2px;
-    margin-top: 3rem;
-    font-size: 1.2rem;
-    font-weight: 600;
+  background-color: var(--color-neon-dark);
+  color: var(--color-white);
+  width: 14rem;
+  height: 4rem;
+  border-radius: 2px;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .earth,
 .moon,
 .mars {
-    width: 33.33%;
+  width: 33.33%;
 }
 
 ul {
-    color: var(--color-white);
-    font-size: 2rem;
+  color: var(--color-white);
+  font-size: 2rem;
 }
 
-@media screen and (max-width:768px) {
-    .metaverse_header_bg {
-        padding: 0 3rem;
-    }
-    /* .meta_primary_heading {
+@media screen and (max-width: 768px) {
+  .metaverse_header_bg {
+    padding: 0 3rem;
+  }
+  /* .meta_primary_heading {
         font-size: 4.5rem;
     } */
-    .banner_text,
-    .digital_twins_text {
-        padding: 2rem;
-    }
-    .secondary-heading {
-        font-size: 3.5rem;
-    }
-    .primary-info {
-        font-size: 1.4rem;
-        width: 100%;
-    }
+  .banner_text,
+  .digital_twins_text {
+    padding: 2rem;
+  }
+  .secondary-heading {
+    font-size: 3.5rem;
+  }
+  .primary-info {
+    font-size: 1.4rem;
+    width: 100%;
+  }
 }
 
-@media screen and (max-width:592px) {
-    .metaverse_header_bg {
-        padding: 0 2rem;
-    }
-    .metaverse_header {
-        width: 100%;
-    }
-    .primary-heading {
-        font-size: 3.6rem;
-        width: 100%;
-    }
-    .primary-info {
-        font-size: 1.5rem;
-        width: 100%;
-    }
-    .services {
-        flex-wrap: wrap;
-    }
-    .earth,
-    .moon,
-    .mars {
-        width: 100%;
-    }
-    .secondary-info {
-        width: 100%;
-        font-size: 1.2rem !important;
-    }
-    .meta_banner,
-    .digital_twins {
-        flex-direction: column !important;
-    }
-    .banner_img,
-    .digital_twins_img,
-    .banner_text,
-    .digital_twins_text {
-        width: 100%;
-        padding-left: 0;
-        margin-top: 3rem;
-    }
-    .primary-info {
-        text-align: justify;
-        margin-top: 2rem;
-    }
-    .tech_icons img {
-        width: 10rem !important;
-    }
-    .meta_teritiary_heading {
-        /* text-align: center; */
-    }
+@media screen and (max-width: 592px) {
+  .metaverse_header_bg {
+    padding: 0 2rem;
+  }
+  .metaverse_header {
+    width: 100%;
+  }
+  .primary-heading {
+    font-size: 3.6rem;
+    width: 100%;
+  }
+  .primary-info {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .services {
+    flex-wrap: wrap;
+  }
+  .earth,
+  .moon,
+  .mars {
+    width: 100%;
+  }
+  .secondary-info {
+    width: 100%;
+    font-size: 1.2rem !important;
+  }
+  .meta_banner,
+  .digital_twins {
+    flex-direction: column !important;
+  }
+  .banner_img,
+  .digital_twins_img,
+  .banner_text,
+  .digital_twins_text {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 3rem;
+  }
+  .primary-info {
+    text-align: justify;
+    margin-top: 2rem;
+  }
+  .tech_icons img {
+    width: 10rem !important;
+  }
+  /* .meta_teritiary_heading {
+    text-align: center;
+  } */
 }
